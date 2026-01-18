@@ -2,7 +2,8 @@
 Copyright 2026 Eureka Consulting AB
 #### Support PwdGen
 Kontakta oss via epost: contact@eureka.as
-<br>
+
+<br><br>
 
 #### Testdata för TestFlight testare
 [Ladda ner testdatabasen](/downloads/pwdgen-portable_260117_1.zip)
