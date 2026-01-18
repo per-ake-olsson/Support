@@ -1,9 +1,9 @@
 ## **PwdGen** - Password Generator
 Copyright 2026 Eureka Consulting AB
 #### Support PwdGen
-Kontakta oss via epost: 
+Kontakta oss via epost:
 
-contact@eureka.as
+[contact@eureka.as](mailto:contact@eureka.as)
 
 ---
 
