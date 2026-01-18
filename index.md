@@ -4,6 +4,9 @@ Copyright 2026 Eureka Consulting AB
 Kontakta oss via epost: contact@eureka.as
 
 
+#### Testdata för TestFlight testare
+[Ladda ner databasfil och testprotokoll (Release)](https://github.com/per-ake-olsson/Support/releases/latest)
+
 
 #### Integritetspolicy PwdGen för iOS
 
@@ -25,4 +28,4 @@ Vi sparar inga kopior av dina alias eller lösenord. Uppgifter som du skickar vi
 **6. Länk till generell policy**  
 Mer information om hur Eureka Consulting AB behandlar personuppgifter, dina rättigheter och kontaktuppgifter till dataskyddsansvarig finns i vår fullständiga personuppgiftspolicy.
 
-> **Generell policy:** [Personuppgiftspolicy för Eureka Consulting AB](https://www.yourvismawebsite.com/eureka-consulting-aktiebolag/personuppgiftspolicy)
+> **Generell policy:** [Personuppgiftspolicy för Eureka Consulting AB](https://www.yourvismawebsite.com/eureka-consulting-aktiebolag/personuppgiftspolicy)****
