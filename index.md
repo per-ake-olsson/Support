@@ -1,6 +1,11 @@
 ## **PwdGen** - Password Generator
 Copyright 2026 Eureka Consulting AB
-#### Support PwdGen
+
+Denna sida innehåller supportinformation med kontaktuppgifter, testdata och integritetspolicy för PwdGen iOS
+
+---
+
+#### Kontakt för support eller synpunkter
 Kontakta oss via epost:
 
 [contact@eureka.as](mailto:contact@eureka.as)
