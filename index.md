@@ -6,7 +6,7 @@ Kontakta oss via epost: contact@eureka.as
 ---
 
 #### Testdata för TestFlight testare
-[Ladda ner testdatabas och testanvisning](/downloads/pwdgen-portable_260117_1.zip)
+[Ladda ner testdatabas och testunderlag](/downloads/pwdgen-portable_testflight.zip)
 
 ---
 
