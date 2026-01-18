@@ -5,7 +5,7 @@ Kontakta oss via epost: contact@eureka.as
 
 
 #### Testdata för TestFlight testare
-[Ladda ner testdatabasen](/downloads/pwdgen-portable_260117_1.json)
+[Ladda ner testdatabasen](/downloads/pwdgen-portable_260117_1.zip)
 
 
 #### Integritetspolicy PwdGen för iOS
