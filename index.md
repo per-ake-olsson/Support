@@ -8,7 +8,7 @@ Denna sida innehåller supportinformation med kontaktuppgifter, testdata och int
 #### Kontakt för support eller synpunkter
 Kontakta oss via epost:
 
-[contact@eureka.as](mailto:contact@eureka.as)
+[pwdgen@eureka.as](mailto:pwdgen@eureka.as)
 
 ---
 
