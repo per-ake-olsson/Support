@@ -13,7 +13,7 @@ Kontakta oss via epost:
 ---
 
 #### Testdata för TestFlight testare
-Ladda ner testdatabas och testunderlag via zip:en som du når via länken nedan. Öppna zip:en och spara båda filerna i Filer. Därifrån kan du importera databasen till PwdGen appen, via knappen "Importera databas" på inställningssidan.
+Ladda ner testdatabas och testunderlag via zip:en som du når via länken nedan. Öppna zip:en och spara båda filerna i Filer. Därifrån kan du importera databasen till PwdGen appen, via knappen "Importera databas" på inställningssidan. Observera att denna testversion av PwdGen bör användas i ljust skärmläge, mörkt läge fungerar ännu bristfälligt. Test och återkoppling önskas avseende funktionalitet och användbarhet.
 
 [Ladda ner testdatabas och testunderlag](/downloads/pwdgen-portable_testflight.zip)
 
