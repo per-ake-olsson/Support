@@ -19,7 +19,7 @@ Ladda ner testdatabas och testunderlag via zip:en som du når via länken nedan.
 
 ---
 
-#### Integritetspolicy PwdGen för iOS
+#### Integritetspolicy gällande PwdGen för iOS
 
 **1. Övergripande systembeskrivning**  
 PwdGen består av en Windows‑applikation där du skapar alias och genererar en krypterad databas, samt en iOS‑app som kan importera denna databas för att generera identiska lösenord, associerat till ett alias. Du exporterar databasen från Windows‑versionen till en fil som du själv överför till din iOS‑enhet och importerar i appen. Överföringen sker manuellt – PwdGen samlar inte in några personuppgifter och skickar ingen information till externa servrar.
