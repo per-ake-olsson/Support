@@ -39,4 +39,4 @@ Vi sparar inga kopior av dina alias eller lösenord. Uppgifter som du skickar vi
 **6. Länk till generell policy**  
 Mer information om hur Eureka Consulting AB behandlar personuppgifter, dina rättigheter och kontaktuppgifter till dataskyddsansvarig finns i vår fullständiga personuppgiftspolicy.
 
-> **Generell policy:** [Personuppgiftspolicy för Eureka Consulting AB](https://www.yourvismawebsite.com/eureka-consulting-aktiebolag/personuppgiftspolicy)**
+> **Generell policy:** [Personuppgiftspolicy för Eureka Consulting AB](https://www.yourvismawebsite.com/eureka-consulting-aktiebolag/personuppgiftspolicy)
