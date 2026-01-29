@@ -4,7 +4,7 @@ Copyright 2026 Eureka Consulting AB
 Denna sida innehåller supportinformation med kontaktuppgifter, testdata och integritetspolicy för PwdGen Windows
 
 
-[Licensavtal för slutanvändare](/Support/downloads/Licensavtal_slutanvändare_PwdGen)
+[Licensavtal för slutanvändare](/Support/downloads/Licensavtal_slutanvandare_PwdGen)
 
 ---
 
