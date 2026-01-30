@@ -1,4 +1,4 @@
-PwdGen Win användarmanual
+PwdGen Win - användarmanual
 =================================
 ## Syfte
 Syftet med PwdGen är att ge användare av Windows och iOS enheter stöd i inloggnings-situationer. Användaren kan skapa och använda mycket starka lösenord utan att dessa lagras någonstans eller behöver minnas. Användaren anger istället ett logiskt, skiftlägeskänsligt **alias** som är enklare att komma ihåg, för att med PwdGen generera korrekt lösenord, vid inloggningen.
