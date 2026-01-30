@@ -5,10 +5,18 @@ Denna sida innehåller supportinformation med kontaktuppgifter, testdata och int
 
 ---
 
-#### Kontakt för support eller synpunkter
+#### Generell kontakt för support eller synpunkter
 Kontakta oss via epost:
 
 [contact@eureka.as](mailto:contact@eureka.as)
+
+---
+
+#### Support avseende specifik applikation
+[PwdGen iOS](https://per-ake-olsson.github.io/Support/PwdGen/iOS/Swe/)
+
+[PwdGen Win](https://per-ake-olsson.github.io/Support/PwdGen/Win/Swe/)
+
 
 ---
 
