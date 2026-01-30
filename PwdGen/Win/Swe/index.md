@@ -21,7 +21,7 @@ Kontakta oss via epost:
 #### Testdata och instruktioner för testare
 Ladda ner testdatabas och testunderlag via zip:en som du når via länken nedan. Öppna zip:en och spara båda på lämplig plats. Därifrån kan du importera databasen till PwdGen appen, via "Inställningar" som du öppnar via högerklick på PwdGen tray-ikon. Testdata är endast avsedda för testning och ska inte användas i produktionsmiljö. Test och återkoppling önskas avseende funktionalitet och användbarhet.
 
-[Ladda ner testdatabas och testunderlag](/Support/PwdGen/Win/Swe/downloads/pwdgen-portable_testflight.zip)
+[Ladda ner testdatabas och testunderlag](/PwdGen/Win/Swe/downloads/pwdgen-portable_testflight.zip)
 
 ---
 
