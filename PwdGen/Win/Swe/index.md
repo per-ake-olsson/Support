@@ -6,6 +6,9 @@ Denna sida innehåller supportinformation med kontaktuppgifter, testdata och int
 
 [Licensavtal för slutanvändare](/Support/downloads/Licensavtal_slutanvandare_PwdGen)
 
+[Användarmanual](https://per-ake-olsson.github.io/Support/PwdGen/Win/Swe/downloads/PwdGen_manual_Swe)
+
+
 ---
 
 #### Kontakt för support eller synpunkter
