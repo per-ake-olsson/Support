@@ -1,10 +1,10 @@
 ## **PwdGen** - Password Generator
 Copyright 2026 Eureka Consulting AB
 
-Denna sida innehåller supportinformation med kontaktuppgifter, testdata och integritetspolicy för PwdGen Windows
+Denna sida innehåller användnings- och supportinformation med kontaktuppgifter, testdata och integritetspolicy för PwdGen Windows. Klicka på någon av länkarna för mer information.
 
 
-[Licensavtal för slutanvändare](/Support/downloads/Licensavtal_slutanvandare_PwdGen)
+[Licensavtal för slutanvändare](https://per-ake-olsson.github.io/Support/PwdGen/Win/Swe/downloads/PwdGen_EULA_Swe)
 
 [Användarmanual](https://per-ake-olsson.github.io/Support/PwdGen/Win/Swe/downloads/PwdGen_manual_Swe)
 
