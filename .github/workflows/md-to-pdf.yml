@@ -46,7 +46,8 @@ jobs:
             pandoc "${file}" -o "${file%.md}.pdf"
           done
 
-          if git status --porcelain | grep -E '^[AM].*\.pdf$' >/dev/null; then
+          # Kontrollera om några PDF-filer har lagts till eller ändrats
+          if git status --porcelain | grep -q '.pdf$'; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
