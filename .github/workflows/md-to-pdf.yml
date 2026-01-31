@@ -43,7 +43,8 @@ jobs:
 
           for file in "${files[@]}"; do
             echo "Converting ${file}"
-            pandoc "${file}" -o "${file%.md}.pdf"
+            pandoc "${file}" -o "${file%.md}.pdf" -V geometry:top=20mm -V geometry:left=15mm -V geometry:right=15mm -V geometry:bottom=20mm
+
           done
 
           # Kontrollera om några PDF-filer har lagts till eller ändrats
