@@ -4,9 +4,9 @@ Copyright 2026 Eureka Consulting AB
 Denna sida innehåller användnings- och supportinformation med kontaktuppgifter, testdata och integritetspolicy för PwdGen Windows. Klicka på någon av länkarna för mer information.
 
 
-[Licensavtal för slutanvändare](https://per-ake-olsson.github.io/Support/PwdGen/Win/Swe/downloads/PwdGen_EULA_Swe)
+[Läs Licensavtal för slutanvändare](https://per-ake-olsson.github.io/Support/PwdGen/Win/Swe/downloads/PwdGen_EULA_Swe)  &nbsp;&nbsp;  [( Ladda ner PDF )](https://per-ake-olsson.github.io/Support/PwdGen/Win/Swe/downloads/PwdGen_EULA_Swe.pdf)
 
-[Användarmanual](https://per-ake-olsson.github.io/Support/PwdGen/Win/Swe/downloads/PwdGen_manual_Swe)
+[Läs Användarmanual](https://per-ake-olsson.github.io/Support/PwdGen/Win/Swe/downloads/PwdGen_manual_Swe)   &nbsp;&nbsp;  [( Ladda ner PDF )](https://per-ake-olsson.github.io/Support/PwdGen/Win/Swe/downloads/PwdGen_manual_Swe.pdf)
 
 
 ---
