@@ -14,7 +14,7 @@ Denna sida innehåller användnings- och supportinformation med kontaktuppgifter
 #### Kontakt för support eller synpunkter
 Kontakta oss via epost:
 
-[pwdgen@eureka.as](mailto:pwdgen@eureka.as)
+[support@eureka.nu](mailto:support@eureka.nu)
 
 ---
 
