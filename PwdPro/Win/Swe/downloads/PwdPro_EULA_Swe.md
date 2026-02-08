@@ -1,6 +1,6 @@
-## **Licensavtal för PwdGen**
+## **Licensavtal för PwdPro**
 
-Detta licensavtal (“Avtalet”) gäller mellan dig och Eureka Consulting AB (“Utgivaren”) och reglerar din användning av programvaran PwdGen (“Programvaran”). Programvaran distribueras via Microsoft Store och omfattas av både detta Avtal och Microsofts _Standard Application License Terms_. Vid konflikt gäller Microsofts villkor i den utsträckning som krävs för att uppfylla deras policyer.
+Detta licensavtal (“Avtalet”) gäller mellan dig och Eureka Consulting AB (“Utgivaren”) och reglerar din användning av programvaran PwdPro (“Programvaran”). Programvaran distribueras via Microsoft Store och omfattas av både detta Avtal och Microsofts _Standard Application License Terms_. Vid konflikt gäller Microsofts villkor i den utsträckning som krävs för att uppfylla deras policyer.
 
 Genom att installera eller använda Programvaran accepterar du villkoren i detta Avtal. Om du inte accepterar villkoren ska du inte installera eller använda Programvaran.
 
