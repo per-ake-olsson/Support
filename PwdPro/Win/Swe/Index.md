@@ -4,9 +4,9 @@ Copyright 2026 Eureka Consulting AB
 Denna sida innehåller användnings- och supportinformation med kontaktuppgifter, testdata och integritetspolicy för PwdPro Windows. Klicka på någon av länkarna för mer information.
 
 
-[Läs Licensavtal för slutanvändare](https://per-ake-olsson.github.io/Support/PwdGen/Win/Swe/downloads/PwdGen_EULA_Swe)  &nbsp;&nbsp;  [( Ladda ner PDF )](https://per-ake-olsson.github.io/Support/PwdGen/Win/Swe/downloads/PwdGen_EULA_Swe.pdf)
+[Läs Licensavtal för slutanvändare](https://per-ake-olsson.github.io/Support/PwdPro/Win/Swe/downloads/PwdPro_EULA_Swe)  &nbsp;&nbsp;  [( Ladda ner PDF )](https://per-ake-olsson.github.io/Support/PwdPro/Win/Swe/downloads/PwdPro_EULA_Swe.pdf)
 
-[Läs Användarmanual](https://per-ake-olsson.github.io/Support/PwdGen/Win/Swe/downloads/PwdGen_manual_Swe)   &nbsp;&nbsp;  [( Ladda ner PDF )](https://per-ake-olsson.github.io/Support/PwdGen/Win/Swe/downloads/PwdGen_manual_Swe.pdf)
+[Läs Användarmanual](https://per-ake-olsson.github.io/Support/PwdPro/Win/Swe/downloads/PwdPro_manual_Swe)   &nbsp;&nbsp;  [( Ladda ner PDF )](https://per-ake-olsson.github.io/Support/PwdPro/Win/Swe/downloads/PwdPro_manual_Swe.pdf)
 
 
 ---
@@ -21,7 +21,7 @@ Kontakta oss via epost:
 #### Testdata och instruktioner för testare
 Ladda ner testdatabas och testunderlag via zip:en som du når via länken nedan. Öppna zip:en och spara båda på lämplig plats. Därifrån kan du importera databasen till PwdPro appen, via "Inställningar" som du öppnar via högerklick på PwdPro tray-ikon. Testdata är endast avsedda för testning och ska inte användas i produktionsmiljö. Test och återkoppling önskas avseende funktionalitet och användbarhet.
 
-[Ladda ner testdatabas och testunderlag](https://per-ake-olsson.github.io/Support/PwdGen/Win/Swe/downloads/pwdgen-portable_testflight.zip)
+[Ladda ner testdatabas och testunderlag](https://per-ake-olsson.github.io/Support/PwdPro/Win/Swe/downloads/pwdpro-portable_testflight.zip)
 
 ---
 
