@@ -1,18 +1,18 @@
-PwdGen Win - användarmanual
+PwdPro Win - användarmanual
 =================================
 ## Syfte
-Syftet med PwdGen är att ge användare av Windows och iOS enheter stöd i inloggnings-situationer. Användaren kan skapa och använda mycket starka lösenord utan att dessa lagras någonstans eller behöver minnas. Användaren anger istället ett logiskt, skiftlägeskänsligt **alias** som är enklare att komma ihåg, för att med PwdGen generera korrekt lösenord, vid inloggningen.
+Syftet med PwdPro är att ge användare av Windows och iOS enheter stöd i inloggnings-situationer. Användaren kan skapa och använda mycket starka lösenord utan att dessa lagras någonstans eller behöver minnas. Användaren anger istället ett logiskt, skiftlägeskänsligt **alias** som är enklare att komma ihåg, för att med PwdPro generera korrekt lösenord, vid inloggningen.
 
 ## Introduktion
-PwdGen består av en Windows‑applikation där du, förutom att få inloggningsstöd, också kan skapa alias och generera en krypterad databas. Dessutom finns en tillhörande iOS‑app som kan importera denna databas för att generera identiska lösenord, associerat till ett alias. Du exporterar databasen från Windows‑versionen till en fil som du själv överför till din iOS‑enhet och importerar i appen. Överföringen sker manuellt – PwdGen samlar inte in några personuppgifter och skickar ingen information till externa servrar.
+PwdPro består av en Windows‑applikation där du, förutom att få inloggningsstöd, också kan skapa alias och generera en krypterad databas. Dessutom finns en tillhörande iOS‑app som kan importera denna databas för att generera identiska lösenord, associerat till ett alias. Du exporterar databasen från Windows‑versionen till en fil som du själv överför till din iOS‑enhet och importerar i appen. Överföringen sker manuellt – PwdPro samlar inte in några personuppgifter och skickar ingen information till externa servrar.
 
 ## Säkerhetsprinciper
-PwdGen är ett verktyg för att skapa och återskapa starka lösenord baserat på ett godtyckligt valt **alias**, en tillhörande **4‑siffrig PIN‑kod** och ditt unika Windows **inloggnings-ID**. Allt arbete görs via programikonen i systemfältet och globala snabbkommandon. Programmet genererar lösenord i realtid lokalt på din dator och sparar inga hemliga nycklar eller lösenord i klartext. Lösenorden skapas reproducerbart från alias, dess PIN‑kod och ditt inloggnings-ID – de kan återskapas när du behöver dem men är mycket svåra att gissa för andra. Ingen datakommunikation sker och inga lösenord lagras, vare sig i klartext eller krypterat. För hög säkerhet bör du välja originella aliasnamn och PIN‑koder, undvika att dela dem med andra och göra regelbundna säkerhetskopior av aliasdatabasen.
+PwdPro är ett verktyg för att skapa och återskapa starka lösenord baserat på ett godtyckligt valt **alias**, en tillhörande **4‑siffrig PIN‑kod** och ditt unika Windows **inloggnings-ID**. Allt arbete görs via programikonen i systemfältet och globala snabbkommandon. Programmet genererar lösenord i realtid lokalt på din dator och sparar inga hemliga nycklar eller lösenord i klartext. Lösenorden skapas reproducerbart från alias, dess PIN‑kod och ditt inloggnings-ID – de kan återskapas när du behöver dem men är mycket svåra att gissa för andra. Ingen datakommunikation sker och inga lösenord lagras, vare sig i klartext eller krypterat. För hög säkerhet bör du välja originella aliasnamn och PIN‑koder, undvika att dela dem med andra och göra regelbundna säkerhetskopior av aliasdatabasen.
 
 ## Installation och start
-PwdGen levereras som en MSI‑installatör. Kör installationsfilen och följ guiden; du behöver godkänna licensavtalet för att få tillgång till PwdGen. Programfilerna installeras under `Program Files\PwdGen` och en genväg läggs till i Start‑menyn.
+PwdPro levereras som en MSI‑installatör. Kör installationsfilen och följ guiden; du behöver godkänna licensavtalet för att få tillgång till PwdPro. Programfilerna installeras under `Program Files\PwdPro` och en genväg läggs till i Start‑menyn.
 
-Efter installationen startar programmet automatiskt varje gång du loggar in i Windows. Du kan också välja att förhindra den automatiska starten (under Windows Inställningar) och istället starta PwdGen via Start‑menyn. Första gången efter ny installation behöver du starta programmet manuellt via Start-menyn. Programmet körs helt i bakgrunden och visar endast en nyckelikon i systemfältet. Det finns inget fönster som öppnas; all interaktion sker via ikonens snabbmeny och via snabbtangenter.
+Efter installationen startar programmet automatiskt varje gång du loggar in i Windows. Du kan också välja att förhindra den automatiska starten (under Windows Inställningar) och istället starta PwdPro via Start‑menyn. Första gången efter ny installation behöver du starta programmet manuellt via Start-menyn. Programmet körs helt i bakgrunden och visar endast en nyckelikon i systemfältet. Det finns inget fönster som öppnas; all interaktion sker via ikonens snabbmeny och via snabbtangenter.
 
 ## Inställningar
 Inställningarna nås via tray‑ikonen:
@@ -61,23 +61,23 @@ Programmet använder aliasets policy och PIN‑kod för att skapa lösenordet oc
 ## Backup och återställning
 För att skydda dina alias bör du regelbundet exportera aliaslistan till en backupfil och kunna importera den senare om det behövs. Backupen innehåller alla information som behövs för att du skall kunna använda dina alias till att generera korrekta lösenord, efter att filen har importerats till någon av PwdGens plattformar. Backupfilen krypteras via ett lösenord som du anger vid exporten. VAR MYCKET NOGA MED ATT DU KOMMER IHÅG DETTA LÖSENORD. DET FINNS INGET SÄTT ATT KOMMA ÅT INNEHÅLLET I FILEN UTAN TILLGÅNG TILL DETTA LÖSENORD OCH DET FINNS INGET SÄTT ATT ÅTERVINNA LÖSENORDET OM DU GLÖMT DET.
 
-* **Exportera:** Öppna inställningsdialogen och välj knappen **Exportera portabel fil…**  Du väljer filplats (förslaget är *pwdgen-portable.json*) och anger ett fillösenord två gånger. Filen blir krypterad och kan öppnas på andra PwdGen plattformar med fillösenordet. Förvara fillösenordet säkert – det kan inte återställas och filen kan inte öppnas utan detta lösenord.
+* **Exportera:** Öppna inställningsdialogen och välj knappen **Exportera portabel fil…**  Du väljer filplats (förslaget är *pwdpro-portable.json*) och anger ett fillösenord två gånger. Filen blir krypterad och kan öppnas på andra PwdPro plattformar med fillösenordet. Förvara fillösenordet säkert – det kan inte återställas och filen kan inte öppnas utan detta lösenord.
 
 * **Importera:** För att återställa från en backup, eller läsa in databasen till en ny plattform, väljer du **Importera portabel fil…** i inställningsdialogen och anger JSON‑filen du vill läsa in. Befintliga alias kommer att ersättas av de i backupfilen så se till att du verkligen vill skriva över dina nuvarande alias innan du importerar. Du kommer också att få en varning som behöver bekräftas för att importen skall genomföras.
 
-## Installation av ny PwdGen version
+## Installation av ny PwdPro version
 En ny större programversion kan installeras utan att den tidigare versionen tas bort, detta görs då, efter ditt godkännande, automatiskt av installeraren Med större programversion avses en ändring av någon av de tre första versionssiffrorna (t ex från version 1.0.1 till version 1.0.2). 
 
 ***Observera att vid installation av ny större version utan att den tidigare versionen först avinstalleras så återanvänds befintlig databas! Som extra säkerhet rekommenderas du ändå ALLTID att TA EN AKTUELL BACKUP via export-kommandot INNAN INSTALLATIONEN PÅBÖRJAS!***
 
-Om du väljer att först avinstallera PwdGen via Start-menyns Inställningar så kommer även databasen att raderas. För att då kunna återinstallera PwdGen och återställa dina alias-data krävs att du har tillgång till en backupfil och dess fillösenord.
+Om du väljer att först avinstallera PwdPro via Start-menyns Inställningar så kommer även databasen att raderas. För att då kunna återinstallera PwdPro och återställa dina alias-data krävs att du har tillgång till en backupfil och dess fillösenord.
 
 Tagna backuper skall förvaras på säker plats och lösenorden till backupfilerna skall bevaras på säkert sätt.
 
-Efter ny installation måste PwdGen startas manuellt via Start-menyn innan programikonen dyker upp i systemfältet och snabbkommandot Ctrl+Alt+P åter fungerar.
+Efter ny installation måste PwdPro startas manuellt via Start-menyn innan programikonen dyker upp i systemfältet och snabbkommandot Ctrl+Alt+P åter fungerar.
 
-## Fullständig avinstallation av PwdGen
-Om du inte längre vill använda PwdGen eller av andra skäl helt vill avinstallera PwdGen så gör du detta via Start-meny. Öppna Inställningar - Appar - PwdGen och välj Avinstallera. Alla delar av PwdGen, utom de backup-filer som du själv skapat och sparat på säker plats, kommer då att raderas från datorn.
+## Fullständig avinstallation av PwdPro
+Om du inte längre vill använda PwdGen eller av andra skäl helt vill avinstallera PwdPro så gör du detta via Start-meny. Öppna Inställningar - Appar - PwdPro och välj Avinstallera. Alla delar av PwdPro, utom de backup-filer som du själv skapat och sparat på säker plats, kommer då att raderas från datorn.
 
 ## Tips för säkerhet och användning
 
@@ -89,4 +89,4 @@ Om du inte längre vill använda PwdGen eller av andra skäl helt vill avinstall
 * Förvara dina backupfiler på en säker plats och kom ihåg fillösenorden
 * Kontrollera regelbundet att du har den senaste versionen av programmet för att få säkerhetsuppdateringar och nya funktioner.
 
-Detta avslutar manualen för PwdGen Windowsversion. Alla funktioner nås via systemfältet och snabbkommandon, vilket gör verktyget diskret och effektivt.
+Detta avslutar manualen för PwdPro Windowsversion. Alla funktioner nås via systemfältet och snabbkommandon, vilket gör verktyget diskret och effektivt.
