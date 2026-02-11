@@ -1,7 +1,7 @@
 ## **Key2Pass** - Password Generator
 Copyright 2026 Eureka Consulting AB
 
-Denna sida innehåller supportinformation med kontaktuppgifter, testdata och integritetspolicy för PwdGen iOS
+Denna sida innehåller supportinformation med kontaktuppgifter, testdata och integritetspolicy för Key2Pass iOS
 
 ---
 
