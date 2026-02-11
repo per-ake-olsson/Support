@@ -25,10 +25,10 @@ Ladda ner testdatabas och testunderlag via zip:en som du når via länken nedan.
 
 ---
 
-#### Integritetspolicy gällande PwdGen för Windows
+#### Integritetspolicy gällande Key2Pass för Windows
 
 **1. Övergripande systembeskrivning**  
-PwdGen består av en Windows‑applikation där du skapar alias och genererar en krypterad databas, samt en iOS‑app som kan importera denna databas för att generera identiska lösenord, associerat till ett alias. Du exporterar databasen från Windows‑versionen till en fil som du själv överför till din iOS‑enhet och importerar i appen. Överföringen sker manuellt – Key2Pass samlar inte in några personuppgifter och skickar ingen information till externa servrar.
+Key2Pass består av en Windows‑applikation där du skapar alias och genererar en krypterad databas, samt en iOS‑app som kan importera denna databas för att generera identiska lösenord, associerat till ett alias. Du exporterar databasen från Windows‑versionen till en fil som du själv överför till din iOS‑enhet och importerar i appen. Överföringen sker manuellt – Key2Pass samlar inte in några personuppgifter och skickar ingen information till externa servrar.
 
 **2. Vilka uppgifter lagras i appen**  
 Appen lagrar endast de alias du skapar samt den krypterade databasen med dessa alias och en intern master‑nyckel. Uppgifterna behandlas lokalt på respektive enhet och används enbart för lösenordsgenerering. Key2Pass samlar inte in personuppgifter, platsdata eller användningsstatistik. Key2Pass använder inga tredjeparts‑SDK:er, analysverktyg eller spårningstjänster.
