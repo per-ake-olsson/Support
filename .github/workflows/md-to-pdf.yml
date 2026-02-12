@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'PwdGen/Win/Swe/downloads/**/*.md'
+      - 'Key2Pass/Win/Swe/downloads/**/*.md'
   workflow_dispatch:
 
 jobs:
@@ -30,7 +30,7 @@ jobs:
           set -euo pipefail
 
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            mapfile -t files < <(find PwdGen/Win/Swe/downloads -maxdepth 1 -name '*.md' -print)
+            mapfile -t files < <(find Key2Pass/Win/Swe/downloads -maxdepth 1 -name '*.md' -print)
           else
             mapfile -t files < <(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'PwdGen/Win/Swe/downloads/*.md')
           fi
@@ -58,6 +58,6 @@ jobs:
         if: steps.generate.outputs.changed == 'true'
         uses: EndBug/add-and-commit@v9
         with:
-          add: 'PwdGen/Win/Swe/downloads/*.pdf'
+          add: 'Key2Pass/Win/Swe/downloads/*.pdf'
           message: 'chore: auto-generate PDF for updated manuals'
           default_author: github_actions
