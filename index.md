@@ -8,14 +8,14 @@ Denna sida innehåller supportinformation med kontaktuppgifter, testdata och int
 #### Generell kontakt för support eller synpunkter
 Kontakta oss via epost:
 
-[contact@eureka.as](mailto:contact@eureka.as)
+[contact@eureka.nu](mailto:contact@eureka.nu)
 
 ---
 
 #### Support avseende specifik applikation
-[PwdGen iOS](https://per-ake-olsson.github.io/Support/PwdGen/iOS/Swe/)
+[Key2Pass iOS](https://per-ake-olsson.github.io/Support/Key2Pass/iOS/Swe/)
 
-[PwdGen Win](https://per-ake-olsson.github.io/Support/PwdGen/Win/Swe/)
+[Key2Pass Win](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/)
 
 
 ---
@@ -23,4 +23,4 @@ Kontakta oss via epost:
 **6. Länk till generell integritetspolicy**  
 Mer information om hur Eureka Consulting AB behandlar personuppgifter, dina rättigheter och kontaktuppgifter till dataskyddsansvarig finns i vår fullständiga personuppgiftspolicy.
 
-> **Generell policy:** [Personuppgiftspolicy för Eureka Consulting AB](https://www.yourvismawebsite.com/eureka-consulting-aktiebolag/personuppgiftspolicy)
+> **Generell policy:** [Personuppgiftspolicy för Eureka Consulting AB](https://www.eureka.nu/personuppgiftspolicy)
