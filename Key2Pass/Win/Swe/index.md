@@ -1,6 +1,8 @@
 ## **Key2Pass** - Password Generator
 Copyright 2026 Eureka Consulting AB
 
+Key2Pass är ett offlineverktyg för deterministisk lösenordsgenerering. Windows‑versionen skapar en krypterad aliasdatabas som iOS‑appen kan importera för att återgenerera identiska lösenord lokalt på enheten.
+
 Denna sida innehåller användnings- och supportinformation med kontaktuppgifter, testdata och integritetspolicy för Key2Pass Windows. Klicka på någon av länkarna för mer information.
 
 
