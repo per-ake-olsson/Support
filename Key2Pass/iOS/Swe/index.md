@@ -1,6 +1,8 @@
 ## **Key2Pass** - Password Generator
 Copyright 2026 Eureka Consulting AB
 
+Key2Pass är ett offlineverktyg för deterministisk lösenordsgenerering. Windows‑versionen skapar en krypterad aliasdatabas som iOS‑appen kan importera för att återgenerera identiska lösenord lokalt på enheten.
+
 Denna sida innehåller supportinformation med kontaktuppgifter, testdata och integritetspolicy för Key2Pass iOS
 
 ---
@@ -22,7 +24,7 @@ Ladda ner testdatabas och testunderlag via zip:en som du når via länken nedan.
 #### Integritetspolicy gällande Key2Pass för iOS
 
 **1. Övergripande systembeskrivning**  
-Key2Pass består av en Windows‑applikation där du skapar alias och genererar en krypterad databas, samt en iOS‑app som kan importera denna databas för att generera identiska lösenord, associerat till ett alias. Du exporterar databasen från Windows‑versionen till en fil som du själv överför till din iOS‑enhet och importerar i appen. Överföringen sker manuellt – Key2Pass samlar inte in några personuppgifter och skickar ingen information till externa servrar.
+Key2Pass består av en Windows‑applikation där du skapar alias och genererar en krypterad databas, samt en iOS‑app som kan importera denna databas för att generera identiska lösenord, associerat till ett alias. Du exporterar databasen från Windows‑versionen till en fil som du själv överför till din iOS‑enhet och importerar i appen. Överföringen sker manuellt – Key2Pass samlar inte in några personuppgifter, skickar ingen information till externa servrar och erbjuder inga köp eller upplåsningar via App Store.
 
 **2. Vilka uppgifter lagras i appen**  
 Appen lagrar endast de alias du skapar samt den krypterade databasen med dessa alias och en intern master‑nyckel. Uppgifterna behandlas lokalt på respektive enhet och används enbart för lösenordsgenerering. Key2Pass samlar inte in personuppgifter, platsdata eller användningsstatistik. Key2Pass använder inga tredjeparts‑SDK:er, analysverktyg eller spårningstjänster.
