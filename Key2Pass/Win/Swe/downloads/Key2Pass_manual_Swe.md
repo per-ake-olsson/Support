@@ -63,7 +63,11 @@ För att skydda dina alias bör du regelbundet exportera aliaslistan till en bac
 
 * **Exportera [Premium]:** Öppna inställningsdialogen och välj knappen **Exportera portabel fil…**  Du väljer filplats (förslaget är *key2pass-portable.json*) och anger ett fillösenord två gånger. Filen blir krypterad och kan öppnas på andra Key2Pass plattformar med fillösenordet. Förvara fillösenordet säkert – det kan inte återställas och filen kan inte öppnas utan detta lösenord.
 
+* **Exportera [Basic]:** Öppna inställningsdialogen och välj knappen **Exportera backup**  Du väljer filplats och namn (förslaget är *backup_datum_tid.json*). Tänk på att filen blir okrypterad och kan öppnas i en texteditor. Lösenorden lagras dock inte i filen men alias kan läsas i klartext. Förvara därför backup-filerna på ett sätt.
+
 * **Importera [Premium]:** För att återställa från en backup, eller läsa in databasen till en ny plattform, väljer du **Importera portabel fil…** i inställningsdialogen och anger JSON‑filen du vill läsa in. Befintliga alias kommer att ersättas av de i backupfilen så se till att du verkligen vill skriva över dina nuvarande alias innan du importerar. Du kommer också att få en varning som behöver bekräftas för att importen skall genomföras.
+
+* **Importera [Basic]:** För att återställa från en backup väljer du **Importera backup** i inställningsdialogen och anger JSON‑filen du vill läsa in. Befintliga alias kommer att ersättas av de i backupfilen så se till att du verkligen vill skriva över dina nuvarande alias innan du importerar. Du kommer också att få en varning som behöver bekräftas för att importen skall genomföras.
 
 ## Installation av ny Key2Pass version
 En ny större programversion kan installeras utan att den tidigare versionen tas bort, detta görs då, efter ditt godkännande, automatiskt av installeraren Med större programversion avses en ändring av någon av de tre första versionssiffrorna (t ex från version 1.0.1 till version 1.0.2). 
