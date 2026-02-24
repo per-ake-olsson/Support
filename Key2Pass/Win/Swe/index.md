@@ -25,7 +25,7 @@ Ladda ner testdatabas och testunderlag via zip:en som du når via länken nedan.
 
 [Ladda ner testdatabas och testunderlag - Basic](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/key2pass-portable_testflight.zip)
 
-[Ladda ner testdatabas och testunderlag - Premium](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/key2pass-portable_testflight.zip)
+[Ladda ner testdatabas och testunderlag - Premium](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/key2pass_test_Premium.zip)
 
 ---
 
