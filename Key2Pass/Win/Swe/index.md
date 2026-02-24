@@ -23,7 +23,7 @@ Kontakta oss via epost:
 ---
 
 #### Testdata och instruktioner för testare
-Ladda ner testdatabas och testunderlag via zip:en som du når via länken nedan. Öppna zip:en och spara båda på lämplig plats. Därifrån kan du importera databasen till Key2Pass appen, via "Inställningar" som du öppnar via högerklick på Key2Pass tray-ikon. Testdata är endast avsedda för testning och ska inte användas i produktionsmiljö. Test och återkoppling önskas avseende funktionalitet och användbarhet.
+Ladda ner testdatabas och testunderlag via zip:en som du når via någon av länkarna nedan. Öppna zip:en och spara båda på lämplig plats. Därifrån kan du importera databasen till Key2Pass appen, via "Inställningar" som du öppnar via högerklick på Key2Pass tray-ikon. Testdata är endast avsedda för testning och ska inte användas i produktionsmiljö. Test och återkoppling önskas avseende funktionalitet och användbarhet.
 
 [Ladda ner testdatabas och testunderlag - Basic](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/key2pass_test_Basic.zip)
 
