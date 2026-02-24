@@ -4,7 +4,7 @@ Key2Pass Win - användarmanual
 Syftet med Key2Pass är att ge användare av Windows och iOS enheter stöd i inloggnings-situationer. Användaren kan skapa och använda mycket starka lösenord utan att dessa lagras någonstans eller behöver minnas. Användaren anger istället ett logiskt, skiftlägeskänsligt **alias** som är enklare att komma ihåg, för att med Key2Pass generera korrekt lösenord, vid inloggningen.
 
 ## Introduktion
-Key2Pass består av en Windows‑applikation där du, förutom att få inloggningsstöd, också kan skapa alias och generera en krypterad databas **[kräver Premium]**. Dessutom finns en tillhörande iOS‑app som kan importera denna databas för att generera identiska lösenord, associerat till ett alias. Du exporterar databasen från Windows‑versionen till en fil som du själv överför till din iOS‑enhet och importerar i appen. Överföringen sker manuellt – Key2Pass samlar inte in några personuppgifter och skickar ingen information till externa servrar.
+Key2Pass består av en Windows‑applikation där du, förutom att få inloggningsstöd, också kan skapa alias och generera en krypterad databas **[kräver Premium]**. Dessutom finns en tillhörande iOS‑app som kan importera denna databas för att generera identiska lösenord, associerat till ett alias. Du exporterar databasen från Windows‑versionen till en fil **[kräver Premium]** som du själv överför till din iOS‑enhet och importerar i appen. Överföringen sker manuellt – Key2Pass samlar inte in några personuppgifter och skickar ingen information till externa servrar.
 
 ## Säkerhetsprinciper
 Key2Pass är ett verktyg för att skapa och återskapa starka lösenord baserat på ett godtyckligt valt **alias**, en tillhörande **4‑siffrig PIN‑kod** och ditt unika Windows **inloggnings-ID**. Allt arbete görs via programikonen i systemfältet och globala snabbkommandon. Programmet genererar lösenord i realtid lokalt på din dator och sparar inga hemliga nycklar eller lösenord i klartext. Lösenorden skapas reproducerbart från alias, dess PIN‑kod och ditt inloggnings-ID – de kan återskapas när du behöver dem men är mycket svåra att gissa för andra. Ingen datakommunikation sker och inga lösenord lagras, vare sig i klartext eller krypterat. För hög säkerhet bör du välja originella aliasnamn och PIN‑koder, undvika att dela dem med andra och göra regelbundna säkerhetskopior av aliasdatabasen.
@@ -19,7 +19,7 @@ Inställningarna nås via tray‑ikonen:
 
 * Högerklicka på Key2Pass‑ikonen och välj **Inställningar** för att öppna inställningsdialogen.
 * I dialogen kan du ställa in hur länge ett kopierat lösenord ska ligga kvar i urklipp (kopieringstid), och definiera upp till fem **Användarnamn (ID)** som kan kopieras med snabbtangenter. Du kan också härifrån **Exportera** eller **Importera** databasen med Alias och Användarnamn, se detaljerad beskrivning nedan.
-* I inställningsdialogen kan du också ändra Export-algoritm. Denna inställning är för framtida bruk. Om du ändrar den idag kommer du inte längre kunna importera krypterade filer till iOS-plattformen
+* I inställningsdialogen kan du också ändra Export-algoritm **[kräver Premium]**. Denna inställning är för framtida bruk. Om du ändrar den idag kommer du inte längre kunna importera krypterade filer till iOS-plattformen
 * När du har gjort dina justeringar klickar du på **Spara**. Vissa ändringar kan kräva att programmet startas om; i så fall visas ett meddelande.
 
 ## Skapa nya alias
@@ -59,7 +59,7 @@ Du återvänder nu till inloggningsdialogen och trycker **Ctrl+V** varpå lösen
 Programmet använder aliasets policy och PIN‑kod för att skapa lösenordet och kopierar det till urklippet. Urklippet rensas automatiskt efter den tid du har ställt in. Under tiden kan en notifikation visas för att informera dig; du kan avbryta rensningen via notifikationen om du behöver behålla lösenordet längre.
 
 ## Backup och återställning
-För att skydda dina alias bör du regelbundet exportera aliaslistan till en backupfil och kunna importera den senare om det behövs. Backupen innehåller alla information som behövs för att du skall kunna använda dina alias till att generera korrekta lösenord, efter att filen har importerats till någon av Key2Pass plattformar. Backupfilen krypteras via ett lösenord som du anger vid exporten. VAR MYCKET NOGA MED ATT DU KOMMER IHÅG DETTA LÖSENORD. DET FINNS INGET SÄTT ATT KOMMA ÅT INNEHÅLLET I FILEN UTAN TILLGÅNG TILL DETTA LÖSENORD OCH DET FINNS INGET SÄTT ATT ÅTERVINNA LÖSENORDET OM DU GLÖMT DET.
+För att skydda dina alias bör du regelbundet exportera aliaslistan till en backupfil och kunna importera den senare om det behövs. Backupen innehåller alla information som behövs för att du skall kunna använda dina alias till att generera korrekta lösenord, efter att filen har importerats till någon av Key2Pass plattformar. Backupfilen krypteras via ett lösenord **[kräver Premium]** som du anger vid exporten. VAR MYCKET NOGA MED ATT DU KOMMER IHÅG DETTA LÖSENORD. DET FINNS INGET SÄTT ATT KOMMA ÅT INNEHÅLLET I FILEN UTAN TILLGÅNG TILL DETTA LÖSENORD OCH DET FINNS INGET SÄTT ATT ÅTERVINNA LÖSENORDET OM DU GLÖMT DET.
 
 * **Exportera:** Öppna inställningsdialogen och välj knappen **Exportera portabel fil…**  Du väljer filplats (förslaget är *pwdgen-portable.json*) och anger ett fillösenord två gånger. Filen blir krypterad och kan öppnas på andra Key2Pass plattformar med fillösenordet. Förvara fillösenordet säkert – det kan inte återställas och filen kan inte öppnas utan detta lösenord.
 
@@ -70,7 +70,7 @@ En ny större programversion kan installeras utan att den tidigare versionen tas
 
 ***Observera att vid installation av ny större version utan att den tidigare versionen först avinstalleras så återanvänds befintlig databas! Som extra säkerhet rekommenderas du ändå ALLTID att TA EN AKTUELL BACKUP via export-kommandot INNAN INSTALLATIONEN PÅBÖRJAS!***
 
-Om du väljer att först avinstallera Key2Pass via Start-menyns Inställningar så kommer även databasen att raderas. För att då kunna återinstallera Key2Pass och återställa dina alias-data krävs att du har tillgång till en backupfil och dess fillösenord.
+Om du väljer att först avinstallera Key2Pass via Start-menyns Inställningar så kommer även databasen att raderas. För att då kunna återinstallera Key2Pass och återställa dina alias-data krävs att du har tillgång till en backupfil och dess fillösenord **[Premium]**.
 
 Tagna backuper skall förvaras på säker plats och lösenorden till backupfilerna skall bevaras på säkert sätt.
 
@@ -86,7 +86,7 @@ Om du inte längre vill använda Key2Pass eller av andra skäl helt vill avinsta
 * För att ändra lösenordet, om detta krävs av säkerhetsskäl, så räcker det att ändra PIN-koden. Ett helt nytt lösenord genereras då, associerat med samma alias som tidigare och med bibehållen policy.
 * Byt aliaspolicys (t.ex. längd eller teckenklasser) enkelt om säkerhetskraven ändras, samma alias kan behållas.
 * Var försiktig med globala snabbtangenter om du delar dator; lösenord kopieras till urklippet och rensas efter en tidsgräns, men lämna inte datorn obevakad under denna period.
-* Förvara dina backupfiler på en säker plats och kom ihåg fillösenorden
+* Förvara dina backupfiler på en säker plats och kom ihåg fillösenorden **[Premium]**
 * Kontrollera regelbundet att du har den senaste versionen av programmet för att få säkerhetsuppdateringar och nya funktioner.
 
 Detta avslutar manualen för Key2Pass Windowsversion. Alla funktioner nås via systemfältet och snabbkommandon, vilket gör verktyget diskret och effektivt.
