@@ -23,7 +23,7 @@ Inställningarna nås via tray‑ikonen:
 * När du har gjort dina justeringar klickar du på **Spara**. Vissa ändringar kan kräva att programmet startas om; i så fall visas ett meddelande.
 
 ## Skapa nya alias
-Ett alias fungerar som en etikett som tillsammans med en 4‑siffrig PIN‑kod och ditt unika inloggnings-ID genererar ett starkt lösenord, enligt den av dig valda policyn (dvs. regler för lösenordets längd och vilka tecken som får användas). Så här skapar du ett nytt alias:
+Ett alias fungerar som en etikett som tillsammans med en 4‑siffrig PIN‑kod och ditt unika inloggnings-ID genererar ett starkt lösenord, enligt den av dig valda policyn (dvs. regler för lösenordets längd och vilka tecken som får användas). Med **Basic** kan du maximalt ha 10 st alias, med **Premium** finns igen begränsning. Så här skapar du ett nytt alias:
 
 1. Placera markören i ett inmatningsfält
 2. Tryck på det globala snabbkommandot **Ctrl+Alt+P** för att öppna aliasfönstret.
