@@ -1,44 +1,50 @@
 ## **Key2Pass** - Password Generator
 Copyright 2026 Eureka Consulting AB
 
-Key2Pass är ett offlineverktyg för deterministisk lösenordsgenerering. Windows‑versionen skapar en krypterad aliasdatabas som iOS‑appen kan importera för att återgenerera identiska lösenord lokalt på enheten.
+Key2Pass is an offline tool for deterministic password generation. The Windows version creates an encrypted alias database that the iOS app can import to regenerate identical passwords locally on the device.
 
-Denna sida innehåller supportinformation med kontaktuppgifter, testdata och integritetspolicy för Key2Pass iOS
+This page contains support information with contact details, test data, and the privacy policy for Key2Pass iOS.
 
 ---
 
-#### Kontakt för support eller synpunkter
-Kontakta oss via epost:
+#### Contact for support or feedback
+Contact us by email:
 
 [support@eureka.nu](mailto:support@eureka.nu)
 
 ---
 
-#### Testdata och instruktioner för testning
-Ladda ner testdatabas och testunderlag via zip:en som du når via länken nedan. Öppna zip:en och spara båda filerna i Filer. Därifrån kan du importera databasen till Key2Pass appen, via knappen "Importera databas" på inställningssidan. Testdata är endast avsedda för testning och ska inte användas i produktionsmiljö. Observera att denna version av Key2Pass bör användas i ljust skärmläge, mörkt läge fungerar ännu bristfälligt. Test och återkoppling önskas avseende funktionalitet och användbarhet.
+#### Test data and testing instructions
+Download the test database and test materials using the zip file available from the link below. Open the zip file and save both files in Files. From there, you can import the database into the Key2Pass app using the "Import Database" button on the settings page. The test data is intended for testing only and must not be used in a production environment. Please note that this version of Key2Pass should be used in light display mode; dark mode is not yet fully supported. Testing and feedback on functionality and usability are requested.
 
-[Ladda ner testdatabas och testunderlag](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe//downloads/key2pass-portable_testflight.zip)
+[Download test database and test materials](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe//downloads/key2pass-portable_testflight.zip)
 
 ---
 
-#### Integritetspolicy gällande Key2Pass för iOS
+#### Privacy Policy for Key2Pass for iOS
 
-**1. Övergripande systembeskrivning**  
-Key2Pass består av en Windows‑applikation där du skapar alias och genererar en krypterad databas, samt en iOS‑app som kan importera denna databas för att generera identiska lösenord, associerat till ett alias. Du exporterar databasen från Windows‑versionen till en fil som du själv överför till din iOS‑enhet och importerar i appen. Överföringen sker manuellt – Key2Pass samlar inte in några personuppgifter, skickar ingen information till externa servrar och erbjuder inga köp eller upplåsningar via App Store.
+**1. General system description**
 
-**2. Vilka uppgifter lagras i appen**  
-Appen lagrar endast de alias du skapar samt den krypterade databasen med dessa alias och en intern master‑nyckel. Uppgifterna behandlas lokalt på respektive enhet och används enbart för lösenordsgenerering. Key2Pass samlar inte in personuppgifter, platsdata eller användningsstatistik. Key2Pass använder inga tredjeparts‑SDK:er, analysverktyg eller spårningstjänster.
+Key2Pass consists of a Windows application where you create aliases and generate an encrypted database, and an iOS app that can import this database to generate identical passwords associated with an alias. You export the database from the Windows version to a file that you transfer to your iOS device yourself and import into the app. The transfer is performed manually – Key2Pass does not collect any personal data, does not send any information to external servers, and does not offer any purchases or unlocks through the App Store.
 
-**3. Kryptering och säkerhet**  
-Den exporterade databasen är krypterad (AES‑CBC/GCM med stark nyckelderivering) och kan endast öppnas med det lösenord du sätter. Vi har ingen åtkomst till innehållet. Data lagras lokalt på dina enheter tills du själv raderar databasen och avinstallerar appen.
+**2. What data is stored in the app**
 
-**4. Kontakt och support**  
-När du kontaktar oss via supportsidan för att rapportera fel eller ge feedback behandlar vi de personuppgifter du lämnar (t.ex. namn, e‑postadress och meddelandetext) för att kunna hantera ditt ärende. Denna behandling följer vår generella personuppgiftspolicy.
+The app stores only the aliases you create and the encrypted database containing those aliases and an internal master key. The data is processed locally on each device and is used solely for password generation. Key2Pass does not collect personal data, location data, or usage statistics. Key2Pass does not use any third-party SDKs, analytics tools, or tracking services.
 
-**5. Lagring och radering**  
-Vi sparar inga kopior av dina alias eller lösenord. Uppgifter som du skickar via supportkanalen sparas endast så länge det behövs för att hantera ditt ärende och enligt vad som anges i den generella policyn.
+**3. Encryption and security**
 
-**6. Länk till generell policy**  
-Mer information om hur Eureka Consulting AB behandlar personuppgifter, dina rättigheter och kontaktuppgifter till dataskyddsansvarig finns i vår fullständiga personuppgiftspolicy.
+The exported database is encrypted (AES-CBC/GCM with strong key derivation) and can only be opened with the password you set. We have no access to its contents. Data is stored locally on your devices until you delete the database and uninstall the app yourself.
 
-> **Generell policy:** [Personuppgiftspolicy för Eureka Consulting AB](https://www.eureka.nu/personuppgiftspolicy)
+**4. Contact and support**
+
+When you contact us via the support page to report issues or provide feedback, we process the personal data you provide (for example, your name, email address, and message text) so that we can handle your request. This processing follows our general personal data policy.
+
+**5. Storage and deletion**
+
+We do not store any copies of your aliases or passwords. Information that you send through the support channel is stored only for as long as necessary to handle your request and as stated in the general policy.
+
+**6. Link to general policy**
+
+More information about how Eureka Consulting AB processes personal data, your rights, and contact details for the data protection officer is available in our full personal data policy.
+
+> **General policy:** [Personal Data Policy for Eureka Consulting AB](https://www.eureka.nu/personuppgiftspolicy)
