@@ -8,9 +8,9 @@ I Basic läge kan du skapa och underhålla upp till 10 alias samt exportera och 
 Denna sida innehåller användnings- och supportinformation med kontaktuppgifter, testdata och integritetspolicy för Key2Pass Windows. Klicka på någon av länkarna för mer information.
 
 
-[Läs Licensavtal för slutanvändare](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/Key2Pass_EULA_Swe)  &nbsp;&nbsp;  [( Ladda ner PDF )](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/Key2Pass_EULA_Swe.pdf)
+[Läs Licensavtal för slutanvändare](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Eng/downloads/Key2Pass_EULA_Eng)  &nbsp;&nbsp;  [( Ladda ner PDF )](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Eng/downloads/Key2Pass_EULA_Eng.pdf)
 
-[Läs Användarmanual](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/Key2Pass_manual_Swe)   &nbsp;&nbsp;  [( Ladda ner PDF )](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/Key2Pass_manual_Swe.pdf)
+[Läs Användarmanual](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Eng/downloads/Key2Pass_manual_Eng)   &nbsp;&nbsp;  [( Ladda ner PDF )](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Eng/downloads/Key2Pass_manual_Eng.pdf)
 
 
 ---
@@ -25,9 +25,9 @@ Kontakta oss via epost:
 #### Testdata och instruktioner för testare
 Ladda ner testdatabas och testunderlag via zip:en som du når via någon av länkarna nedan. Öppna zip:en och spara båda på lämplig plats. Därifrån kan du importera databasen till Key2Pass appen, via "Inställningar" som du öppnar via högerklick på Key2Pass tray-ikon. Testdata är endast avsedda för testning och ska inte användas i produktionsmiljö. Test och återkoppling önskas avseende funktionalitet och användbarhet.
 
-[Ladda ner testdatabas och testunderlag - Basic](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/key2pass_test_Basic.zip)
+[Ladda ner testdatabas och testunderlag - Basic](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Eng/downloads/key2pass_test_Basic.zip)
 
-[Ladda ner testdatabas och testunderlag - Premium](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/key2pass_test_Premium.zip)
+[Ladda ner testdatabas och testunderlag - Premium](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Eng/downloads/key2pass_test_Premium.zip)
 
 ---
 
