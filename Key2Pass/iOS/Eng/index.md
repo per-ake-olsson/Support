@@ -17,7 +17,7 @@ Contact us by email:
 #### Test data and testing instructions
 Download the test database and test materials using the zip file available from the link below. Open the zip file and save both files in Files. From there, you can import the database into the Key2Pass app using the "Import Database" button on the settings page. The test data is intended for testing only and must not be used in a production environment. Please note that this version of Key2Pass should be used in light display mode; dark mode is not yet fully supported. Testing and feedback on functionality and usability are requested.
 
-[Download test database and test materials](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe//downloads/key2pass-portable_testflight.zip)
+[Download test database and test materials](https://per-ake-olsson.github.io/Support/Key2Pass/iOS/Eng//downloads/key2pass-portable_testflight.zip)
 
 ---
 
