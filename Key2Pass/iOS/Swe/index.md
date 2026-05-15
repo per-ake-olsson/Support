@@ -17,7 +17,7 @@ Kontakta oss via epost:
 #### Testdata och instruktioner för testning
 Ladda ner testdatabas och testunderlag via zip:en som du når via länken nedan. Öppna zip:en och spara båda filerna i Filer. Därifrån kan du importera databasen till Key2Pass appen, via knappen "Importera databas" på inställningssidan. Testdata är endast avsedda för testning och ska inte användas i produktionsmiljö. Observera att denna version av Key2Pass bör användas i ljust skärmläge, mörkt läge fungerar ännu bristfälligt. Test och återkoppling önskas avseende funktionalitet och användbarhet.
 
-[Ladda ner testdatabas och testunderlag](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe//downloads/key2pass-portable_testflight.zip)
+[Ladda ner testdatabas och testunderlag](https://per-ake-olsson.github.io/Support/Key2Pass/iOS/Swe//downloads/key2pass-portable_testflight.zip)
 
 ---
 
