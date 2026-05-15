@@ -1,55 +1,55 @@
-## **Licensavtal för Key2Pass**
+## **License Agreement for Key2Pass**
 
-Detta licensavtal (“Avtalet”) gäller mellan dig och Eureka Consulting AB (“Utgivaren”) och reglerar din användning av programvaran Key2Pass (“Programvaran”). Programvaran distribueras via Microsoft Store och omfattas av både detta Avtal och Microsofts _Standard Application License Terms_. Vid konflikt gäller Microsofts villkor i den utsträckning som krävs för att uppfylla deras policyer.
+This license agreement (the “Agreement”) is between you and Eureka Consulting AB (the “Publisher”) and governs your use of the Key2Pass software (the “Software”). The Software is distributed through the Microsoft Store and is subject to both this Agreement and Microsoft’s _Standard Application License Terms_. In the event of a conflict, Microsoft’s terms apply to the extent required to comply with their policies.
 
-Genom att installera eller använda Programvaran accepterar du villkoren i detta Avtal. Om du inte accepterar villkoren ska du inte installera eller använda Programvaran.
+By installing or using the Software, you accept the terms of this Agreement. If you do not accept the terms, you must not install or use the Software.
 
-## **1. Licensgivning**
+## **1. License Grant**
 
-Utgivaren ger dig en begränsad, icke‑exklusiv och icke‑överförbar licens att installera och använda Programvaran i enlighet med Microsoft Stores licensvillkor och detta Avtal.
+The Publisher grants you a limited, non-exclusive, and non-transferable license to install and use the Software in accordance with the Microsoft Store license terms and this Agreement.
 
-## **2. Äganderätt**
+## **2. Ownership**
 
-Programvaran är licensierad, inte såld. Alla immateriella rättigheter till Programvaran och tillhörande material tillhör Utgivaren eller dess licensgivare.
+The Software is licensed, not sold. All intellectual property rights in the Software and related materials belong to the Publisher or its licensors.
 
-## **3. Tillåten användning**
+## **3. Permitted Use**
 
-Du får använda Programvaran för personligt eller internt bruk. Du får inte distribuera, sälja, hyra ut, leasa, låna ut eller på annat sätt tillgängliggöra Programvaran för tredje part utan Utgivarens skriftliga medgivande.
+You may use the Software for personal or internal use. You may not distribute, sell, rent, lease, lend, or otherwise make the Software available to any third party without the Publisher’s written consent.
 
-## **4. Begränsningar**
+## **4. Restrictions**
 
-Du får inte dekompilera, reverse‑engineera, disassemblera, modifiera eller kringgå tekniska skydd i Programvaran, utom i den utsträckning som krävs enligt tvingande lag.
+You may not decompile, reverse engineer, disassemble, modify, or circumvent technical protections in the Software, except to the extent required by mandatory law.
 
-## **5. Uppdateringar och support**
+## **5. Updates and Support**
 
-Utgivaren kan tillhandahålla uppdateringar eller uppgraderingar. Sådana omfattas av detta Avtal om inte annat anges. Support tillhandahålls av Utgivaren enligt kontaktuppgifter som anges i Microsoft Store.
+The Publisher may provide updates or upgrades. Such updates or upgrades are covered by this Agreement unless otherwise stated. Support is provided by the Publisher using the contact information listed in the Microsoft Store.
 
-## **6. Dataskydd**
+## **6. Data Protection**
 
-Programvaran behandlar endast de uppgifter du själv anger och lagrar dem inte utanför din enhet. Utgivaren samlar inte in personuppgifter via Programvaran utan ditt uttryckliga medgivande. Du ansvarar för att användningen sker i enlighet med gällande dataskyddslagstiftning.
+The Software processes only the information you enter yourself and does not store it outside your device. The Publisher does not collect personal data through the Software without your explicit consent. You are responsible for ensuring that your use complies with applicable data protection legislation.
 
-## **7. Garanti**
+## **7. Warranty**
 
-Programvaran tillhandahålls i befintligt skick utan några uttryckliga eller underförstådda garantier. Utgivaren garanterar inte att Programvaran är felfri eller avbrottsfri.
+The Software is provided as is, without any express or implied warranties. The Publisher does not warrant that the Software will be error-free or uninterrupted.
 
-## **8. Ansvarsbegränsning**
+## **8. Limitation of Liability**
 
-I den utsträckning som tillåts enligt gällande lag är Utgivarens ansvar begränsat till det belopp som eventuellt betalats för Programvaran. Utgivaren ansvarar inte för indirekta skador, utebliven vinst eller förlorade data. Programvaran är inte avsedd för användning i säkerhetskritiska system.
+To the extent permitted by applicable law, the Publisher’s liability is limited to the amount, if any, paid for the Software. The Publisher is not liable for indirect damages, loss of profit, or lost data. The Software is not intended for use in safety-critical systems.
 
-## **9. Uppsägning**
+## **9. Termination**
 
-Avtalet gäller tills vidare. Du kan avsluta Avtalet genom att avinstallera Programvaran och radera alla kopior. Utgivaren kan säga upp Avtalet om du bryter mot dess villkor.
+The Agreement remains in effect until further notice. You may terminate the Agreement by uninstalling the Software and deleting all copies. The Publisher may terminate the Agreement if you breach its terms.
 
-## **10. Tillämplig lag och tvister**
+## **10. Governing Law and Disputes**
 
-Avtalet regleras av svensk lag. Tvister ska i första hand lösas genom förhandlingar och i andra hand av svensk allmän domstol med Stockholms tingsrätt som första instans.
+The Agreement is governed by Swedish law. Disputes shall primarily be resolved through negotiations and, secondarily, by a Swedish court of general jurisdiction, with the Stockholm District Court as the court of first instance.
 
-## **11. Microsofts roll**
+## **11. Microsoft’s Role**
 
-Microsoft är inte part i detta Avtal och ansvarar inte för Programvaran, dess innehåll, support eller eventuella krav som uppstår ur dess användning.
+Microsoft is not a party to this Agreement and is not responsible for the Software, its content, support, or any claims arising from its use.
 
-## **12. Övrigt**
+## **12. Miscellaneous**
 
-Om någon bestämmelse i Avtalet bedöms ogiltig ska den ersättas av en giltig bestämmelse som ligger nära den ursprungliga avsikten. Avtalet fortsätter att gälla i övrigt.
+If any provision of the Agreement is deemed invalid, it shall be replaced by a valid provision that closely reflects the original intent. The Agreement shall otherwise remain in effect.
 
-Genom att installera eller använda Programvaran bekräftar du att du har läst och accepterar detta Avtal.
+By installing or using the Software, you confirm that you have read and accept this Agreement.
