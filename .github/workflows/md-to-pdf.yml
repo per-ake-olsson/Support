@@ -32,7 +32,7 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             mapfile -t files < <(find Key2Pass/Win/Swe/downloads -maxdepth 1 -name '*.md' -print)
           else
-            mapfile -t files < <(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'PwdGen/Win/Swe/downloads/*.md')
+            mapfile -t files < <(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'Key2Pass/Win/Swe/downloads/*.md')
           fi
 
           if [ ${#files[@]} -eq 0 ]; then
