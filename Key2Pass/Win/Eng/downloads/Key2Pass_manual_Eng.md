@@ -1,118 +1,118 @@
-Key2Pass Win - användarmanual
+Key2Pass Win - User Manual
 =================================
-## Syfte
-Syftet med Key2Pass är att ge användare av Windows och iOS enheter stöd i inloggnings-situationer. Användaren kan skapa och använda mycket starka lösenord utan att dessa lagras någonstans eller behöver minnas. Användaren anger istället ett logiskt, skiftlägeskänsligt **alias** som är enklare att komma ihåg, för att med Key2Pass generera korrekt lösenord, vid inloggningen.
+## Purpose
+The purpose of Key2Pass is to support users of Windows and iOS devices in login situations. Users can create and use very strong passwords without storing them anywhere or needing to remember them. Instead, the user enters a logical, case-sensitive **alias** that is easier to remember, allowing Key2Pass to generate the correct password during login.
 
-## Introduktion
-Key2Pass består av en Windows‑applikation där du, förutom att få inloggningsstöd, också kan skapa alias och generera en krypterad databas **[kräver Premium]**. Dessutom finns en tillhörande iOS‑app som kan importera denna databas för att generera identiska lösenord, associerat till ett alias. Du exporterar databasen från Windows‑versionen till en fil **[kräver Premium]** som du själv överför till din iOS‑enhet och importerar i appen. Överföringen sker manuellt – Key2Pass samlar inte in några personuppgifter och skickar ingen information till externa servrar.
+## Introduction
+Key2Pass consists of a Windows application where, in addition to receiving login support, you can also create aliases and generate an encrypted database **[requires Premium]**. There is also an associated iOS app that can import this database to generate identical passwords associated with an alias. You export the database from the Windows version to a file **[requires Premium]**, which you then transfer yourself to your iOS device and import into the app. The transfer is performed manually – Key2Pass does not collect any personal data and does not send any information to external servers.
 
-## Säkerhetsprinciper
-Key2Pass är ett verktyg för att skapa och återskapa starka lösenord baserat på ett godtyckligt valt **alias**, en tillhörande **4‑siffrig PIN‑kod** och ditt unika **userId**. Allt arbete görs via programikonen i systemfältet och globala snabbkommandon. Programmet genererar lösenord i realtid lokalt på din dator och sparar inga hemliga nycklar eller lösenord i klartext. Lösenorden skapas reproducerbart från alias, dess PIN‑kod och ditt userId – de kan återskapas när du behöver dem men är mycket svåra att gissa för andra. Ingen datakommunikation sker och inga lösenord lagras, vare sig i klartext eller krypterat. För hög säkerhet bör du välja originella aliasnamn och PIN‑koder, undvika att dela dem med andra och göra regelbundna säkerhetskopior av aliasdatabasen.
+## Security Principles
+Key2Pass is a tool for creating and recreating strong passwords based on an arbitrarily chosen **alias**, an associated **4-digit PIN code**, and your unique **userId**. All work is performed through the program icon in the system tray and global keyboard shortcuts. The program generates passwords in real time locally on your computer and does not store any secret keys or passwords in plain text. Passwords are reproducibly created from the alias, its PIN code, and your userId – they can be recreated when you need them, but are very difficult for others to guess. No data communication takes place and no passwords are stored, either in plain text or encrypted. For high security, you should choose original alias names and PIN codes, avoid sharing them with others, and make regular backups of the alias database.
 
-## Installation och start
-Key2Pass levereras som en MSIX‑installatör, via MS Store. Följ instruktionerna för att utan kostnad få tillgång till Key2Pass Basic. Programfilerna installeras och en genväg läggs till i Start‑menyn.
+## Installation and Startup
+Key2Pass is delivered as an MSIX installer via the MS Store. Follow the instructions to get access to Key2Pass Basic free of charge. The program files are installed and a shortcut is added to the Start menu.
 
-Första gången efter ny installation kan du behöva starta programmet manuellt via Start-menyn. Du måste då också ange en passfras för databasen. Denna passfras är din unika nyckel till databasen (valvet), utan den kommer valvet inte kunna öppnas. Passfrasen sparas automatiskt i din Windows nyckel kedja och används för att öppna valvet automatiskt varje gång du loggar in i Windows. Du måste dock själv kunna ange korrekt passfras om du manuellt behöver öppna valvet (efter att manuellt ha stängt det) eller om du vill byta passfras eller rotera valvets krypteringsnycklar. DET FINNS INGET SÄTT ATT ÅTERVINNA VALVETS PASSFRAS OM DU SKULLE TAPPA BORT DEN, FÖRVARA DEN DÄRFÖR PÅ ETT SÄKERT SÄTT.
+The first time after a new installation, you may need to start the program manually from the Start menu. You must also enter a passphrase for the database. This passphrase is your unique key to the database (the vault); without it, the vault cannot be opened. The passphrase is automatically saved in your Windows keychain and is used to open the vault automatically every time you log in to Windows. However, you must still be able to enter the correct passphrase yourself if you need to open the vault manually (after manually closing it), or if you want to change the passphrase or rotate the vault's encryption keys. THERE IS NO WAY TO RECOVER THE VAULT PASSPHRASE IF YOU LOSE IT, SO STORE IT SECURELY.
 
-Fortsatt startar programmet automatiskt varje gång du loggar in i Windows. Du kan också välja att förhindra den automatiska starten (under Windows Inställningar) och istället starta Key2Pass via Start‑menyn. 
+Thereafter, the program starts automatically every time you log in to Windows. You can also choose to prevent automatic startup (under Windows Settings) and instead start Key2Pass from the Start menu.
 
-Programmet körs helt i bakgrunden och visar endast en nyckelikon i systemfältet. Det finns inget fönster som öppnas automatiskt; all interaktion sker via ikonens snabbmeny och via snabbtangenter.
+The program runs entirely in the background and only displays a key icon in the system tray. No window opens automatically; all interaction takes place through the icon's context menu and through hotkeys.
 
-## Key2Pass (huvudfönster)
-Högerklicka på Key2Pass‑ikonen och välj **Öppna Key2Pass** för att öppna huvudfönstret. Här ser du information om din databas och licensnivå. Du kan också öppna en dialog för att skapa/redigera dina olika login-ID (max 5 st olika), se nedan.
+## Key2Pass (Main Window)
+Right-click the Key2Pass icon and select **Open Key2Pass** to open the main window. Here you can see information about your database and license level. You can also open a dialog to create/edit your different login IDs (up to 5 different IDs), see below.
 
-I huvudfönstret kan du också stänga och öppna (kräver korrekt passfras) valvet (databasen) samt exportera och importera databasen för backup och/eller import till Key2Pass iOS. 
+In the main window, you can also close and open (requires the correct passphrase) the vault (database), as well as export and import the database for backup and/or import to Key2Pass iOS.
 
-Slutligen kan du från huvudfönstret också skapa och redigera alias samt generera lösenord, se nedan.
+Finally, from the main window you can also create and edit aliases and generate passwords, see below.
 
-## Inställningar
-Inställningarna nås via tray‑ikonen:
+## Settings
+Settings are accessed through the tray icon:
 
-* Högerklicka på Key2Pass‑ikonen och välj **Inställningar** för att öppna inställningsdialogen.
-* I dialogen kan du ställa in hur länge ett kopierat lösenord ska ligga kvar i urklipp (kopieringstid), välja krypteringsalgoritm och språk samt visuellt tema.
-* I inställningsdialogen kan du också se och ändra programlicens, uppgradera/nedgradera. Om en Premium licens med fler än 10 alias i databasen nedgraderas så blir endast de 10 första aliasen tillgängliga för fortsatt användning.
-* Du kan byta lösenfras för valvet (databasen), efter att först ange den nuvarande lösenfrasen
-* Du kan, av säkerhetsskäl, också byta krypteringsnycklar för valvet, utan att de genererade lösenorden kommer att påverkas.
+* Right-click the Key2Pass icon and select **Settings** to open the settings dialog.
+* In the dialog, you can set how long a copied password should remain on the clipboard (copy duration), choose the encryption algorithm and language, and select the visual theme.
+* In the settings dialog, you can also view and change the program license, and upgrade/downgrade. If a Premium license with more than 10 aliases in the database is downgraded, only the first 10 aliases will remain available for continued use.
+* You can change the passphrase for the vault (database), after first entering the current passphrase.
+* For security reasons, you can also change the encryption keys for the vault without affecting the generated passwords.
 
-## Skapa nya alias
-Ett alias fungerar som en etikett som tillsammans med en 4‑siffrig PIN‑kod och ditt unika userId genererar ett starkt lösenord, enligt den av dig valda policyn (dvs. regler för lösenordets längd och vilka tecken som får användas). Med licens **Basic** kan du maximalt ha 10 st alias, med licens **Premium** finns ingen begränsning. Du kan skapa nytt alias från aliasfönstret eller från huvudfönstret:
+## Creating New Aliases
+An alias functions as a label which, together with a 4-digit PIN code and your unique userId, generates a strong password according to the policy you selected (i.e. rules for password length and which characters may be used). With the **Basic** license, you can have a maximum of 10 aliases; with the **Premium** license, there is no limit. You can create a new alias from the alias window or from the main window:
 
-1. Placera markören i ett inmatningsfält
-2. Tryck på det globala snabbkommandot **Ctrl+Shift+P** för att öppna aliasfönstret.
-3. Skriv in aliasnamnet (case sensitive). När du har skrivit namnet använder du högerklicksmenyn för att fortsätta.
-4. Högerklicka i fönstret och välj **Nytt alias**. Ett dialogfönster öppnas där du får ange aliasets policy (t.ex. lösenordslängd, teckenklasser) och en 4‑siffrig PIN‑kod. Du kan också ange ett domännamn (valfritt). PIN‑koden och ev domännamn används tillsammans med aliaset för att, på kommando, generera ett unikt lösenord enligt bestämd policy.
-5. När du sparar aliaset genererar programmet automatiskt lösenordet enligt policyn och kopierar det till urklippet. Lösenordet är bara synligt via urklippet under den tid du har ställt in; därefter rensas urklippet.
+1. Place the cursor in an input field.
+2. Press the global keyboard shortcut **Ctrl+Shift+P** to open the alias window.
+3. Enter the alias name (case sensitive). After entering the name, use the right-click menu to continue.
+4. Right-click in the window and select **New Alias**. A dialog window opens where you can specify the alias policy (e.g. password length, character classes) and a 4-digit PIN code. You can also enter a domain name (optional). The PIN code and any domain name are used together with the alias to generate, on command, a unique password according to the defined policy.
+5. When you save the alias, the program automatically generates the password according to the policy and copies it to the clipboard. The password is only visible through the clipboard for the amount of time you have set; after that, the clipboard is cleared.
 
-Du kan också skapa ett nytt alias från huvudfönstret. Klicka på knappen **Nytt alias** för att öppna dialogfönstret för att skapa alias enligt 4. ovan.
+You can also create a new alias from the main window. Click the **New Alias** button to open the dialog window for creating an alias as described in step 4 above.
 
-## Redigera befintliga alias
-Ett befintligt alias kan redigeras eller raderas i redigeringsfönstret som kan öppnas från aliasfönstret eller huvudfönstret.
+## Editing Existing Aliases
+An existing alias can be edited or deleted in the edit window, which can be opened from the alias window or the main window.
 
-1. Placera markören i ett inmatningsfält
-2. Öppna aliasfönstret med **Ctrl+Shift+P** och skriv namnet på det befintliga aliaset (case sensitive).
-3. Högerklicka i aliasfönstret och välj **Redigera alias**. Ett dialogfönster visas där du kan ändra aliasets policy (t.ex. lösenordslängd, teckenklasser) och/eller byta eller behålla 4‑siffrig PIN‑kod.
-4. När du sparar ändringarna uppdateras aliaset. Varje alias använder sin egen PIN‑kod. Om du inte anger ny PIN-kod återanvänds den tidigare PIN-koden för aliaset. Det finns inget sätt att i efterhand se vilken PIN-kod som valts för ett visst alias men koden behöver inte kommas ihåg och matas aldrig in vid användning.
+1. Place the cursor in an input field.
+2. Open the alias window with **Ctrl+Shift+P** and enter the name of the existing alias (case sensitive).
+3. Right-click in the alias window and select **Edit Alias**. A dialog window is displayed where you can change the alias policy (e.g. password length, character classes) and/or change or keep the 4-digit PIN code.
+4. When you save the changes, the alias is updated. Each alias uses its own PIN code. If you do not enter a new PIN code, the previous PIN code for the alias is reused. There is no way to later see which PIN code was chosen for a particular alias, but the code does not need to be remembered and is never entered during use.
 
-Du kan också redigera ett alias från huvudfönstret. Välj ett alias från listan, klicka på knappen **Redigera alias** för att öppna dialogfönstret för att redigera alias enligt 3. ovan.
+You can also edit an alias from the main window. Select an alias from the list, then click the **Edit Alias** button to open the dialog window for editing an alias as described in step 3 above.
 
-## Användning av lagrade användarnamn (login-ID)
-Du kan lagra upp till fem **login-ID** i dialogen som du når från huvudfönstret (Användare1–Användare5). Dessa kopieras enkelt till urklippet med snabbtangenter. Syftet är att underlätta dina inloggningar genom snabbare inmatning. Användare får själv hålla reda på vilka Användarnamn som skall användas för olika inloggningar och bakom vilka snabb-kommandon dessa ligger:
+## Using Stored Usernames (login IDs)
+You can store up to five **login IDs** in the dialog accessible from the main window (User1–User5). These are easily copied to the clipboard with hotkeys. The purpose is to make your logins easier through faster input. Users are responsible for keeping track of which usernames should be used for different logins and which keyboard shortcuts they are assigned to:
 
-* **Ctrl+Shift+1** till **Ctrl+Shift+5** (1–5 från den övre sifferraden) kopierar Användarnamnen.
-* **Ctrl+Alt+NumPad1** till **Ctrl+Alt+NumPad5** gör samma sak via det numeriska tangentbordet.
-* Efter snabbkommandot använder du **Ctrl+V** för att klistra in Användarnamnet i tillhörande fält i inloggningsdialogen.
+* **Ctrl+Shift+1** to **Ctrl+Shift+5** (1–5 from the top number row) copy the usernames.
+* **Ctrl+Alt+NumPad1** to **Ctrl+Alt+NumPad5** do the same thing through the numeric keypad.
+* After using the keyboard shortcut, press **Ctrl+V** to paste the username into the corresponding field in the login dialog.
 
-## Generering av lösenord
-Du kan generera lösenord på följande två sätt, båda via aliasfönstret. I båda fallen är utgångsläget att du placerar markören i det inmatningsfält där lösenordet skall skrivas. Aliasfönstret öppnas alltid tomt — skriv aliaset du vill använda. Om aliaset inte finns visas ett felmeddelande. Tänk då på att aliaset är skiftlägeskänsligt.
+## Generating Passwords
+You can generate passwords in the following two ways, both through the alias window. In both cases, the starting point is that you place the cursor in the input field where the password should be entered. The alias window always opens empty — type the alias you want to use. If the alias does not exist, an error message is displayed. Remember that the alias is case-sensitive.
 
-* 1a) Tryck **Ctrl+Shift+P**, skriv aliaset i fönstret och tryck **Enter** eller 
-* 1b) Tryck **Ctrl+Shift+P**, skriv aliaset i fönstret, **Högerklicka** i fönstret och välj **Generera lösenord**
+* 1a) Press **Ctrl+Shift+P**, type the alias in the window, and press **Enter**, or
+* 1b) Press **Ctrl+Shift+P**, type the alias in the window, **right-click** in the window, and select **Generate Password**.
 
-Du kan också generera lösenord från huvudfönstret genom att välja aktuellt alias från listan och därefter klicka på knappen **Generera lösenord**
+You can also generate passwords from the main window by selecting the relevant alias from the list and then clicking the **Generate Password** button.
 
-Efter att lösenordet genererats återvänder du nu till inloggningsdialogens lösenordsfält och trycker **Ctrl+V** varpå lösenordet kopieras till inmatningsfältet.
+After the password has been generated, return to the password field in the login dialog and press **Ctrl+V**, after which the password is copied into the input field.
 
-Programmet använder aliasets policy och PIN‑kod för att skapa lösenordet och kopierar det till urklippet. Urklippet rensas automatiskt efter den tid du har ställt in.
+The program uses the alias policy and PIN code to create the password and copies it to the clipboard. The clipboard is automatically cleared after the time you have set.
 
-## Om Key2Pass
-Högerklicka på Key2Pass‑ikonen och välj **Om Key2Pass** för att öppna informationsfönstret. Har ser du information om appen, såsom version och aktuell licensnivå. Du kan härifrån också initiera köp av uppgradering eller nedgradering av licensen. Här finns även en länk till Key2Pass supportsida där du hittar mer information och kan rapportera felaktigheter.
+## About Key2Pass
+Right-click the Key2Pass icon and select **About Key2Pass** to open the information window. Here you can see information about the app, such as the version and current license level. From here, you can also initiate the purchase of a license upgrade or downgrade. There is also a link to the Key2Pass support page, where you can find more information and report issues.
 
-## Avsluta
-För att tillfälligt avsluta Key2Pass, högerklicka på Key2Pass‑ikonen i systemmenyn och välj **Avsluta**. Appen kan återstartas manuellt under samma Windowssession genom att starta det från Startmenyn. Passfrasen till valvet hämtas då från Windows nyckel kedja.
+## Exit
+To temporarily exit Key2Pass, right-click the Key2Pass icon in the system tray and select **Exit**. The app can be restarted manually during the same Windows session by starting it from the Start menu. The vault passphrase is then retrieved from the Windows keychain.
 
-## Backup och återställning
-För att skydda dina alias bör du regelbundet exportera aliaslistan till en backupfil och kunna importera den senare om det behövs. Backupen innehåller all information som behövs för att du skall kunna använda dina alias till att generera korrekta lösenord, efter att filen har importerats till någon av Key2Pass plattformar. Backupfilen krypteras via ett lösenord som du anger vid exporten. VAR MYCKET NOGA MED ATT DU KOMMER IHÅG DETTA LÖSENORD. DET FINNS INGET SÄTT ATT KOMMA ÅT INNEHÅLLET I FILEN UTAN TILLGÅNG TILL DETTA LÖSENORD OCH DET FINNS INGET SÄTT ATT ÅTERVINNA LÖSENORDET OM DU FÖRLORAT DET.
+## Backup and Restore
+To protect your aliases, you should regularly export the alias list to a backup file and be able to import it later if needed. The backup contains all the information needed for you to use your aliases to generate the correct passwords after the file has been imported to one of the Key2Pass platforms. The backup file is encrypted using a password that you enter during export. BE VERY CAREFUL TO REMEMBER THIS PASSWORD. THERE IS NO WAY TO ACCESS THE CONTENTS OF THE FILE WITHOUT THIS PASSWORD, AND THERE IS NO WAY TO RECOVER THE PASSWORD IF YOU LOSE IT.
 
-* **Exportera portabel fil [Premium och Basic]:** För backup och eller överföring till annan Windows installation. Öppna huvudfönstret och välj knappen **Exportera portabel fil** Du väljer plats och filnamn (förslaget är *backup.portable.json*) och anger ett fillösenord två gånger. Filen blir krypterad och kan öppnas på andra Key2Pass plattformar med fillösenordet. Förvara fillösenordet säkert – det kan inte återställas och filen kan inte öppnas utan detta lösenord.
+* **Export Portable File [Premium and Basic]:** For backup and/or transfer to another Windows installation. Open the main window and select the **Export Portable File** button. You choose the location and file name (the suggested name is *backup.portable.json*) and enter a file password twice. The file is encrypted and can be opened on other Key2Pass platforms with the file password. Store the file password securely – it cannot be recovered and the file cannot be opened without this password.
 
-* **Synk-export [Premium]:** För export till annan plattform, inklusive iOS med kryptering AES-CBC + HMAC. Öppna huvudfönstret och välj knappen **Synk-export**. Du väljer filplats och namn (förslaget är *sync.k2s*) och anger ett fillösenord två gånger. Du väljer dessutom krypteringsmetod (AES-CBC + HMAC för iOS). Filen blir krypterad och kan öppnas på andra Key2Pass plattformar med fillösenordet. Förvara fillösenordet säkert – det kan inte återställas och filen kan inte öppnas utan detta lösenord.
+* **Sync Export [Premium]:** For export to another platform, including iOS, with AES-CBC + HMAC encryption. Open the main window and select the **Sync Export** button. You choose the file location and name (the suggested name is *sync.k2s*) and enter a file password twice. You also choose the encryption method (AES-CBC + HMAC for iOS). The file is encrypted and can be opened on other Key2Pass platforms with the file password. Store the file password securely – it cannot be recovered and the file cannot be opened without this password.
 
-* **Importera portabel fil [Premium och Basic]:** För att återställa hela databasen från en backup, eller läsa in databasen till en ny enhet, väljer du **Importera portabel fil** i huvudfönstret och väljer JSON‑filen du vill läsa in. Importen skall göras till en nyinstallerat version av Key2Pass med en tom databas. Import till en befintlig databas kommer att misslyckas om alias från backupen redan finns i databasen. Om backupen enbart innehåller nya alias som inte redan finns i databasen kommer importen att genomföras. Dock kommer sannolikt de nya aliasen att generera andra lösenord än vad de gjorde tidigare.
+* **Import Portable File [Premium and Basic]:** To restore the entire database from a backup, or load the database onto a new device, select **Import Portable File** in the main window and choose the JSON file you want to load. The import should be performed into a newly installed version of Key2Pass with an empty database. Importing into an existing database will fail if aliases from the backup already exist in the database. If the backup only contains new aliases that are not already in the database, the import will be completed. However, the new aliases will likely generate different passwords than they did previously.
 
-* **Synk-import [Premium och Basic]:** För att uppdatera databasen från en backup eller läsa in databasen till en ny enhet klickar du **Synk-import** i huvudfönstret och väljer synk‑filen du vill läsa in. Vid befintliga alias kommer senaste version att behållas i databasen efter importen. Vill du läsa in en äldre aliasversion från backup måste du därför först radera det senare alias från databasen.
+* **Sync Import [Premium and Basic]:** To update the database from a backup or load the database onto a new device, click **Sync Import** in the main window and choose the sync file you want to load. For existing aliases, the latest version will be retained in the database after import. If you want to load an older alias version from the backup, you must therefore first delete the later alias from the database.
 
-## Installation av ny Key2Pass version
-En ny större programversion kan installeras utan att den tidigare versionen tas bort, detta görs då, efter ditt godkännande, automatiskt av installeraren Med större programversion avses en ändring av någon av de tre första versionssiffrorna (t ex från version 1.0.1 till version 1.0.2). 
+## Installing a New Key2Pass Version
+A new major program version can be installed without removing the previous version; this is then done automatically by the installer after your approval. A major program version means a change to one of the first three version numbers (e.g. from version 1.0.1 to version 1.0.2).
 
-***Observera att vid installation av ny större version utan att den tidigare versionen först avinstalleras så återanvänds befintlig databas! Som extra säkerhet rekommenderas du ändå ALLTID att TA EN AKTUELL BACKUP via export-kommandot INNAN INSTALLATIONEN PÅBÖRJAS!***
+***Note that when installing a new major version without first uninstalling the previous version, the existing database is reused! As an extra precaution, you are nevertheless recommended to ALWAYS MAKE A CURRENT BACKUP using the export command BEFORE STARTING THE INSTALLATION!***
 
-Om du väljer att först avinstallera Key2Pass via Start-menyns Inställningar så kommer även databasen att raderas. För att då kunna återinstallera Key2Pass och återställa dina alias-data krävs att du har tillgång till en backupfil och dess fillösenord.
+If you choose to first uninstall Key2Pass through the Start menu Settings, the database will also be deleted. To then reinstall Key2Pass and restore your alias data, you must have access to a backup file and its file password.
 
-Tagna backuper skall förvaras på säker plats och lösenorden till backupfilerna skall bevaras på säkert sätt.
+Backups should be stored in a secure place and the passwords for backup files should be kept securely.
 
-Efter ny installation kan Key2Pass behöva startas manuellt via Start-menyn innan programikonen dyker upp i systemfältet och snabbkommandot Ctrl+Shift+P åter fungerar.
+After a new installation, Key2Pass may need to be started manually from the Start menu before the program icon appears in the system tray and the Ctrl+Shift+P keyboard shortcut works again.
 
-## Fullständig avinstallation av Key2Pass
-Om du inte längre vill använda Key2Pass eller av andra skäl helt vill avinstallera Key2Pass så gör du detta via Start-meny. Öppna Inställningar - Appar - Key2Pass och välj Avinstallera. Alla delar av Key2Pass, utom de backup-filer som du själv skapat och sparat på säker plats, kommer då att raderas från datorn.
+## Complete Uninstallation of Key2Pass
+If you no longer want to use Key2Pass, or for any other reason want to completely uninstall Key2Pass, do this through the Start menu. Open Settings - Apps - Key2Pass and select Uninstall. All parts of Key2Pass, except the backup files you created yourself and stored in a secure place, will then be deleted from the computer.
 
-## Tips för säkerhet och användning
+## Tips for Security and Use
 
-* Genom att kunna associera ett visst, skiftlägeskänsligt alias med en viss tjänsteinloggning så slipper du komma ihåg säkra, krångliga lösenord, de genereras istället åt dig vid behov
-* Välj alltid **unika aliasnamn** och **starka 4‑siffriga PIN‑koder**. Dela inte dina alias eller PIN‑koder med andra.
-* För att byta genererat lösenordet, om detta krävs av säkerhetsskäl, så räcker det att ändra PIN-koden. Ett helt nytt lösenord genereras då, associerat med samma alias som tidigare och med bibehållen policy.
-* Byt aliaspolicys (t.ex. längd eller teckenklasser) enkelt om säkerhetskraven ändras, samma alias kan behållas.
-* Var försiktig med globala snabbtangenter om du delar dator; lösenord kopieras till urklippet och rensas efter en tidsgräns, men lämna inte datorn obevakad under denna period.
-* Förvara dina backupfiler på en säker plats och kom ihåg fillösenorden
-* Kontrollera regelbundet att du har den senaste versionen av programmet för att få säkerhetsuppdateringar och nya funktioner.
+* By being able to associate a specific, case-sensitive alias with a specific service login, you do not need to remember secure, complicated passwords; they are generated for you when needed.
+* Always choose **unique alias names** and **strong 4-digit PIN codes**. Do not share your aliases or PIN codes with others.
+* To change the generated password, if this is required for security reasons, it is enough to change the PIN code. A completely new password is then generated, associated with the same alias as before and with the same policy retained.
+* Change alias policies (e.g. length or character classes) easily if security requirements change; the same alias can be retained.
+* Be careful with global hotkeys if you share a computer; passwords are copied to the clipboard and cleared after a time limit, but do not leave the computer unattended during this period.
+* Store your backup files in a secure place and remember the file passwords.
+* Regularly check that you have the latest version of the program to receive security updates and new features.
 
-Detta avslutar manualen för Key2Pass Windowsversion. Alla funktioner kan nås via systemfältet och snabbkommandon, vilket gör verktyget diskret och effektivt.
+This concludes the manual for the Key2Pass Windows version. All functions can be accessed through the system tray and keyboard shortcuts, making the tool discreet and efficient.
