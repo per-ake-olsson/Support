@@ -23,9 +23,7 @@ Contact us by email:
 #### Test data and instructions for testers
 Download test databases and test materials using the zip files available from the links below. Open the zip files and save the files in a suitable location. From there, you can import the databases into the Key2Pass app using the main window, which you open by right-clicking the Key2Pass tray icon. The test data is intended for testing only and must not be used in a production environment. Testing and feedback on functionality and usability are requested.
 
-[Download Basic test database and test materials](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Eng/downloads/key2pass_test_Basic.zip)
-
-[Download Premium test database and test materials](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Eng/downloads/key2pass_test_Premium.zip)
+[Download Key2Pass test database and test materials](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Eng/downloads/key2pass_win_eng_test.zip)
 
 
 ---
