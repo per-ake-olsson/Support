@@ -25,7 +25,7 @@ Kontakta oss via epost:
 #### Testdata och instruktioner för testare
 Ladda ner testdatabas och testunderlag via zip:en som du når via länken nedan. Öppna zip:en och spara båda filerna på lämplig plats. Därifrån kan du importera databasen till Key2Pass appen, via huvudfönstret som du öppnar via högerklick på Key2Pass tray-ikon. Testdata är endast avsedda för testning och ska inte användas i produktionsmiljö. Test och återkoppling önskas avseende funktionalitet och användbarhet.
 
-[Ladda ner testdatabas och testunderlag](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/Key2Pass_Win_testunderlag.zip)
+[Ladda ner testdatabas och testunderlag](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/key2pass_win_swe_test.zip)
 
 
 ---
