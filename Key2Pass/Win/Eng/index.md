@@ -11,7 +11,7 @@ This page contains usage and support information with contact details, test data
 
 [Read End-User License Agreement](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Eng/downloads/Key2Pass_EULA_Eng)  &nbsp;&nbsp;  [( Download PDF )](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Eng/downloads/Key2Pass_EULA_Eng.pdf)
 
-[Read User Manual](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/Key2Pass_manual_Eng)   &nbsp;&nbsp;  [( Download PDF )](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Eng/downloads/Key2Pass_manual_Eng.pdf)
+[Read User Manual](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Eng/downloads/Key2Pass_manual_Eng)   &nbsp;&nbsp;  [( Download PDF )](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Eng/downloads/Key2Pass_manual_Eng.pdf)
 
 
 ---
