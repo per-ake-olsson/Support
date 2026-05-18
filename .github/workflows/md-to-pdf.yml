@@ -5,7 +5,10 @@ on:
     branches:
       - main
     paths:
+      # Watch Swedish documentation markdown files
       - 'Key2Pass/Win/Swe/downloads/**/*.md'
+      # Watch English documentation markdown files
+      - 'Key2Pass/Win/Eng/downloads/**/*.md'
   workflow_dispatch:
 
 jobs:
@@ -30,9 +33,11 @@ jobs:
           set -euo pipefail
 
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            mapfile -t files < <(find Key2Pass/Win/Swe/downloads -maxdepth 1 -name '*.md' -print)
+            # Collect all .md files in both language folders for manual runs
+            mapfile -t files < <(find Key2Pass/Win/Swe/downloads Key2Pass/Win/Eng/downloads -maxdepth 1 -name '*.md' -print)
           else
-            mapfile -t files < <(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'Key2Pass/Win/Swe/downloads/*.md')
+            # Collect only the changed .md files in both language folders on push events
+            mapfile -t files < <(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'Key2Pass/Win/Swe/downloads/*.md' 'Key2Pass/Win/Eng/downloads/*.md')
           fi
 
           if [ ${#files[@]} -eq 0 ]; then
@@ -44,10 +49,9 @@ jobs:
           for file in "${files[@]}"; do
             echo "Converting ${file}"
             pandoc "${file}" -o "${file%.md}.pdf" -V geometry:top=20mm -V geometry:left=15mm -V geometry:right=15mm -V geometry:bottom=20mm
-
           done
 
-          # Kontrollera om några PDF-filer har lagts till eller ändrats
+          # Check if any PDF files have been added or changed
           if git status --porcelain | grep -q '.pdf$'; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
@@ -58,6 +62,9 @@ jobs:
         if: steps.generate.outputs.changed == 'true'
         uses: EndBug/add-and-commit@v9
         with:
-          add: 'Key2Pass/Win/Swe/downloads/*.pdf'
+          # Add both Swedish and English PDF outputs to the commit
+          add: |
+            Key2Pass/Win/Swe/downloads/*.pdf
+            Key2Pass/Win/Eng/downloads/*.pdf
           message: 'chore: auto-generate PDF for updated manuals'
           default_author: github_actions
