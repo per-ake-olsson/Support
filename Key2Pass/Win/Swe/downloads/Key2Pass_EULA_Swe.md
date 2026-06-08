@@ -26,7 +26,7 @@ Utgivaren kan tillhandahålla uppdateringar eller uppgraderingar. Sådana omfatt
 
 ## **6. Dataskydd**
 
-Programvaran behandlar endast de uppgifter du själv anger och lagrar dem inte utanför din enhet. Utgivaren samlar inte in personuppgifter via Programvaran utan ditt uttryckliga medgivande. Du ansvarar för att användningen sker i enlighet med gällande dataskyddslagstiftning.
+Programvaran behandlar endast de uppgifter du själv anger och lagrar dem inte utanför din enhet. Utgivaren samlar inte in personuppgifter via Programvaran utan ditt uttryckliga medgivande. Du ansvarar för hur uppgifter som lagras i Programvaran används och skyddas på den egna enheten.
 
 ## **7. Garanti**
 
