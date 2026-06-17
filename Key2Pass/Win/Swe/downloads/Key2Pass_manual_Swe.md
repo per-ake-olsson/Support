@@ -30,7 +30,7 @@ Inställningarna nås via tray‑ikonen:
 
 * Högerklicka på Key2Pass‑ikonen och välj **Inställningar** för att öppna inställningsdialogen.
 * I dialogen kan du ställa in hur länge ett kopierat lösenord ska ligga kvar i urklipp (kopieringstid), välja krypteringsalgoritm och språk samt visuellt tema.
-* I inställningsdialogen kan du också se och ändra programlicens, uppgradera/nedgradera. Om en Premium licens med fler än 10 alias i databasen nedgraderas så blir endast de 10 första aliasen tillgängliga för fortsatt användning.
+* I inställningsdialogen kan du också se och uppgradera programlicens, från Basic till Premium.
 * Du kan byta lösenfras för valvet (databasen), efter att först ange den nuvarande lösenfrasen
 * Du kan, av säkerhetsskäl, också byta krypteringsnycklar för valvet, utan att de genererade lösenorden kommer att påverkas.
 
@@ -75,7 +75,7 @@ Efter att lösenordet genererats återvänder du nu till inloggningsdialogens l�
 Programmet använder aliasets policy och PIN‑kod för att skapa lösenordet och kopierar det till urklippet. Urklippet rensas automatiskt efter den tid du har ställt in.
 
 ## Om Key2Pass
-Högerklicka på Key2Pass‑ikonen och välj **Om Key2Pass** för att öppna informationsfönstret. Har ser du information om appen, såsom version och aktuell licensnivå. Du kan härifrån också initiera köp av uppgradering eller nedgradering av licensen. Här finns även en länk till Key2Pass supportsida där du hittar mer information och kan rapportera felaktigheter.
+Högerklicka på Key2Pass‑ikonen och välj **Om Key2Pass** för att öppna informationsfönstret. Har ser du information om appen, såsom version och aktuell licensnivå. Du kan härifrån också initiera köp av uppgradering av licensen. Här finns även en länk till Key2Pass supportsida där du hittar mer information och kan rapportera felaktigheter.
 
 ## Avsluta
 För att tillfälligt avsluta Key2Pass, högerklicka på Key2Pass‑ikonen i systemmenyn och välj **Avsluta**. Appen kan återstartas manuellt under samma Windowssession genom att starta det från Startmenyn. Passfrasen till valvet hämtas då från Windows nyckel kedja.
