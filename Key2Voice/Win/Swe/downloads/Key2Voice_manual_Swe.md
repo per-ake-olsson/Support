@@ -156,7 +156,7 @@ Key2Voice för Windows har två licensnivåer:
 | Skapa krypterad **Synkexport** för iPhone | Nej | Ja |
 | Använda iPhone-/Watch-kompanjonen efter korrekt synkimport | Kräver synkfil skapad från Windows Premium | Ja, via synkexport |
 
-**Premium ger inte tillgång till ett Azure-konto och betalar inte dina Azure-kostnader.**
+**Premium ger inte automatiskt tillgång till ett Azure-konto och betalar inte dina Azure-kostnader.**
 
 ### Innan du köper Premium
 
@@ -166,11 +166,11 @@ Verifiera först i **Basic** att din egen Azure Speech-resurs fungerar i praktik
 
 Premium köps via Microsoft Store-funktionen i Key2Voice. Öppna programmets licens- eller **Om Key2Voice**-vy och följ anvisningarna för uppgradering. Köp och rättighet kontrolleras av Microsoft Store; ett köpkvitto eller en återställd databas är inte ensamt ett bevis på att Premium är aktivt på den aktuella installationen.
 
-Om ett köp slutförts men Premium ännu inte kan bekräftas kan en nyare version visa **Kontrollera Premium igen**. Den funktionen kontrollerar ett redan genomfört köp utan att starta ett nytt. Om den inte visas eller problemet kvarstår, kontrollera Microsoft Store-kontot och kontakta support utan att skicka betalningshemligheter.
+Om ett köp slutförts men Premium ännu inte kan bekräftas kan Key2Voice visa **Kontrollera Premium igen**. Den funktionen kontrollerar ett redan genomfört köp utan att starta ett nytt. Om den inte visas eller problemet kvarstår, kontrollera Microsoft Store-kontot och kontakta support utan att skicka betalningshemligheter.
 
 ## Synkronisera med iPhone och Apple Watch
 
-Key2Voice för iPhone använder en **krypterad synkfil** från Windows för att få den konfiguration som behövs, inklusive Azure Speech-uppgifter. **Synkexport från Windows kräver Premium.** iPhone- och Watch-apparna har inte ett separat Windows-Premium-köp.
+Key2Voice för iPhone använder en **krypterad synkfil** från Windows för att få den konfiguration som behövs, inklusive Azure Speech-uppgifter. **Synkexport från Windows kräver Premium.** iPhone- och Watch-apparna har inte ett separat Premium-köp.
 
 ### Skapa synkfil i Windows
 
@@ -180,7 +180,7 @@ Key2Voice för iPhone använder en **krypterad synkfil** från Windows för att 
 4. Ange ett starkt **fillösenord** när programmet begär det. Förvara lösenordet säkert.
 5. För över filen till iPhone på ett sätt du själv kontrollerar, exempelvis via en lämplig filöverföringsfunktion.
 
-I Basic visas Synkexport som en Premiumfunktion men kan inte användas för att skapa en ny synkfil.
+I Basic visas Synkexport som en "grå" Premiumfunktion men kan inte användas för att skapa en ny synkfil.
 
 ### Importera på iPhone
 
@@ -203,12 +203,12 @@ Key2Voice har **portabel export och import** för säkerhetskopiering och åters
 1. Öppna Key2Voices huvudfönster.
 2. Välj funktionen för **portabel export**.
 3. Välj lagringsplats och filnamn enligt dialogen.
-4. Ange det exportlösenord som efterfrågas och bevara det på en säker plats.
+4. Ange på efterfrågan ett starkt lösenord till säkerhetskopian och bevara det på en säker plats.
 5. Kontrollera att filen skapats och förvara den skyddat, gärna skilt från datorn.
 
 ### Återställ från en portabel säkerhetskopia
 
-1. Se till att du har den portabla exportfilen och **lösenordet som användes när filen skapades**.
+1. Se till att du har säkerhetskopian och **lösenordet som användes när filen skapades**.
 2. Öppna Key2Voice på den installation där uppgifterna ska återställas.
 3. Välj funktionen för **portabel import** och peka ut filen.
 4. Ange exportfilens lösenord när programmet begär det.
@@ -220,7 +220,7 @@ En portabel säkerhetskopia och en synkfil har olika syften: **portabel export**
 
 ## Inställningar och Om Key2Voice
 
-I **Inställningar** hanterar du bland annat Azure Speech-uppgifter, språkval och tillgängliga säkerhets-/programinställningar. Vilka alternativ som visas kan bero på version och produktionsprofil.
+I **Inställningar** hanterar du bland annat Azure Speech-uppgifter, språkval och tillgängliga säkerhets-/programinställningar. Vilka alternativ som visas kan bero på version.
 
 I **Om Key2Voice** hittar du information om programmet och aktuell licensstatus samt vägar till support och eventuellt Premium-köp. Kontrollera alltid licensstatus i själva programmet efter köp eller återställning.
 
