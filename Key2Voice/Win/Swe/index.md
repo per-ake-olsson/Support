@@ -1,11 +1,11 @@
 ## **Key2Voice** - Voice Enhancer
 Copyright 2026 Eureka Consulting AB
 
-Key2Pass är ett multiplattform offlineverktyg för deterministisk lösenordsgenerering. Windows‑appen har två lägen, Basic och Premium. Startläget Basic är gratis och har begränsad funktionalitet. Genom köp i appen kan du låsa upp Premium läget och få full funktionalitet. Lösenorden lagras inte i något läge utan genereras vid behov.
+Key2Voice är ett multiplattform hjälpmedel för ökad tal- och språkuppfattning. Appen "lyssnar" via  Windows‑appen har två lägen, Basic och Premium. Startläget Basic är gratis och har begränsad funktionalitet. Genom köp i appen kan du låsa upp Premium läget och få full funktionalitet.
 
 I Basic läge kan du skapa och underhålla upp till 10 alias samt exportera och importera lokala, okrypterade filer för backup. I Premium läget kan du hantera obegränsat antal alias samt skapa en krypterad aliasdatabas som iOS‑appen kan importera för att återgenerera identiska lösenord lokalt på enheten.
 
-Denna sida innehåller användnings- och supportinformation med kontaktuppgifter, testdata och integritetspolicy för Key2Pass Windows. Klicka på någon av länkarna för mer information.
+Denna sida innehåller användnings- och supportinformation med kontaktuppgifter, testdata och integritetspolicy för Key2Voice Windows. Klicka på någon av länkarna för mer information.
 
 
 [Läs Licensavtal för slutanvändare](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/Key2Pass_EULA_Swe)  &nbsp;&nbsp;  [( Ladda ner PDF )](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/Key2Pass_EULA_Swe.pdf)
