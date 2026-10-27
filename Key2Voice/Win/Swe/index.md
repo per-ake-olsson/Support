@@ -1,9 +1,14 @@
 ## **Key2Voice** - Voice Enhancer
 Copyright 2026 Eureka Consulting AB
 
-Key2Voice är ett multiplattform hjälpmedel för ökad tal- och språkuppfattning. Appen "lyssnar" via  Windows‑appen har två lägen, Basic och Premium. Startläget Basic är gratis och har begränsad funktionalitet. Genom köp i appen kan du låsa upp Premium läget och få full funktionalitet.
+Key2Voice är ett multiplattform hjälpmedel för ökad tal- och språkuppfattning. Appen "lyssnar" via datorns mikrofon och omvandlar (transkriberar) det tal den uppfattar till text via en molntjänst som heter Microsoft Azure Speech. Texten skrivs i realtid på skärmen, med möjlighet att välja textformat. Windows‑appen har två lägen, Basic och Premium. Startläget Basic är gratis och har begränsad funktionalitet. Genom köp i appen kan du låsa upp Premium läget och få full funktionalitet.
 
-I Basic läge kan du skapa och underhålla upp till 10 alias samt exportera och importera lokala, okrypterade filer för backup. I Premium läget kan du hantera obegränsat antal alias samt skapa en krypterad aliasdatabas som iOS‑appen kan importera för att återgenerera identiska lösenord lokalt på enheten.
+I Basic läge kan du använda Key2Voice på en Windowsdator. I läge Premium kan du dessutom konfigurera och exportera data för självständig transkribering även på iPhone/iWatch eller iPad
+
+
+
+
+skapa och underhålla upp till 10 alias samt exportera och importera lokala, okrypterade filer för backup. I Premium läget kan du hantera obegränsat antal alias samt skapa en krypterad aliasdatabas som iOS‑appen kan importera för att återgenerera identiska lösenord lokalt på enheten.
 
 Denna sida innehåller användnings- och supportinformation med kontaktuppgifter, testdata och integritetspolicy för Key2Voice Windows. Klicka på någon av länkarna för mer information.
 
