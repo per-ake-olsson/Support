@@ -47,7 +47,7 @@ Läs först **Skapa ett Microsoft Azure-konto** (svensk separat guide i `Key2Voi
 4. Starta Key2Voice via Windows Start-meny när installationen är klar.
 5. Om Windows frågar om mikrofonbehörighet, ge åtkomst om du vill transkribera via mikrofon.
 
-Installations- och licensdialogernas utseende kan variera med Windows- och Store-version. Använd inte eventuella utvecklings-/testpaket som ersättning för den ordinarie Store-versionen.
+Installations- och licensdialogernas utseende kan variera med Windows- och Store-version.
 
 ## Första starten och valvet
 
@@ -88,7 +88,7 @@ Gör detta **innan du köper Premium**.
 
 1. Kontrollera att datorn är ansluten till internet och att mikrofonen fungerar i Windows.
 2. Öppna **Tal till text** i Key2Voice.
-3. Välj **mikrofon** som ljudkälla och välj **svenska** som inkommande talspråk.
+3. Välj **mikrofon** som ljudkälla och välj **svenska** som inkommande talspråk (görs i Inställningar).
 4. Starta transkriberingen med fönstrets startkommando.
 5. Läs upp en tydlig mening, exempelvis: *”Det här är ett test av taligenkänningen i Key2Voice.”*
 6. Kontrollera att text visas i transkriberingsfönstret.
@@ -100,7 +100,7 @@ Om du får begriplig text från ditt tal har du verifierat den grundläggande ke
 
 ## Tal till text – daglig användning
 
-I den vanliga Windows Production-versionen är **Tal till text** den tillgängliga talfunktionen. Andra experimentella ljud- och talfunktioner kan förekomma i utvecklingsversioner men ingår inte i denna manual.
+I Windows versionen är **Tal till text** den tillgängliga talfunktionen.
 
 ### Välj ljudkälla
 
@@ -114,11 +114,11 @@ Välj rätt källa i **Tal till text** innan du startar. För systemljud måste 
 
 ### Starta, stoppa och fortsätt
 
-1. Välj ljudkälla och språk.
+1. Välj ljudkälla (språk väljs under Inställningar).
 2. Starta transkriberingen.
 3. Följ den text som visas medan talet behandlas.
 4. Stoppa när du är klar.
-5. Använd funktionerna för att spara, hämta och fortsätta med tidigare transkriptioner när det är lämpligt.
+5. Använd funktionerna för att spara, hämta, redigera och fortsätta med tidigare transkriptioner när det är lämpligt.
 
 Taligenkänningens kvalitet påverkas av bakgrundsljud, mikrofon, taltydlighet, språkval och Azure-tjänstens tillgänglighet.
 
@@ -130,7 +130,7 @@ Key2Voice har separata val för **inkommande talspråk** och **utgående textspr
 - Vill du få svensk text från exempelvis engelskt tal, välj **engelska** som inkommande språk och **svenska** som utgående textspråk.
 - Kontrollera resultatet innan du använder en översättning i ett viktigt sammanhang. Automatiska översättningar kan innehålla fel.
 
-**Automatiskt språkval** ska inte förutsättas fungera i den vanliga produktionsversionen; välj ett uttryckligt språk. Översättning kan innebära ytterligare behandling i Azure och omfattas av Microsofts aktuella villkor och prissättning.
+**Automatiskt språkval** ska inte förutsättas fungera i denna version; välj ett uttryckligt språk. Översättning kan innebära ytterligare behandling i Azure och omfattas av Microsofts aktuella villkor och prissättning.
 
 ## Spara och hantera transkriptioner
 
