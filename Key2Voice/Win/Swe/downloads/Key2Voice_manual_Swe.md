@@ -43,7 +43,7 @@ Läs först **Skapa ett Microsoft Azure-konto** (svensk separat guide i `Key2Voi
 
 1. Öppna **Microsoft Store** på Windows-datorn.
 2. Sök efter **Key2Voice** och kontrollera att du har valt rätt app från **Eureka Consulting AB**.
-3. Välj **Hämta** eller **Installera**. Grundversionen **Basic** är avsedd att kunna användas utan Premium-köp.
+3. Välj **Hämta** eller **Installera**. Grundversionen **Basic** är gratis och avsedd att kunna användas utan Premium-köp.
 4. Starta Key2Voice via Windows Start-meny när installationen är klar.
 5. Om Windows frågar om mikrofonbehörighet, ge åtkomst om du vill transkribera via mikrofon.
 
