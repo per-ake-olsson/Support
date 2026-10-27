@@ -9,7 +9,7 @@
 
 ## Syfte
 
-Key2Voice hjälper dig att omvandla tal till läsbar text. Windows-versionen är huvudplattformen: här konfigurerar du Azure Speech, använder **Tal till text**, hanterar dina transkriptioner och gör säkerhetskopior. Med Premium kan du även skapa en krypterad synkfil för iPhone-appen. Den här manualen gäller den vanliga **Windows Production-versionen**, inte utvecklings- och testfunktioner.
+Key2Voice hjälper dig att omvandla tal till läsbar text. Windows-versionen är huvudplattformen: här konfigurerar du Azure Speech, använder **Tal till text**, hanterar dina transkriptioner och gör säkerhetskopior. Med Premium kan du även skapa en krypterad synkfil för iPhone-appen. Den här manualen gäller **Windows-versionen**, inte iOS-versionen.
 
 ## Innehåll
 
