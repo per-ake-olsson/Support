@@ -248,7 +248,7 @@ Vid kvarstående problem: notera programversion, Windows-version, vad du gjorde 
 - Skydda Azure-nycklar och lösenord; förvara säkerhetskopior på ett tryggt sätt.
 - Dela inte synkfiler eller portabla exportfiler med obehöriga, även om de är krypterade.
 - Använd inte automatiskt transkriberad eller översatt text som enda underlag för viktiga medicinska, juridiska eller säkerhetskritiska beslut.
-- Den ordinarie Production-versionen ska inte automatiskt skapa egna diagnostikloggar; det utesluter inte Microsofts eller operativsystemets egen tjänstebehandling.
+- Key2Voice skapar inte egna diagnostikloggar; det utesluter inte Microsofts eller operativsystemets egen tjänstebehandling.
 
 ## Uppdatering och support
 
