@@ -1,11 +1,11 @@
 # Key2Voice Windows – användarmanual
 
 **Eureka Consulting AB**  
-**Svenskt original – första utkast, version 0.1 (27 oktober 2026)**
+**Svenskt original – arbetsversion 0.2 (27 oktober 2026)**
 
 > **Viktigt innan du börjar:** Key2Voice använder Microsofts molntjänst **Azure Speech** för taligenkänning och översättning. Du behöver en fungerande egen Azure Speech-resurs, rätt region och en giltig nyckel samt internetanslutning för att använda dessa funktioner. Azure är en separat tjänst som kan medföra kostnader. **Köp inte Key2Voice Premium innan du har konfigurerat din egen Azure Speech-resurs och verifierat att taligenkänningen fungerar i Key2Voice Basic.**
 >
-> Behöver du skapa Microsoft-konto, Azure-prenumeration eller Speech-resurs? Följ den separata svenska guiden **Skapa ett Microsoft Azure-konto**. Den här manualen beskriver hur du använder ett redan skapat Azure-konto i Key2Voice.
+> Behöver du skapa Microsoft-konto, Azure-prenumeration eller Speech-resurs? Följ den separata svenska guiden [**Azure Speech-guiden**](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Swe/Azure-Speech-guide). Den här manualen beskriver hur du använder ett redan skapat Azure-konto i Key2Voice.
 
 ## Syfte
 
@@ -31,13 +31,13 @@ Key2Voice hjälper dig att omvandla tal till läsbar text. Windows-versionen är
 
 ## Innan du börjar
 
-Du behöver en Windows-dator där Key2Voice kan installeras, en fungerande internetanslutning och en egen Azure Speech-resurs. För tal från mikrofon behöver du en mikrofon som fungerar i Windows. För ljud från datorn behöver rätt ljudkälla vara tillgänglig.
+Du behöver en Windows-dator där Key2Voice kan installeras, en fungerande internetanslutning och en egen Azure Speech-resurs. För tal från mikrofon behöver du en mikrofon som fungerar i Windows. 
 
 **Azure och Key2Voice är två skilda tjänster.** Key2Voice Premium är en licens för programfunktioner; den omfattar **inte** Azure-prenumeration eller förbrukningskostnader. Kontrollera Microsofts aktuella villkor och priser i Azure-portalen.
 
 ### Om du inte redan har Azure Speech
 
-Läs först **Skapa ett Microsoft Azure-konto** (svensk separat guide i `Key2Voice/Azure/Swe/`). Den visar hur du skapar Microsoft-konto vid behov, registrerar dig för Azure, ordnar en prenumeration, skapar en Speech-resurs och hittar dess nyckel och region. Återvänd sedan hit.
+Läs först [**Azure Speech-guiden**](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Swe/Azure-Speech-guide). Den visar hur du skapar Microsoft-konto vid behov, registrerar dig för Azure, ordnar en prenumeration, skapar en Speech-resurs och hittar dess nyckel och region. Återvänd sedan hit.
 
 ## Installation
 
@@ -59,6 +59,12 @@ Key2Voice använder ett lokalt **valv** för att skydda konfiguration och sparad
 4. Kontrollera att licensnivån är **Basic** om du inte redan har en giltig Premium-rättighet.
 
 **Viktigt:** Om du förlorar passfrasen kan återställning av krypterade uppgifter vara omöjlig. Eureka Consulting AB kan inte återskapa din privata passfras. Gör regelbundna säkerhetskopior enligt avsnittet nedan.
+
+### När Key2Voice arbetar med krypterade uppgifter
+
+Key2Voice skyddar valvet och sparade uppgifter med kraftfull kryptering. Vissa moment kan därför ta **märkbart längre tid** än vanliga knapptryckningar, beroende på datorn och mängden data. Det gäller exempelvis när programmet startar, när valvet öppnas, när sparade transkriptioner hämtas samt vid lösenordsbyte eller omkryptering av valvet (så kallad **KDF-rotation**).
+
+Under sådana moment visar Key2Voice en **aktivitetsindikator** som talar om att arbete pågår. Vänta tills operationen är klar. Undvik att stänga programmet eller avbryta datorn mitt under en säkerhetskritisk åtgärd. Om indikatorn verkar stå stilla ovanligt länge, notera vad du gjorde och kontakta support i stället för att upprepa samma åtgärd flera gånger.
 
 ## Konfigurera befintlig Azure Speech-resurs
 
@@ -88,7 +94,7 @@ Gör detta **innan du köper Premium**.
 
 1. Kontrollera att datorn är ansluten till internet och att mikrofonen fungerar i Windows.
 2. Öppna **Tal till text** i Key2Voice.
-3. Välj **mikrofon** som ljudkälla och välj **svenska** som inkommande talspråk (görs i Inställningar).
+3. Välj **mikrofon** som ljudkälla och välj **svenska** som inkommande talspråk (språkval görs i Inställningar).
 4. Starta transkriberingen med fönstrets startkommando.
 5. Läs upp en tydlig mening, exempelvis: *”Det här är ett test av taligenkänningen i Key2Voice.”*
 6. Kontrollera att text visas i transkriberingsfönstret.
@@ -105,6 +111,8 @@ I Windows versionen är **Tal till text** den tillgängliga talfunktionen.
 ### Välj ljudkälla
 
 Key2Voice kan transkribera tal från flera källor:
+
+I den här versionen beskriver vi följande ljudkällor:
 
 - **Mikrofon:** tal som fångas av en mikrofon ansluten till datorn.
 - **Systemljud:** tal som spelas upp på datorn, exempelvis i en video eller annan applikation.
@@ -194,6 +202,17 @@ I normal användning körs Azure-bearbetningen från iPhone; Windows behöver in
 
 För detaljerade skärmbilder och Watch-användning kommer en separat **Key2Voice iOS-användarmanual** att finnas under `Key2Voice/iOS/`.
 
+### Synkfingeravtryck – kontrollera avsändaren
+
+En synkfil kan innehålla viktiga inställningar och skyddad information. Key2Voice använder därför ett **synkfingeravtryck**, en identifierare som är knuten till avsändarens kryptografiska identitet. Fingeravtrycket hjälper mottagaren att kontrollera **vem synkfilen kommer från** innan importen godkänns. Det är **inte** ett fingeravtryck från ditt finger och används inte som biometrisk inloggning.
+
+1. Öppna **Visa synkfingeravtryck** i Key2Voice på Windows-datorn som skapar synkfilen.
+2. Förmedla fingeravtrycket till mottagaren genom en **separat, betrodd kanal** – exempelvis genom att jämföra det direkt med mottagaren, inte enbart genom att läsa samma uppgift ur synkfilen.
+3. Vid den första synkimporten på iPhone: jämför det fingeravtryck som visas där med avsändarens fingeravtryck.
+4. **Godkänn endast om de överensstämmer och du känner igen avsändaren.** Om uppgifterna skiljer sig åt eller avsändaren är okänd, avbryt importen och undersök orsaken.
+
+Fingeravtrycket är ett stöd för att bekräfta avsändaridentiteten. Det ersätter **inte** skyddet med fillösenord eller behovet av att hantera synkfilen säkert. Vid byte av avsändaridentitet kan ett nytt fingeravtryck behöva verifieras.
+
 ## Säkerhetskopiering och återställning
 
 Key2Voice har **portabel export och import** för säkerhetskopiering och återställning av databasen. Funktionen kan användas i både **Basic och Premium**.
@@ -203,7 +222,7 @@ Key2Voice har **portabel export och import** för säkerhetskopiering och åters
 1. Öppna Key2Voices huvudfönster.
 2. Välj funktionen för **portabel export**.
 3. Välj lagringsplats och filnamn enligt dialogen.
-4. Ange på efterfrågan ett starkt lösenord till säkerhetskopian och bevara det på en säker plats.
+4. Ange det exportlösenord som efterfrågas och bevara det på en säker plats.
 5. Kontrollera att filen skapats och förvara den skyddat, gärna skilt från datorn.
 
 ### Återställ från en portabel säkerhetskopia
@@ -232,7 +251,6 @@ I **Om Key2Voice** hittar du information om programmet och aktuell licensstatus 
 | Mikrofonen fungerar inte | Mikrofonanslutning, Windows mikrofonbehörigheter och vald inmatningsenhet. |
 | Azure-anslutning misslyckas | Internet, exakt Speech-nyckel, rätt region, resursstatus och aktiv Azure-prenumeration. |
 | Texten får fel språk | Inkommande talspråk och utgående textspråk i Key2Voice. |
-| Systemljud ger ingen text | Att ljud spelas på datorn och att rätt systemljudkälla används. |
 | WAV-filen kan inte läsas | Att filen är en riktig, kompatibel WAV-fil med stödd ljudkodning. |
 | Synkexport är inaktiverad | Om Windows-licensen verkligen är Premium och valvet är i rätt tillstånd. |
 | iPhone kan inte importera synkfil | Att rätt `.k2s`-fil och dess fillösenord används. |
@@ -258,7 +276,7 @@ För frågor, felrapporter och synpunkter: **[support@eureka.nu](mailto:support@
 
 ### Dokument och länkar
 
-- **Skapa ett Microsoft Azure-konto** – separat svensk Azure-guide i `Support/Key2Voice/Azure/Swe/` (lägg in publicerad länk när dokumentets slutliga placering är fastställd).
+- [Azure Speech-guide – skapa och konfigurera ett Azure-konto](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Swe/Azure-Speech-guide)
 - [Microsoft Azure-portalen](https://portal.azure.com/)
 - [Microsoft Azure AI Speech – dokumentation](https://learn.microsoft.com/azure/ai-services/speech-service/)
 - [Microsoft Azure – priser](https://azure.microsoft.com/pricing/)
@@ -268,8 +286,8 @@ För frågor, felrapporter och synpunkter: **[support@eureka.nu](mailto:support@
 
 ## Redaktionsanmärkning – tas bort före publicering
 
-Detta är **första utkastet** till svensk originalmanual. Granska menytexter, knappar och navigering mot det aktuella **Windows Production-paketet** innan dokumentet publiceras som slutlig manual. Särskilt behöver steg för valvstart, filväljare, exakta start-/stoppknappar, licensdialog och iOS-import kompletteras med verifierade skärmbilder. Guiden för Azure-konto bör få en beständig relativ eller publik länk när den lagts i Support.
+Detta är **första utkastet** till svensk originalmanual. Granska menytexter, knappar och navigering mot det aktuella **Windows Production-paketet** innan dokumentet publiceras som slutlig manual. Särskilt behöver steg för valvstart, filväljare, exakta start-/stoppknappar, licensdialog och iOS-import kontrolleras mot den publicerade appen. Kontrollera också om WAV är tillgängligt i aktuell Store-version, samt att KDF-rotation visas som tillgänglig funktion innan den beskrivs som ett användarval. Länken till Azure-guiden bör kontrolleras efter publicering.
 
-**Viktig teknisk iakttagelse från Support-repot:** Nuvarande `.github/workflows/md-to-pdf.yml` bevakar och konverterar endast `Key2Pass/Win/Swe/downloads/*.md` och `Key2Pass/Win/Eng/downloads/*.md`. Det genererar **inte automatiskt PDF** för Key2Voice-filer. Arbetsflödet behöver utökas separat innan automatisk PDF-generering för `Key2Voice/Win/Swe/downloads/Key2Voice_manual_Swe.md` fungerar. Detta dokument ändrar inte workflowet.
+**Teknisk iakttagelse från Support-repot:** Nuvarande `.github/workflows/md-to-pdf.yml` bevakar och konverterar endast `Key2Pass/Win/Swe/downloads/*.md` och `Key2Pass/Win/Eng/downloads/*.md`. Det genererar **inte automatiskt PDF** för Key2Voice-filer. Arbetsflödet behöver utökas separat innan automatisk PDF-generering för `Key2Voice/Win/Swe/downloads/Key2Voice_manual_Swe.md` fungerar. Detta dokument ändrar inte workflowet.
 
 **Föreslagen filplacering:** `Key2Voice/Win/Swe/downloads/Key2Voice_manual_Swe.md`.
