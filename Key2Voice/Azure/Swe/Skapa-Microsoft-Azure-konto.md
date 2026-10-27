@@ -1,9 +1,21 @@
 # Guide: Skapa ett Microsoft Azure-konto och en Azure Speech-resurs
 
-**För Key2Voice – svensk användarguide, utkast 1.0**  
+**För Key2Voice – svensk användarguide, utkast 1.1**  
 **Senast faktagranskad:** 27 oktober 2026  
 **Målgrupp:** Privatpersoner som inte tidigare har använt Microsoft Azure.  
 **Syfte:** Hjälpa dig att skaffa tillgång till Azure och skapa en Speech-resurs. **Detta är inte en användarmanual för Key2Voice.**
+
+## Viktig information – läs detta innan du börjar
+
+**Den här guiden är endast ett frivilligt stöd** för dig som vill skapa ett Microsoft Azure-konto och en Azure Speech-resurs för användning med Key2Voice. Guiden är inte en del av Microsofts tjänst och utgör ingen garanti för att registreringen lyckas eller att tjänsten fungerar.
+
+**Eureka Consulting AB ansvarar inte för att du lyckas skapa eller aktivera ett Microsoft-konto, en Azure-prenumeration eller en Azure Speech-resurs.** Eureka Consulting AB lämnar inte heller någon garanti för att Microsoft Azure Speech är tillgängligt, fungerar utan avbrott eller fungerar tillsammans med Key2Voice i din miljö. Registrering, tillgång, villkor, prissättning, drift och support för Azure-tjänsterna hanteras av Microsoft. Du ansvarar själv för ditt Azure-konto, dina inloggningsuppgifter, dina val av prenumeration och eventuella avgifter. Vid problem med registrering eller Azure-tjänsten behöver du i första hand kontakta Microsofts support.
+
+**Ett fungerande eget Azure Speech-konto med en korrekt konfigurerad Speech-resurs krävs för att Key2Voices Azure-baserade talfunktioner ska fungera.** Utan fungerande åtkomst till Azure Speech kan Key2Voice inte användas för sitt avsedda ändamål med molnbaserad taligenkänning och översättning.
+
+**Köp inte Key2Voice Premium innan du själv har verifierat att Key2Voice fungerar med ditt eget Azure Speech-konto.** Skapa och konfigurera först din Azure Speech-resurs, ange uppgifterna i Key2Voice och genomför ett lyckat praktiskt test av den funktion du behöver. Ett Premium-köp ger inte tillgång till ett Azure-konto och garanterar inte att Microsofts tjänst fungerar.
+
+Denna information beskriver tjänsternas ansvarsfördelning och begränsningar. Den inskränker inte rättigheter som du kan ha enligt tvingande konsumentlagstiftning.
 
 > **Viktigt om kostnader:** Azure är en tjänst från Microsoft. En del erbjudanden och förbrukningsnivåer kan vara kostnadsfria, men tjänster kan också medföra avgifter. Läs pris- och betalningsvillkoren som visas för just ditt konto innan du godkänner något. En budgetvarning stoppar **inte** automatiskt användningen eller debiteringen.
 
