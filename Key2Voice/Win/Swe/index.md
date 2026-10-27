@@ -1,58 +1,58 @@
-## **Key2Voice** - Voice Enhancer
+## **Key2Voice** – Tal till text och översättning
 Copyright 2026 Eureka Consulting AB
 
-Key2Voice är ett multiplattform hjälpmedel för ökad tal- och språkuppfattning. Appen "lyssnar" via datorns mikrofon och omvandlar (transkriberar) det tal den uppfattar till text via en molntjänst som heter Microsoft Azure Speech. Texten skrivs i realtid på skärmen, med möjlighet att välja textformat. Windows‑appen har två lägen, Basic och Premium. Startläget Basic är gratis och har begränsad funktionalitet. Genom köp i appen kan du låsa upp Premium läget och få full funktionalitet.
+Key2Voice är ett hjälpmedel för att göra tal till läsbar text. Programmet kan användas för att följa samtal, läsa tal från datorns mikrofon eller systemljud och transkribera tal från WAV-filer. Du kan välja språk för taligenkänning och översättning, läsa texten på skärmen samt spara och redigera transkriptioner.
 
-I Basic läge kan du använda Key2Voice på en Windowsdator. I läge Premium kan du dessutom konfigurera och exportera data för självständig transkribering även på iPhone/iWatch eller iPad
+Key2Voice för Windows finns i två lägen: **Basic** och **Premium**. Basic är gratis och låter dig använda taligenkänning och översättning samt säkerhetskopiera och återställa dina uppgifter. Premium låser dessutom upp **Synkexport**, så att du kan överföra nödvändiga inställningar i en krypterad fil till Key2Voice för iPhone. Apple Watch används tillsammans med iPhone.
 
+För taligenkänning och översättning använder Key2Voice **Microsoft Azure Speech**. Du behöver ett eget fungerande Azure-konto med en Speech-resurs och internetanslutning. Azure är en separat tjänst som kan medföra kostnader. **Premium ger inte automatiskt tillgång till ett Azure-konto och betalar inte dina Azure-kostnader.** Vi rekommenderar att du provar taligenkänningen i Basic med din egen Azure Speech-resurs innan du köper Premium.
 
+Här hittar du användarinformation, dokument och kontaktuppgifter för **Key2Voice för Windows**.
 
+### Dokumentation
 
-skapa och underhålla upp till 10 alias samt exportera och importera lokala, okrypterade filer för backup. I Premium läget kan du hantera obegränsat antal alias samt skapa en krypterad aliasdatabas som iOS‑appen kan importera för att återgenerera identiska lösenord lokalt på enheten.
+**Användarmanual**  
+[Läs användarmanualen](https://per-ake-olsson.github.io/Support/Key2Voice/Win/Swe/downloads/Key2Voice_manual_Swe)  
+*Ladda ner PDF – länk läggs till när PDF-versionen finns tillgänglig.*
 
-Denna sida innehåller användnings- och supportinformation med kontaktuppgifter, testdata och integritetspolicy för Key2Voice Windows. Klicka på någon av länkarna för mer information.
+**Licensavtal för slutanvändare (EULA)**  
+*Länk för läsning och nedladdning av PDF läggs till när Key2Voice-avtalet finns tillgängligt.*
 
-
-[Läs Licensavtal för slutanvändare](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/Key2Pass_EULA_Swe)  &nbsp;&nbsp;  [( Ladda ner PDF )](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/Key2Pass_EULA_Swe.pdf)
-
-[Läs Användarmanual](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/Key2Pass_manual_Swe)   &nbsp;&nbsp;  [( Ladda ner PDF )](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/Key2Pass_manual_Swe.pdf)
-
+**Kom igång med Microsoft Azure Speech**  
+[Läs Azure Speech-guiden](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Swe/Azure-Speech-guide)
 
 ---
 
 #### Kontakt för support eller synpunkter
-Kontakta oss via epost:
 
-[support@eureka.nu](mailto:support@eureka.nu)
+Kontakta oss via e-post: [support@eureka.nu](mailto:support@eureka.nu).
 
----
-
-#### Testdata och instruktioner för testare
-Ladda ner testdatabas och testunderlag via zip:en som du når via länken nedan. Öppna zip:en och spara båda filerna på lämplig plats. Därifrån kan du importera databasen till Key2Pass appen, via huvudfönstret som du öppnar via högerklick på Key2Pass tray-ikon. Testdata är endast avsedda för testning och ska inte användas i produktionsmiljö. Test och återkoppling önskas avseende funktionalitet och användbarhet.
-
-[Ladda ner testdatabas och testunderlag](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/downloads/key2pass_win_swe_test.zip)
-
+Beskriv gärna problemet och vilken programversion du använder. Skicka **inte** valvlösenord, Azure-nycklar, synkfilslösenord eller känsligt innehåll från transkriptioner.
 
 ---
 
-#### Integritetspolicy gällande Key2Pass för Windows
+#### Integritetspolicy för Key2Voice för Windows
 
-**1. Övergripande systembeskrivning**  
-Key2Pass består av en Windows‑applikation där du skapar alias och genererar en krypterad databas, samt en iOS‑app som kan importera denna databas för att generera identiska lösenord, associerat till ett alias. Du exporterar databasen från Windows‑versionen till en fil som du själv överför till din iOS‑enhet och importerar i appen. Överföringen sker manuellt – Key2Pass samlar inte in några personuppgifter och skickar ingen information till externa servrar.
+Denna kompletterande integritetsinformation beskriver **Key2Voice-specifik hantering av ljud, text och lokalt lagrade uppgifter**. Eureka Consulting AB:s generella personuppgiftspolicy beskriver bland annat hur personuppgifter hanteras vid kontakt och support, vilka rättigheter du har och hur du kontaktar oss i integritetsfrågor.
 
-**2. Vilka uppgifter lagras i appen**  
-Appen lagrar endast de alias du skapar samt den krypterade databasen med dessa alias och en intern master‑nyckel. Uppgifterna behandlas lokalt på respektive enhet och används enbart för lösenordsgenerering. Key2Pass samlar inte in personuppgifter, platsdata eller användningsstatistik. Key2Pass använder inga tredjeparts‑SDK:er, analysverktyg eller spårningstjänster.
+**1. Taligenkänning och molnbehandling**  
+När du använder taligenkänning eller översättning överför Key2Voice ljud och nödvändiga uppgifter för behandlingen till **Microsoft Azure Speech**, med den Azure Speech-resurs som du själv har konfigurerat. Taligenkänningen är därför inte en renodlat lokal funktion. Information om Microsofts behandling, lagring och villkor finns i Microsofts dokumentation för Azure Speech och i villkoren för din Azure-prenumeration.
 
-**3. Kryptering och säkerhet**  
-Den exporterade databasen är krypterad (AES‑CBC/GCM med stark nyckelderivering) och kan endast öppnas med det lösenord du sätter. Vi har ingen åtkomst till innehållet. Data lagras lokalt på dina enheter tills du själv raderar databasen och avinstallerar appen.
+**2. Ljudkällor och transkriptioner**  
+Du väljer själv när Key2Voice ska behandla tal från mikrofon, systemljud eller WAV-fil. Den transkriberade texten kan innehålla personuppgifter eller andra känsliga uppgifter, beroende på vad som sägs eller spelas upp. Du ansvarar för att använda funktionen med hänsyn till berörda personers integritet och tillämpliga regler.
 
-**4. Kontakt och support**  
-När du kontaktar oss via supportsidan för att rapportera fel eller ge feedback behandlar vi de personuppgifter du lämnar (t.ex. namn, e‑postadress och meddelandetext) för att kunna hantera ditt ärende. Denna behandling följer vår generella personuppgiftspolicy.
+**3. Lokal lagring och skydd**  
+Key2Voice använder ett lokalt krypterat valv för konfiguration och sparade uppgifter, bland annat transkriptioner som du väljer att spara. Skydda valvets lösenord och gör säkerhetskopior om uppgifterna är viktiga. Eureka Consulting AB kan inte återskapa en förlorad privat valvpassfras.
 
-**5. Lagring och radering**  
-Vi sparar inga kopior av dina alias eller lösenord. Uppgifter som du skickar via supportkanalen sparas endast så länge det behövs för att hantera ditt ärende och enligt vad som anges i den generella policyn.
+**4. Synkronisering och säkerhetskopiering**  
+Med Premium kan du skapa en krypterad synkfil för överföring av inställningar till iPhone. Portabel export och import kan användas för säkerhetskopiering och återställning även i Basic. Du hanterar själv filerna, deras lösenord och hur de överförs eller förvaras. Synkfingeravtrycket används för att kontrollera avsändaridentiteten vid synkimport.
 
-**6. Länk till generell policy**  
-Mer information om hur Eureka Consulting AB behandlar personuppgifter, dina rättigheter och kontaktuppgifter till dataskyddsansvarig finns i vår fullständiga personuppgiftspolicy.
+**5. Diagnostik och andra tjänster**  
+Key2Voice för Windows skapar inte egna diagnostikloggar. Det innebär inte att Windows, Microsoft Store eller Microsoft Azure saknar egen behandling av uppgifter enligt respektive tjänsts villkor och integritetsinformation.
 
-> **Generell policy:** [Personuppgiftspolicy för Eureka Consulting AB](https://www.eureka.nu/personuppgiftspolicy)
+**6. Generell personuppgiftspolicy**  
+För behandling av personuppgifter i samband med support, kontakt med Eureka Consulting AB och dina rättigheter hänvisar vi till den generella policyn:
+
+> [Personuppgiftspolicy för Eureka Consulting AB](https://www.eureka.nu/personuppgiftspolicy)
+
+Mer information om molntjänsten finns i [Microsofts dokumentation för Azure AI Speech](https://learn.microsoft.com/azure/ai-services/speech-service/).
