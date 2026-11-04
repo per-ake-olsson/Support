@@ -58,6 +58,16 @@ Key2Voice använder ett lokalt **valv** för att skydda konfiguration och sparad
 3. Kontrollera att valvet kan öppnas och att huvudfönstret visar valvstatus.
 4. Kontrollera att licensnivån är **Basic** om du inte redan har en giltig Premium-rättighet.
 
+### Öppna eller skapa valv och Stäng valv
+
+- **Öppna eller skapa valv** i huvudfönstret öppnar ett befintligt valv eller skapar ett nytt om inget valv finns. Om valvet redan är öppet förblir det öppet. Beroende på dina inställningar kan du behöva ange valvets passfras. När valvet öppnats visas **Öppet** i valvstatus och du kan använda funktioner som behöver tillgång till valvet.
+- **Stäng valv** stänger programmets aktiva åtkomst till det krypterade valvet och visar **Stängt** i valvstatus. Det **raderar inte** valvet eller dina sparade transkriptioner. Använd **Öppna eller skapa valv** igen när du vill fortsätta.
+- Att stänga valvet innebär inte att en tidigare sparad passfras automatiskt glöms bort. Vill du behöva ange passfrasen vid varje start använder du inställningen **Kräv lösenfras vid start** under **Valvkryptering**.
+
+### Vad betyder KDF-status?
+
+I huvudfönstret visas **KDF** tillsammans med värden för valvets lösenordsbaserade nyckelhärledning. KDF står för *Key Derivation Function* och används när programmet omvandlar din valvpassfras till krypteringsnycklar. Informationen visas i formen **iterationer / minne i KiB / pN**, där det sista värdet anger parallellism. Detta är **tekniska skyddsparametrar**, inte en varning eller ett mått på hur stark din valvpassfras är. Värdena uppdateras när valvets KDF-inställningar förnyas. Du behöver normalt inte ändra dem själv.
+
 **Viktigt:** Om du förlorar passfrasen kan återställning av krypterade uppgifter vara omöjlig. Eureka Consulting AB kan inte återskapa din privata passfras. Gör regelbundna säkerhetskopior enligt avsnittet nedan.
 
 ### När Key2Voice arbetar med krypterade uppgifter
@@ -171,7 +181,7 @@ Om **Hämta** är inaktivt, kontrollera att ingen transkribering eller lagrings�
 
 ### Visa text som undertexter
 
-Välj **Undertexter** för att öppna ett separat fönster som visar transkriberad text. Funktionen är ett visningshjälpmedel; använd **Spara** eller **Spara som** i Tal till text för att bevara dokumentet.
+Välj **Undertexter** för att öppna ett separat fönster med **stor, tydlig text som uppdateras i realtid** medan tal transkriberas. Texten **rullar automatiskt** så att den senaste texten hålls synlig. Fönstret kan användas som ett lättläst stöd vid samtal eller uppspelning av tal. Det visar texten men sparar inte dokumentet; använd **Spara** eller **Spara som** i **Tal till text** för att bevara transkriptionen.
 
 ### Exportera valda transkriptioner till en annan installation
 
@@ -275,9 +285,21 @@ En portabel säkerhetskopia och en synkfil har olika syften: **portabel export**
 
 ## Inställningar och Om Key2Voice
 
-I **Inställningar** hanterar du bland annat Azure Speech-uppgifter, språkval och tillgängliga säkerhets-/programinställningar. Vilka alternativ som visas kan bero på version.
+Klicka på **Mer…** i **övre högra hörnet av huvudfönstret** och välj **Inställningar**. Där hanterar du bland annat Azure Speech-uppgifter, språkval, utseende och valvets säkerhetsinställningar.
 
-I **Om Key2Voice** hittar du information om programmet och aktuell licensstatus samt vägar till support och eventuellt Premium-köp. Kontrollera alltid licensstatus i själva programmet efter köp eller återställning.
+### Valvkryptering
+
+Under **Inställningar → Valvkryptering** finns följande funktioner:
+
+- **Kräv lösenfras vid start:** När alternativet är aktiverat behöver du ange valvpassfrasen vid start eller när valvet ska öppnas, i stället för att använda en tidigare sparad passfras. Det ger ett extra skydd om någon annan får tillgång till datorn. **Behåll alltid en säker kopia av passfrasen.**
+- **Byt lösenfras:** Byter passfrasen för det befintliga valvet. Programmet begär den nuvarande passfrasen och den nya passfrasen med bekräftelse. Valvets krypterade innehåll uppdateras så att den nya passfrasen används. Säkerställ att du har en aktuell portabel säkerhetskopia och avbryt inte åtgärden medan den pågår.
+- **Förnya KDF:** Förnyar valvets parametrar för den lösenordsbaserade nyckelhärledningen utan att du behöver byta själva passfrasen. Programmet begär valvpassfrasen och arbetar därefter med valvets krypteringsskydd. Det kan ta en stund; vänta på programmets bekräftelse. **KDF-värdena i huvudfönstret** visar parametrarna efter åtgärden.
+- **Visa synkfingeravtryck:** Visar en identifierare som kan användas för att kontrollera avsändaren vid synkronisering mellan installationer. Jämför fingeravtryck via en betrodd kanal innan du godkänner en ny avsändare.
+- **Återställ betrodda synkavsändare:** Rensar listan över avsändare som tidigare godkänts för synkimport. Därefter behöver avsändare godkännas på nytt. Detta är en säkerhetsåtgärd, **inte** en metod för att kringgå ett importfel.
+
+**Viktigt:** Byte av valvpassfras och förnyelse av KDF påverkar åtkomsten till krypterade uppgifter. Starta inte sådana åtgärder utan att först ha säkerställt att du kan återställa ditt valv från en aktuell portabel säkerhetskopia. Stäng inte av datorn medan åtgärden pågår.
+
+Under **Mer… → Om Key2Voice** hittar du information om programmet och aktuell licensstatus samt vägar till support och eventuellt Premium-köp. Kontrollera alltid licensstatus i själva programmet efter köp eller återställning.
 
 ## Felsökning
 
