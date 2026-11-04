@@ -1,7 +1,7 @@
 # Key2Voice Windows – användarmanual
 
 **Eureka Consulting AB**  
-**Svenskt original – arbetsversion 0.3 (27 oktober 2026)**
+**Svenskt original – arbetsversion 0.4 (4 november 2026)**
 
 > **Viktigt innan du börjar:** Key2Voice använder Microsofts molntjänst **Azure Speech** för taligenkänning och översättning. Du behöver en fungerande egen Azure Speech-resurs, rätt region och en giltig nyckel samt internetanslutning för att använda dessa funktioner. Azure är en separat tjänst som kan medföra kostnader. **Köp inte Key2Voice Premium innan du har konfigurerat din egen Azure Speech-resurs och verifierat att taligenkänningen fungerar i Key2Voice Basic.**
 >
@@ -108,7 +108,7 @@ Om du får begriplig text från ditt tal har du verifierat den grundläggande ke
 
 ## Tal till text – daglig användning
 
-I Windows versionen är **Tal till text** den tillgängliga talfunktionen.
+I Windows Production är **Tal till text** den tillgängliga talfunktionen. Övriga tjänstegrupper som kan förekomma i Development/Test ingår inte i den vanliga användarversionen.
 
 ### Välj ljudkälla
 
@@ -126,7 +126,7 @@ Välj rätt källa i **Tal till text** innan du startar. För systemljud måste 
 2. Starta transkriberingen.
 3. Följ den text som visas medan talet behandlas.
 4. Stoppa när du är klar.
-5. Använd funktionerna för att spara, hämta, redigera och fortsätta med tidigare transkriptioner när det är lämpligt.
+5. När du har stoppat transkriberingen kan du redigera texten, spara den eller visa den i undertextfönstret. Se [Spara och hantera transkriptioner](#spara-och-hantera-transkriptioner) för hur du hämtar och fortsätter ett sparat dokument.
 
 Taligenkänningens kvalitet påverkas av bakgrundsljud, mikrofon, taltydlighet, språkval och Azure-tjänstens tillgänglighet.
 
@@ -142,15 +142,53 @@ Key2Voice har separata val för **inkommande talspråk** och **utgående textspr
 
 ## Spara och hantera transkriptioner
 
-Key2Voice kan hantera transkriberad text så att du kan återvända till den.
+I **Tal till text** kan du skapa, namnge, spara, återuppta, redigera, kopiera, radera och överföra sparade transkriptioner. De sparas i det lokala krypterade valvet, inte som fristående textfiler. Fönstret innehåller bland annat knapparna **Start**, **Stopp**, **Rensa**, **Spara**, **Spara som**, **Hämta**, **Ta bort** och **Undertexter**.
 
-1. Kontrollera innehållet innan du sparar.
-2. Använd **Spara** när du vill bevara transkriptionen.
-3. Använd programmets funktion för att **hämta** en tidigare transkription när du vill läsa eller fortsätta den.
-4. Du kan **redigera text manuellt** och spara dina ändringar.
-5. När du fortsätter transkribera, kontrollera att nytt innehåll hamnar i rätt sammanhang innan du sparar på nytt.
+### Skapa och spara en transkription
 
-Sparade transkriptioner kan innehålla personliga eller känsliga uppgifter. Var därför försiktig med vad du spelar in och delar. Säkerhetskopiera valvet om texterna är viktiga.
+1. Välj ljudkälla och starta transkriberingen med **Start**.
+2. Följ texten medan talet känns igen. Under pågående transkribering är textfältet skrivskyddat.
+3. Välj **Stopp** när du är klar. Därefter kan du korrigera texten direkt i textfältet.
+4. Välj **Spara**. För en ny transkription får du ange ett namn. Dokumentet lagras då i valvet.
+5. Om du vill behålla originalet och skapa en **separat kopia**, välj **Spara som**, ange ett nytt namn och spara. Den nya kopian blir det aktiva dokumentet.
+
+**Skillnaden mellan Spara och Spara som:** När ett sparat dokument redan är aktivt uppdaterar **Spara** samma dokument, medan **Spara som** skapar ett nytt dokument med ett nytt ID. Ett dokumentnamn måste innehålla 1–120 tecken och får inte innehålla kontrolltecken.
+
+### Hämta, redigera och fortsätta
+
+1. Stoppa en eventuell pågående transkribering.
+2. **Hämta** är tillgängligt först när textfältet är tomt. Spara därför först eventuella ändringar som du vill behålla och välj sedan **Rensa**. **Rensa tar bort texten från arbetsytan utan att radera ett redan sparat dokument ur valvet.** Osparad text kan däremot gå förlorad.
+3. Välj **Hämta**. Dialogen visar sparade dokument med namn och senaste ändringstid.
+4. Markera **ett** dokument och välj **Öppna**. Dokumentets text visas i arbetsytan.
+5. Redigera vid behov och välj **Spara** för att uppdatera dokumentet, eller **Spara som** för att skapa en separat kopia.
+6. Du kan även välja ljudkälla och trycka **Start** för att fortsätta transkribera. Ny igenkänd text läggs till i arbetsytan. Stoppa och spara när du är klar.
+
+Om **Hämta** är inaktivt, kontrollera att ingen transkribering eller lagringsåtgärd pågår och att textfältet är tomt.
+
+### Ta bort sparade dokument
+
+- **Ta bort** i huvudfönstret för Tal till text gäller det **aktiva sparade dokumentet**. Programmet begär bekräftelse.
+- I dialogen **Hämta** kan du markera **ett eller flera** dokument och välja **Ta bort**. En bekräftelse visas innan borttagningen.
+- Borttagning ur valvet är inte samma sak som **Rensa** på arbetsytan. Kontrollera urvalet noggrant och se till att du har en aktuell säkerhetskopia om dokumenten är viktiga.
+
+### Visa text som undertexter
+
+Välj **Undertexter** för att öppna ett separat fönster som visar transkriberad text. Funktionen är ett visningshjälpmedel; använd **Spara** eller **Spara som** i Tal till text för att bevara dokumentet.
+
+### Exportera valda transkriptioner till en annan installation
+
+I dialogen **Hämta** kan du markera ett eller flera sparade dokument och välja **Exportera valda**. Funktionen skapar en krypterad synkfil (**.k2s**) med **endast de valda transkriptionerna**, avsedd för import i en annan Key2Voice-installation.
+
+1. Kontrollera att Windows-installationen har en giltig **Premium**-rättighet och att valvet är öppet.
+2. Öppna **Hämta** från en tom arbetsyta och markera önskade dokument. Du behöver inte öppna ett av dem.
+3. Välj **Exportera valda**, ange filplats och ett separat **fillösenord** samt bekräfta lösenordet.
+4. Överför synkfilen säkert och använd mottagarens **Synkimport** för att läsa in den.
+
+**Viktigt:** Selektiv transkriptionsexport innehåller **inte** Azure Speech-nyckeln eller developerlicenser. Den är inte en fullständig säkerhetskopia. Vill du överföra Azure-konfiguration till iPhone använder du i stället den vanliga **Synkexport** i huvudfönstret och gör ett uttryckligt val att inkludera Azure-uppgifterna.
+
+**Synkimport är inte en vanlig filöppning:** importen har säkerhetskontroller för avsändare, innehåll och tidigare importerade paket. En synkfil kan nekas om den redan importerats eller om mottagarvalvet innehåller ett objekt med samma identitet men annat innehåll. Försök inte kringgå kontrollen genom att återställa förtroende eller radera data utan att först utreda orsaken.
+
+Sparade transkriptioner kan innehålla personliga eller känsliga uppgifter. Dela dem endast med avsedda mottagare och gör regelbundna portabla säkerhetskopior om de är viktiga.
 
 ## Basic och Premium
 
@@ -178,15 +216,15 @@ Om ett köp slutförts men Premium ännu inte kan bekräftas kan Key2Voice visa 
 
 ## Synkronisera med iPhone och Apple Watch
 
-Key2Voice för iPhone använder en **krypterad synkfil** från Windows för att få den konfiguration som behövs, inklusive Azure Speech-uppgifter. **Synkexport från Windows kräver Premium.** iPhone- och Watch-apparna har inte ett separat Premium-köp.
+Key2Voice för iPhone kan använda en **krypterad synkfil** från Windows för att få den konfiguration som behövs. **Azure Speech-uppgifter följer inte med automatiskt:** du måste uttryckligen välja att inkludera dem vid vanlig Synkexport. **Synkexport från Windows kräver Premium.** iPhone- och Watch-apparna har inte ett separat Premium-köp.
 
 ### Skapa synkfil i Windows
 
 1. Kontrollera att Azure Speech fungerar i Windows och att Premium är aktivt.
 2. Öppna Key2Voices huvudfönster och välj **Synkexport**.
-3. Följ dialogens instruktioner för att skapa en krypterad synkfil (`.k2s`).
-4. Ange ett starkt **fillösenord** när programmet begär det. Förvara lösenordet säkert.
-5. För över filen till iPhone på ett sätt du själv kontrollerar, exempelvis via en lämplig filöverföringsfunktion.
+3. Välj plats för den krypterade synkfilen (`.k2s`). I lösenordsdialogen anger och bekräftar du ett starkt **fillösenord** som är skilt från valvpassfrasen.
+4. Markera uttryckligen **Inkludera Azure Speech-uppgifter** om du vill att iPhone ska få din Azure-konfiguration. Valet är avmarkerat från början och programmet kräver ytterligare bekräftelse för export av sådana uppgifter. Låt alternativet för developerlicenser vara avmarkerat om du inte särskilt behöver det.
+5. För över filen till iPhone på ett sätt du själv kontrollerar, exempelvis via en lämplig filöverföringsfunktion. Förvara fillösenordet separat och säkert.
 
 I Basic visas Synkexport som en "grå" Premiumfunktion men kan inte användas för att skapa en ny synkfil.
 
@@ -222,16 +260,16 @@ Key2Voice har **portabel export och import** för säkerhetskopiering och åters
 1. Öppna Key2Voices huvudfönster.
 2. Välj funktionen för **portabel export**.
 3. Välj lagringsplats och filnamn enligt dialogen.
-4. Ange det exportlösenord som efterfrågas och bevara det på en säker plats.
+4. Ange och bekräfta ett **separat lösenord för säkerhetskopian** och bevara det på en säker plats.
 5. Kontrollera att filen skapats och förvara den skyddat, gärna skilt från datorn.
 
 ### Återställ från en portabel säkerhetskopia
 
-1. Se till att du har säkerhetskopian och **lösenordet som användes när filen skapades**.
+1. Se till att du har säkerhetskopian (`.k2b`) och **lösenordet som användes när filen skapades**. Du kan även behöva **passfrasen till valvet som säkerhetskopian innehåller**; den är inte nödvändigtvis samma som lösenordet till säkerhetskopian.
 2. Öppna Key2Voice på den installation där uppgifterna ska återställas.
 3. Välj funktionen för **portabel import** och peka ut filen.
-4. Ange exportfilens lösenord när programmet begär det.
-5. Följ eventuella bekräftelser och kontrollera sedan att dina data och inställningar har återställts.
+4. Ange säkerhetskopians lösenord när programmet begär det. Om det återställda valvet inte kan öppnas med den nuvarande valvpassfrasen kan du behöva ange **den gamla valvpassfrasen**.
+5. Läs bekräftelsen noga: återställningen **ersätter det aktuella valvet och relevanta inställningar** i stället för att slå samman innehållet. Kontrollera därefter att data och inställningar har återställts.
 
 **Viktigt:** Återställning av en databas som tidigare använts med Premium innebär **inte** att en ny Windows-installation automatiskt får en giltig Premiumlicens. Microsoft Store-rättigheter och andra licensbevis verifieras separat. **En Basic-installation kan återställa en portabel databas som exporterats från en Premium-installation**, men förblir Basic om ingen giltig Premiumrättighet finns.
 
@@ -253,10 +291,12 @@ I **Om Key2Voice** hittar du information om programmet och aktuell licensstatus 
 | Texten får fel språk | Inkommande talspråk och utgående textspråk i Key2Voice. |
 | Systemljud ger ingen text | Kontrollera att ljud faktiskt spelas upp på datorn och att rätt ljudkälla och uppspelningsenhet är valda. |
 | WAV-filen kan inte läsas | Att filen är en riktig, kompatibel WAV-fil med stödd ljudkodning. |
-| Synkexport är inaktiverad | Om Windows-licensen verkligen är Premium och valvet är i rätt tillstånd. |
-| iPhone kan inte importera synkfil | Att rätt `.k2s`-fil och dess fillösenord används. |
+| Synkexport eller Exportera valda är inaktiverad | Om Windows-licensen verkligen är Premium, valvet är öppet och (för Exportera valda) minst ett dokument är markerat. |
+| iPhone kan inte importera synkfil | Att rätt `.k2s`-fil och dess fillösenord används, samt att avsändarens fingeravtryck och eventuella importbekräftelser hanteras korrekt. |
 | Premium syns inte efter köp | Kontrollera Store-konto, tillgänglig rättighetskontroll och eventuell funktion **Kontrollera Premium igen**. |
-| Portabel import misslyckas | Rätt exportfil, rätt exportlösenord och programmets felmeddelande. |
+| Portabel import misslyckas | Rätt `.k2b`-fil, säkerhetskopians lösenord, eventuell gammal valvpassfras och programmets felmeddelande. |
+| Hämta är inaktiverat | Stoppa transkriberingen, spara osparade ändringar och välj **Rensa** så att arbetsytan är tom. |
+| Synkimport avvisar ett tidigare paket eller ett befintligt objekt | Kontrollera felmeddelandet. Återimport av samma paket och objektkonflikter kan blockeras av säkerhetsskäl; ändra inte förtroende eller radera valvdata som genväg. |
 
 Vid kvarstående problem: notera programversion, Windows-version, vad du gjorde och exakt felmeddelande. **Skicka aldrig Azure-nyckel, valvpassfras, synk-/exportlösenord eller känsliga transkriptioner till support.**
 
