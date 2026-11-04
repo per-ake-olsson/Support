@@ -62,9 +62,7 @@ Key2Voice använder ett lokalt **valv** för att skydda konfiguration och sparad
 
 ### När Key2Voice arbetar med krypterade uppgifter
 
-Key2Voice skyddar valvet och sparade uppgifter med kraftfull kryptering. Vissa moment kan därför ta **märkbart längre tid** än vanliga knapptryckningar, beroende på datorn och mängden data. Det gäller exempelvis när programmet startar, när valvet öppnas, när sparade transkriptioner hämtas samt vid lösenordsbyte eller omkryptering av valvet (så kallad **KDF-rotation**).
-
-KDF-rotation förnyar det lösenordsbaserade skydd som används för att härleda valvets krypteringsnycklar. Det är en säkerhetsåtgärd som kan ta tid att genomföra.
+Key2Voice skyddar valvet och sparade uppgifter med kraftfull kryptering. Vissa moment kan därför ta **märkbart längre tid** än vanliga knapptryckningar, beroende på datorn och mängden data. Det gäller exempelvis när programmet startar, när valvet öppnas, när sparade transkriptioner hämtas samt vid byte av valvpassfras eller uppdatering av valvets krypteringsskydd.
 
 Under sådana moment visar Key2Voice en **aktivitetsindikator** som talar om att arbete pågår. Vänta tills operationen är klar. Undvik att stänga programmet eller avbryta datorn mitt under en säkerhetskritisk åtgärd. Om indikatorn verkar stå stilla ovanligt länge, notera vad du gjorde och kontakta support i stället för att upprepa samma åtgärd flera gånger.
 
@@ -108,7 +106,7 @@ Om du får begriplig text från ditt tal har du verifierat den grundläggande ke
 
 ## Tal till text – daglig användning
 
-I Windows Production är **Tal till text** den tillgängliga talfunktionen. Övriga tjänstegrupper som kan förekomma i Development/Test ingår inte i den vanliga användarversionen.
+I Key2Voice för Windows använder du **Tal till text** för att omvandla tal från mikrofon, systemljud eller WAV-fil till text.
 
 ### Välj ljudkälla
 
@@ -184,7 +182,7 @@ I dialogen **Hämta** kan du markera ett eller flera sparade dokument och välja
 3. Välj **Exportera valda**, ange filplats och ett separat **fillösenord** samt bekräfta lösenordet.
 4. Överför synkfilen säkert och använd mottagarens **Synkimport** för att läsa in den.
 
-**Viktigt:** Selektiv transkriptionsexport innehåller **inte** Azure Speech-nyckeln eller developerlicenser. Den är inte en fullständig säkerhetskopia. Vill du överföra Azure-konfiguration till iPhone använder du i stället den vanliga **Synkexport** i huvudfönstret och gör ett uttryckligt val att inkludera Azure-uppgifterna.
+**Viktigt:** Selektiv transkriptionsexport innehåller **inte** Azure Speech-nyckeln eller andra konfigurationsuppgifter. Den är inte en fullständig säkerhetskopia. Vill du överföra Azure-konfiguration till iPhone använder du i stället den vanliga **Synkexport** i huvudfönstret och gör ett uttryckligt val att inkludera Azure-uppgifterna.
 
 **Synkimport är inte en vanlig filöppning:** importen har säkerhetskontroller för avsändare, innehåll och tidigare importerade paket. En synkfil kan nekas om den redan importerats eller om mottagarvalvet innehåller ett objekt med samma identitet men annat innehåll. Försök inte kringgå kontrollen genom att återställa förtroende eller radera data utan att först utreda orsaken.
 
@@ -223,7 +221,7 @@ Key2Voice för iPhone kan använda en **krypterad synkfil** från Windows för a
 1. Kontrollera att Azure Speech fungerar i Windows och att Premium är aktivt.
 2. Öppna Key2Voices huvudfönster och välj **Synkexport**.
 3. Välj plats för den krypterade synkfilen (`.k2s`). I lösenordsdialogen anger och bekräftar du ett starkt **fillösenord** som är skilt från valvpassfrasen.
-4. Markera uttryckligen **Inkludera Azure Speech-uppgifter** om du vill att iPhone ska få din Azure-konfiguration. Valet är avmarkerat från början och programmet kräver ytterligare bekräftelse för export av sådana uppgifter. Låt alternativet för developerlicenser vara avmarkerat om du inte särskilt behöver det.
+4. Markera uttryckligen **Inkludera Azure Speech-uppgifter** om du vill att iPhone ska få din Azure-konfiguration. Valet är avmarkerat från början och programmet kräver ytterligare bekräftelse för export av sådana uppgifter. Låt övriga val vara oförändrade om du inte har ett särskilt behov av dem.
 5. För över filen till iPhone på ett sätt du själv kontrollerar, exempelvis via en lämplig filöverföringsfunktion. Förvara fillösenordet separat och säkert.
 
 I Basic visas Synkexport som en "grå" Premiumfunktion men kan inte användas för att skapa en ny synkfil.
@@ -307,7 +305,7 @@ Vid kvarstående problem: notera programversion, Windows-version, vad du gjorde 
 - Skydda Azure-nycklar och lösenord; förvara säkerhetskopior på ett tryggt sätt.
 - Dela inte synkfiler eller portabla exportfiler med obehöriga, även om de är krypterade.
 - Använd inte automatiskt transkriberad eller översatt text som enda underlag för viktiga medicinska, juridiska eller säkerhetskritiska beslut.
-- Key2Voice skapar inte egna diagnostikloggar; det utesluter inte Microsofts eller operativsystemets egen tjänstebehandling.
+- Microsofts molntjänster och Windows kan behandla information enligt sina respektive villkor och integritetspolicyer.
 
 ## Uppdatering och support
 
