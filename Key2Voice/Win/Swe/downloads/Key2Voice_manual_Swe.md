@@ -333,7 +333,7 @@ Vid kvarstående problem: notera programversion, Windows-version, vad du gjorde 
 
 Microsoft Store kan erbjuda uppdateringar av Key2Voice. Gör gärna en **portabel säkerhetskopia före större uppdateringar**, särskilt om dina sparade transkriptioner är viktiga. Avinstallera eller radera inte programmets lokala data utan att först ha säkerställt att du kan återställa dem.
 
-För frågor, felrapporter och synpunkter: **[support@eureka.nu](mailto:support@eureka.nu)**. Ange gärna programversion och en kort beskrivning av problemet, men aldrig hemliga uppgifter.
+För frågor, felrapporter och synpunkter: **[contact@eureka.nu](mailto:contact@eureka.nu)**. Ange gärna programversion och en kort beskrivning av problemet, men aldrig hemliga uppgifter.
 
 ### Dokument och länkar
 
