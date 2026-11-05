@@ -9,8 +9,12 @@ Denna sida innehåller användnings- och supportinformation, dokumentation, kont
 
 ### Dokumentation
 
+**Användarmanual för Key2Voice för iPhone, iPad och Apple Watch**  
+Beskriver installation, synkimport, tal till text, undertexter, transkriptioner och användning med Apple Watch.  
+[Läs iOS-manualen](https://per-ake-olsson.github.io/Support/Key2Voice/iOS/Swe/downloads/Key2Voice_manual_Swe)
+
 **Användarmanual för Key2Voice för Windows**  
-Beskriver bland annat konfiguration av Azure Speech och hur du skapar en synkfil för iPhone och iPad. Manualen gäller Windows-versionen; den är inte en separat iOS-manual.  
+Beskriver bland annat Azure-konfiguration, Premium och hur du skapar synkfilen för iPhone eller iPad.  
 [Läs Windows-manualen](https://per-ake-olsson.github.io/Support/Key2Voice/Win/Swe/downloads/Key2Voice_manual_Swe)
 
 **Skapa ett Microsoft Azure-konto och en Speech-resurs**  
