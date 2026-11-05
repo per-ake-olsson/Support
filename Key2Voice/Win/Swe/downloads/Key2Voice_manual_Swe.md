@@ -341,4 +341,3 @@ För frågor, felrapporter och synpunkter: **[contact@eureka.nu](mailto:contact@
 - [Microsoft Azure-portalen](https://portal.azure.com/)
 - [Microsoft Azure AI Speech – dokumentation](https://learn.microsoft.com/azure/ai-services/speech-service/)
 - [Microsoft Azure – priser](https://azure.microsoft.com/pricing/)
-- [Key2Voice – Support-repositoriet](https://github.com/per-ake-olsson/Support)
