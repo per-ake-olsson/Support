@@ -1,33 +1,37 @@
 ## **Key2Voice** – Tal till text och översättning
 Copyright 2026 Eureka Consulting AB
 
-Key2Voice är ett hjälpmedel för att göra tal till läsbar text. Programmet kan användas för att följa samtal, läsa tal från datorns mikrofon eller systemljud och transkribera tal från WAV-filer. Du kan välja språk för taligenkänning och översättning, läsa texten på skärmen samt spara och redigera transkriptioner.
+Key2Voice är ett hjälpmedel som gör tal till läsbar text i realtid. Windows-appen kan transkribera tal från mikrofon, datorns systemljud och WAV-filer. Funktionen **Undertexter** visar den senaste transkriberade texten i ett separat fönster med stort textformat och automatisk rullning. Du kan också välja språk för taligenkänning och översättning samt spara, öppna och redigera transkriptioner.
 
-Key2Voice för Windows finns i två lägen: **Basic** och **Premium**. Basic är gratis och låter dig använda taligenkänning och översättning samt säkerhetskopiera och återställa dina uppgifter. Premium låser dessutom upp **Synkexport**, så att du kan överföra nödvändiga inställningar i en krypterad fil till Key2Voice för iPhone. Apple Watch används tillsammans med iPhone.
+Windows-appen finns i två licensnivåer: **Basic** och **Premium**. Basic är gratis och innehåller taligenkänning, översättning, hantering av transkriptioner samt portabel säkerhetskopiering och återställning. Premium ger dessutom möjlighet till **Synkexport**, där du kan överföra konfiguration till Key2Voice för iPhone eller exportera utvalda transkriptioner i en krypterad synkfil. Apple Watch används tillsammans med iPhone.
 
-För taligenkänning och översättning använder Key2Voice **Microsoft Azure Speech**. Du behöver ett eget fungerande Azure-konto med en Speech-resurs och internetanslutning. Azure är en separat tjänst som kan medföra kostnader. **Premium ger inte automatiskt tillgång till ett Azure-konto och betalar inte dina Azure-kostnader.** Vi rekommenderar att du provar taligenkänningen i Basic med din egen Azure Speech-resurs innan du köper Premium.
+Key2Voice använder **Microsoft Azure Speech** för taligenkänning och översättning. Du behöver en egen fungerande Azure Speech-resurs och internetanslutning. Azure är en separat tjänst som kan medföra kostnader; **Premium inkluderar inte Azure-prenumeration eller Azure-förbrukning**. Prova därför taligenkänningen med din egen Azure Speech-resurs i Basic innan du köper Premium.
 
-Här hittar du användarinformation, dokument och kontaktuppgifter för **Key2Voice för Windows**.
+Denna sida innehåller användnings- och supportinformation, dokumentation, kontaktuppgifter och integritetspolicy för Key2Voice för Windows. Välj någon av länkarna nedan för mer information.
 
 ### Dokumentation
 
-**Användarmanual**  
+**Användarmanual för Key2Voice för Windows**  
+Beskriver inställningar, tal till text, transkriptioner, synkronisering och säkerhetskopiering.  
 [Läs användarmanualen](https://per-ake-olsson.github.io/Support/Key2Voice/Win/Swe/downloads/Key2Voice_manual_Swe)  
-*Ladda ner PDF – länk läggs till när PDF-versionen finns tillgänglig.*
+*PDF-version för nedladdning läggs till när den finns tillgänglig.*
+
+**Skapa ett Microsoft Azure-konto och en Speech-resurs**  
+Separat guide för att skapa Azure-konto, prenumeration och Speech-resurs.  
+[Läs Azure-guiden](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Swe/Skapa-Microsoft-Azure-konto)
 
 **Licensavtal för slutanvändare (EULA)**  
-*Länk för läsning och nedladdning av PDF läggs till när Key2Voice-avtalet finns tillgängligt.*
-
-**Kom igång med Microsoft Azure Speech**  
-[Läs Azure Speech-guiden](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Swe/Azure-Speech-guide)
+*Länk för läsning och nedladdning läggs till när avtalet finns tillgängligt.*
 
 ---
 
 #### Kontakt för support eller synpunkter
 
-Kontakta oss via e-post: [contact@eureka.nu](mailto:contact@eureka.nu).
+Kontakta oss via e-post:
 
-Beskriv gärna problemet och vilken programversion du använder. Skicka **inte** valvlösenord, Azure-nycklar, synkfilslösenord eller känsligt innehåll från transkriptioner.
+[contact@eureka.nu](mailto:contact@eureka.nu)
+
+Beskriv gärna problemet och vilken programversion du använder. Skicka **inte** valvpassfras, Azure-nycklar, synkfilslösenord eller känsligt innehåll från transkriptioner.
 
 ---
 
@@ -45,10 +49,10 @@ Du väljer själv när Key2Voice ska behandla tal från mikrofon, systemljud ell
 Key2Voice använder ett lokalt krypterat valv för konfiguration och sparade uppgifter, bland annat transkriptioner som du väljer att spara. Skydda valvets lösenord och gör säkerhetskopior om uppgifterna är viktiga. Eureka Consulting AB kan inte återskapa en förlorad privat valvpassfras.
 
 **4. Synkronisering och säkerhetskopiering**  
-Med Premium kan du skapa en krypterad synkfil för överföring av inställningar till iPhone. Portabel export och import kan användas för säkerhetskopiering och återställning även i Basic. Du hanterar själv filerna, deras lösenord och hur de överförs eller förvaras. Synkfingeravtrycket används för att kontrollera avsändaridentiteten vid synkimport.
+Med Premium kan du skapa en krypterad synkfil för överföring av inställningar till iPhone eller för export av utvalda transkriptioner. Azure Speech-uppgifter inkluderas i den vanliga synkexporten endast om du uttryckligen väljer detta; de ingår inte i selektiv transkriptionsexport. Portabel export och import kan användas för säkerhetskopiering och återställning även i Basic. Du hanterar själv filerna, deras lösenord och hur de överförs eller förvaras. Synkfingeravtrycket används för att kontrollera avsändaridentiteten vid synkimport.
 
-**5. Diagnostik och andra tjänster**  
-Key2Voice för Windows skapar inte egna diagnostikloggar. Det innebär inte att Windows, Microsoft Store eller Microsoft Azure saknar egen behandling av uppgifter enligt respektive tjänsts villkor och integritetsinformation.
+**5. Andra tjänsters behandling av uppgifter**  
+Windows, Microsoft Store och Microsoft Azure kan behandla uppgifter enligt respektive tjänsts villkor och integritetsinformation. För information om Microsofts hantering av ljud och annan data vid användning av Azure Speech, se dokumentationen och villkoren för din egen Azure-prenumeration.
 
 **6. Generell personuppgiftspolicy**  
 För behandling av personuppgifter i samband med support, kontakt med Eureka Consulting AB och dina rättigheter hänvisar vi till den generella policyn:
