@@ -18,7 +18,7 @@ Denna sida innehåller användnings- och supportinformation med kontaktuppgifter
 #### Kontakt för support eller synpunkter
 Kontakta oss via epost:
 
-[support@eureka.nu](mailto:support@eureka.nu)
+[contact@eureka.nu](mailto:contact@eureka.nu)
 
 ---
 
