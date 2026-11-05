@@ -57,7 +57,7 @@ Appens utseende och systemdialoger kan variera mellan iOS- och iPadOS-versioner.
 
 ## Första starten och synkimport
 
-Key2Voice använder ett **lokalt krypterat valv** för appens konfiguration och sparade uppgifter. iOS-appen hanterar sin lokala valvåtkomst med hjälp av enhetens skyddade lagring. Du behöver normalt inte skapa ett Windows-liknande valv med egen passfras på iPhone.
+Key2Voice använder ett **lokalt krypterat valv** för appens konfiguration och sparade uppgifter. iOS-appen hanterar sin lokala valvåtkomst med hjälp av enhetens skyddade lagring. **Vid första starten på en ny enhet skapar appen automatiskt ett tomt krypterat valv.** Den genererar själv en slumpmässig valvpassfras och lagrar den i iOS skyddade nyckellagring (Secure Storage). Du behöver alltså **inte ange eller välja ett eget valvlösenord** innan du gör synkimporten. Däremot måste du ange det **separata fillösenordet** för synkfilen vid import. Om ett tidigare valv finns kvar men dess skyddade valvpassfras saknas försöker appen inte skapa om valvet eller radera dess innehåll automatiskt.
 
 1. Öppna **Inställningar** med kugghjulsikonen i Key2Voice.
 2. Välj **Synkimport**.
@@ -121,16 +121,24 @@ Spara-funktionerna är tillgängliga när en transkription har färdig text och 
 
 1. Stoppa taligenkänningen och spara sådant du vill behålla.
 2. Välj **Rensa** så att arbetsytan är tom. Rensa tar bort text från arbetsytan, **inte** ett tidigare sparat dokument ur valvet. Osparad text kan gå förlorad.
-3. Tryck **Hämta** och välj ett sparat dokument.
-4. Dokumentets text visas i arbetsytan. Du kan starta taligenkänning igen för att fortsätta och sedan spara resultatet.
+3. Tryck **Hämta**. Ett **nytt fönster med en lista över sparade transkriptioner** öppnas. Där visas bland annat dokumentnamn och senaste ändringstidpunkt.
+4. Tryck direkt på **ett dokument i listan** för att öppna det. Listfönstret stängs och dokumentets text visas i arbetsytan.
+5. Du kan starta taligenkänningen igen för att fortsätta och sedan spara resultatet.
 
-### Ta bort
+I listfönstrets normalläge öppnar ett tryck på ett dokument det dokumentet. För att i stället hantera flera dokument använder du **Markera**, enligt nedan.
 
-**Ta bort** avser det aktiva sparade dokumentet och kräver bekräftelse. I listan över sparade transkriptioner kan du hantera dokument och, där urvalsfunktionen erbjuds, exportera valda dokument. **Rensa** och **Ta bort** är olika åtgärder.
+### Markera, radera eller exportera flera transkriptioner
+
+1. Öppna listan via **Hämta** och tryck **Markera**.
+2. Välj **en eller flera transkriptioner** i listan. Du kan också välja **Markera alla** eller **Avmarkera**.
+3. Välj **Exportera markerade** för att exportera urvalet, eller **Ta bort markerade** för att radera de valda dokumenten. Radering kräver bekräftelse.
+4. Tryck **Avbryt** om du vill lämna markeringsläget utan att utföra någon åtgärd.
+
+**Ta bort** i huvudvyn gäller i stället det **aktiva sparade dokumentet** och kräver också bekräftelse. **Rensa** tömmer enbart arbetsytan; det raderar inte sparade dokument ur valvet.
 
 ### Exportera utvalda transkriptioner
 
-Appen har en funktion för att exportera **valda transkriptioner** till en krypterad synkfil. I vyn för sparade dokument väljer du de dokument som ska ingå och startar exporten. Ange och bekräfta ett separat fillösenord. Filen delas därefter via enhetens delningsfunktion.
+Välj **Hämta → Markera**, markera dokumenten och tryck **Exportera markerade**. Ett exportfönster öppnas. Ange och bekräfta ett separat fillösenord och starta exporten. Den krypterade synkfilen delas därefter via enhetens delningsfunktion.
 
 En sådan export innehåller de valda transkriptionerna, **inte** Azure Speech-nyckeln eller en fullständig säkerhetskopia av valvet.
 
@@ -152,7 +160,9 @@ Om du har en kompatibel Apple Watch kan du använda Key2Voice på klockan tillsa
 
 ### Visa synkfingeravtryck
 
-Fingeravtrycket identifierar en kryptografisk avsändare vid synkronisering. Det är **inte** ett biometriskt fingeravtryck. Jämför det via en betrodd kanal innan du godkänner en okänd eller ändrad avsändare.
+**Visa synkfingeravtryck** visar **den här iPhone- eller iPad-installationens eget avsändarfingeravtryck**. Det används när **denna enhet exporterar** en synkfil som ska importeras på en annan enhet. Det är inte ett biometriskt fingeravtryck.
+
+När du **importerar en synkfil från Windows** visas i stället **Windows-installationens avsändarfingeravtryck** i importens godkännandedialog. Jämför **det fingeravtrycket** med det som Windows visar under **Visa synkfingeravtryck**, helst via en separat betrodd kanal. **Det ska inte jämföras med iPhone-appens eget fingeravtryck; dessa två är normalt olika.** Godkänn bara en ny eller ändrad avsändare när du har verifierat rätt avsändarfingeravtryck.
 
 ### Synkexport från iOS
 
