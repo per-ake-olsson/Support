@@ -10,7 +10,7 @@ Denna sida innehåller supportinformation med kontaktuppgifter, testdata och int
 #### Kontakt för support eller synpunkter
 Kontakta oss via epost:
 
-[support@eureka.nu](mailto:support@eureka.nu)
+[contact@eureka.nu](mailto:contact@eureka.nu)
 
 ---
 
