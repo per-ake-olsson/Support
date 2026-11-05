@@ -1,7 +1,7 @@
 ## **Key2Voice** – Tal till text och översättning
 Copyright 2026 Eureka Consulting AB
 
-Key2Voice för iPhone eller iPad hjälper dig att följa tal genom att visa det som läsbar text i realtid. Appen använder mikrofonen på iPhone eller iPad för taligenkänning och kan översätta mellan de språk som stöds. Du kan även spara och hantera transkriptioner. **Apple Watch kan användas tillsammans med iPhone** som ett frivilligt komplement för att läsa den aktuella texten och starta eller stoppa taligenkänningen. iPhone sköter ljudinsamling och talbehandling även när du använder Apple Watch.
+Key2Voice för iPhone eller iPad hjälper dig att uppfatta och följa tal genom att visa det som läsbar text i realtid. Appen använder mikrofonen på iPhone eller iPad för taligenkänning och kan översätta mellan de språk som stöds. Du kan även spara och hantera transkriptioner. **Apple Watch kan användas tillsammans med iPhone** som ett frivilligt komplement för att läsa den aktuella texten och starta eller stoppa taligenkänningen. iPhone sköter ljudinsamling och talbehandling även när du använder Apple Watch.
 
 **Key2Voice för iPhone och iPad är gratis** och har inget separat Premium-köp. För att använda appen behöver du dock först konfigurera Key2Voice för Windows och importera en krypterad synkfil med nödvändiga uppgifter till iPhone eller iPad. **Synkexport från Windows kräver Premium**. Du behöver också en egen fungerande **Microsoft Azure Speech-resurs** och internetanslutning. Azure är en separat tjänst som kan medföra kostnader; Windows Premium inkluderar inte Azure-prenumeration eller Azure-förbrukning. Azure-uppgifter följer bara med den vanliga synkexporten om du uttryckligen väljer att inkludera dem.
 
