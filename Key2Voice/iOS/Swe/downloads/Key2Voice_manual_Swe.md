@@ -207,4 +207,3 @@ För frågor, felrapporter och synpunkter: **[contact@eureka.nu](mailto:contact@
 - [Azure Speech-guide – skapa konto och Speech-resurs](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Swe/Skapa-Microsoft-Azure-konto)
 - [Microsoft Azure-portalen](https://portal.azure.com/)
 - [Microsoft Azure AI Speech – dokumentation](https://learn.microsoft.com/azure/ai-services/speech-service/)
-- [Key2Voice – Support-repositoriet](https://github.com/per-ake-olsson/Support)
