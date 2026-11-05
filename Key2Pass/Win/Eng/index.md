@@ -19,7 +19,7 @@ This page contains usage and support information with contact details, test data
 #### Contact for support or feedback
 Contact us by email:
 
-[support@eureka.nu](mailto:support@eureka.nu)
+[contact@eureka.nu](mailto:contact@eureka.nu)
 
 ---
 
