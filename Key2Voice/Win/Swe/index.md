@@ -25,7 +25,7 @@ Här hittar du användarinformation, dokument och kontaktuppgifter för **Key2Vo
 
 #### Kontakt för support eller synpunkter
 
-Kontakta oss via e-post: [support@eureka.nu](mailto:support@eureka.nu).
+Kontakta oss via e-post: [contact@eureka.nu](mailto:contact@eureka.nu).
 
 Beskriv gärna problemet och vilken programversion du använder. Skicka **inte** valvlösenord, Azure-nycklar, synkfilslösenord eller känsligt innehåll från transkriptioner.
 
