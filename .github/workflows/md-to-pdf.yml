@@ -54,13 +54,16 @@ jobs:
               fi
             done
           else
-            # Exclude deleted files: only existing Markdown sources can be converted.
-            mapfile -d '' -t files < <(git diff --name-only --diff-filter=ACMR -z "${{ github.event.before }}" "${{ github.sha }}" -- \
-              'Key2Pass/Win/Swe/downloads/**/*.md' \
-              'Key2Pass/Win/Eng/downloads/**/*.md' \
-              'Key2Voice/Win/Swe/downloads/**/*.md' \
-              'Key2Voice/Win/Eng/downloads/**/*.md' \
-              'Key2Voice/Azure/Swe/**/*.md')
+            # Git pathspecs for directories also match files directly inside them.
+            # Filter by extension separately to avoid glob semantics differences.
+            mapfile -d '' -t candidates < <(git diff --name-only --diff-filter=ACMR -z \
+              "${{ github.event.before }}" "${{ github.sha }}" -- "${directories[@]}")
+            files=()
+            for file in "${candidates[@]}"; do
+              if [[ "$file" == *.md && -f "$file" ]]; then
+                files+=("$file")
+              fi
+            done
           fi
 
           if [ ${#files[@]} -eq 0 ]; then
@@ -76,7 +79,27 @@ jobs:
           done
 
           # Check if any PDF files have been added or changed
-          if git status --porcelain -- '*.pdf' '**/*.pdf' | grep -q .; then
+          if git status --porcelain -- "${directories[@]}" | grep -E -q '\.pdf
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit generated PDFs
+        if: steps.generate.outputs.changed == 'true'
+        uses: EndBug/add-and-commit@v9
+        with:
+          # Only documentation directories are staged; the checkout is clean
+          # and this job writes PDF files only.
+          add: |
+            Key2Pass/Win/Swe/downloads
+            Key2Pass/Win/Eng/downloads
+            Key2Voice/Win/Swe/downloads
+            Key2Voice/Win/Eng/downloads
+            Key2Voice/Azure/Swe
+          message: 'chore: auto-generate PDF for updated manuals'
+          default_author: github_actions
+; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
