@@ -7,6 +7,7 @@ on:
     paths:
       # Watch Swedish documentation markdown files
       - 'Key2Pass/Win/Swe/downloads/**/*.md'
+      - 'Key2Voice/Win/Swe/downloads/**/*.md'
       # Watch English documentation markdown files
       - 'Key2Pass/Win/Eng/downloads/**/*.md'
   workflow_dispatch:
