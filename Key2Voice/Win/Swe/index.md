@@ -14,14 +14,16 @@ Denna sida innehåller användnings- och supportinformation, dokumentation, kont
 **Användarmanual för Key2Voice för Windows**  
 Beskriver inställningar, tal till text, transkriptioner, synkronisering och säkerhetskopiering.  
 [Läs användarmanualen](https://per-ake-olsson.github.io/Support/Key2Voice/Win/Swe/downloads/Key2Voice_manual_Swe)  
-*PDF-version för nedladdning läggs till när den finns tillgänglig.*
+[Ladda ner användarmanualen som PDF](https://per-ake-olsson.github.io/Support/Key2Voice/Win/Swe/downloads/Key2Voice_manual_Swe.pdf)
 
 **Skapa ett Microsoft Azure-konto och en Speech-resurs**  
 Separat guide för att skapa Azure-konto, prenumeration och Speech-resurs.  
-[Läs Azure-guiden](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Swe/Skapa-Microsoft-Azure-konto)
+[Läs Azure-guiden](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Swe/Skapa-Microsoft-Azure-konto)  
+[Ladda ner Azure-guiden som PDF](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Swe/Skapa-Microsoft-Azure-konto.pdf)
 
 **Integritetspolicy för Key2Voice**  
-[Läs Integritetspolicy](https://per-ake-olsson.github.io/Support/Key2Voice/Win/Swe/downloads/Key2Voice_integritetspolicy_Swe)
+[Läs integritetspolicyn](https://per-ake-olsson.github.io/Support/Key2Voice/Win/Swe/downloads/Key2Voice_integritetspolicy_Swe)  
+[Ladda ner integritetspolicyn som PDF](https://per-ake-olsson.github.io/Support/Key2Voice/Win/Swe/downloads/Key2Voice_integritetspolicy_Swe.pdf)
 
 ---
 
