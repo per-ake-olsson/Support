@@ -33,5 +33,4 @@ Kontakta oss via e-post:
 
 Beskriv gärna problemet och vilken programversion du använder. Skicka **inte** valvpassfras, Azure-nycklar, synkfilslösenord eller känsligt innehåll från transkriptioner.
 
----
 
