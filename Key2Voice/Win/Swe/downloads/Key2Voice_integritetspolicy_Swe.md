@@ -1,4 +1,4 @@
-#### Integritetspolicy för Key2Voice för Windows
+# Integritetspolicy för Key2Voice Windows
 
 Denna kompletterande integritetsinformation beskriver **Key2Voice-specifik hantering av ljud, text och lokalt lagrade uppgifter**. Eureka Consulting AB:s generella personuppgiftspolicy beskriver bland annat hur personuppgifter hanteras vid kontakt och support, vilka rättigheter du har och hur du kontaktar oss i integritetsfrågor.
 
