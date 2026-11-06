@@ -8,10 +8,12 @@ on:
       # Watch Swedish documentation markdown files
       - 'Key2Pass/Win/Swe/downloads/**/*.md'
       - 'Key2Voice/Win/Swe/downloads/**/*.md'
-      - 'Key2Voice/Win/Eng/downloads/**/*.md'
+      - 'Key2Voice/iOS/Swe/downloads/**/*.md'
       - 'Key2Voice/Azure/Swe/**/*.md'
       # Watch English documentation markdown files
       - 'Key2Pass/Win/Eng/downloads/**/*.md'
+      - 'Key2Voice/Win/Eng/downloads/**/*.md'
+      - 'Key2Voice/iOS/Eng/downloads/**/*.md'
   workflow_dispatch:
 
 jobs:
@@ -41,6 +43,8 @@ jobs:
             Key2Pass/Win/Eng/downloads
             Key2Voice/Win/Swe/downloads
             Key2Voice/Win/Eng/downloads
+            Key2Voice/iOS/Swe/downloads
+            Key2Voice/iOS/Eng/downloads
             Key2Voice/Azure/Swe
           )
 
@@ -97,6 +101,8 @@ jobs:
             Key2Pass/Win/Eng/downloads
             Key2Voice/Win/Swe/downloads
             Key2Voice/Win/Eng/downloads
+            Key2Voice/iOS/Swe/downloads
+            Key2Voice/iOS/Eng/downloads
             Key2Voice/Azure/Swe
           message: 'chore: auto-generate PDF for updated manuals'
           default_author: github_actions
