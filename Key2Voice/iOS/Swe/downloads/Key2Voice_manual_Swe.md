@@ -1,7 +1,7 @@
 # Key2Voice iOS – användarmanual för iPhone, iPad och Apple Watch
 
 **Eureka Consulting AB**    
-**Svenskt original – arbetsversion 0.1 (5 november 2026)**
+**Svenskt original – arbetsversion 0.9 (5 november 2026)**
 
 > **Viktigt innan du börjar:** Key2Voice för iPhone och iPad är gratis, men behöver en konfiguration som överförs från Key2Voice för Windows med en krypterad synkfil. **Synkexport i Windows kräver Premium.** För taligenkänning och översättning behövs dessutom en egen fungerande **Microsoft Azure Speech-resurs** och internetanslutning. Azure är en separat tjänst som kan medföra kostnader; Premium betalar inte Azure-förbrukningen.
 >

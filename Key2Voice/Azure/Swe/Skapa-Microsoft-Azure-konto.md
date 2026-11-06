@@ -1,6 +1,6 @@
 # Guide: Skapa ett Microsoft Azure-konto och en Azure Speech-resurs 
 
-**För Key2Voice – svensk användarguide, utkast 1.1**  
+**För Key2Voice – svensk användarguide, arbetsversion 0.9**  
 **Senast faktagranskad:** 27 oktober 2026  
 **Målgrupp:** Privatpersoner som inte tidigare har använt Microsoft Azure.  
 **Syfte:** Hjälpa dig att skaffa tillgång till Azure och skapa en Speech-resurs. **Detta är inte en användarmanual för Key2Voice.**
