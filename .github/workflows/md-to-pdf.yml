@@ -78,43 +78,25 @@ jobs:
             pandoc "${file}" -o "${file%.md}.pdf" -V geometry:top=20mm -V geometry:left=15mm -V geometry:right=15mm -V geometry:bottom=20mm
           done
 
-          # Check if any PDF files have been added or changed
-          if git status --porcelain -- "${directories[@]}" | grep -E -q '\.pdf
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          fi
+          # Check for generated or updated PDF files only.
+          changed=false
+          while IFS= read -r -d '' file; do
+            if [[ "$file" == *.pdf ]]; then
+              changed=true
+              break
+            fi
+          done < <(git status --porcelain -z -- "${directories[@]}" | sed -z 's/^...//')
+          echo "changed=$changed" >> "$GITHUB_OUTPUT"
 
       - name: Commit generated PDFs
         if: steps.generate.outputs.changed == 'true'
         uses: EndBug/add-and-commit@v9
         with:
-          # Only documentation directories are staged; the checkout is clean
-          # and this job writes PDF files only.
           add: |
             Key2Pass/Win/Swe/downloads
             Key2Pass/Win/Eng/downloads
             Key2Voice/Win/Swe/downloads
             Key2Voice/Win/Eng/downloads
             Key2Voice/Azure/Swe
-          message: 'chore: auto-generate PDF for updated manuals'
-          default_author: github_actions
-; then
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Commit generated PDFs
-        if: steps.generate.outputs.changed == 'true'
-        uses: EndBug/add-and-commit@v9
-        with:
-          # Stage generated PDFs in all monitored documentation directories.
-          add: |
-            Key2Pass/Win/Swe/downloads/**/*.pdf
-            Key2Pass/Win/Eng/downloads/**/*.pdf
-            Key2Voice/Win/Swe/downloads/**/*.pdf
-            Key2Voice/Win/Eng/downloads/**/*.pdf
-            Key2Voice/Azure/Swe/**/*.pdf
           message: 'chore: auto-generate PDF for updated manuals'
           default_author: github_actions
