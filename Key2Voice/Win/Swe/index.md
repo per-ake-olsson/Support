@@ -20,8 +20,8 @@ Beskriver inställningar, tal till text, transkriptioner, synkronisering och sä
 Separat guide för att skapa Azure-konto, prenumeration och Speech-resurs.  
 [Läs Azure-guiden](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Swe/Skapa-Microsoft-Azure-konto)
 
-**Licensavtal för slutanvändare (EULA)**  
-*Länk för läsning och nedladdning läggs till när avtalet finns tillgängligt.*
+**Integritetspolicy för Key2Voice**  
+[Integritetspolicy](https://per-ake-olsson.github.io/Support/Key2Voice/Win/Swe/downloads/Key2Voice_integritetspolicy_Swe)
 
 ---
 
