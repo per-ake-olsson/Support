@@ -246,7 +246,7 @@ I Basic visas Synkexport som en "grå" Premiumfunktion men kan inte användas f�
 
 I normal användning körs Azure-bearbetningen från iPhone; Windows behöver inte vara igång efter en lyckad initial synkronisering. **Apple Watch är en kompanjon till iPhone och ska inte beskrivas som en fristående Azure-klient.** Tillgängliga Watch-funktioner och iPhone-anslutning kan bero på installerad version och enheternas konfiguration.
 
-Läs separat [**Key2Voice iOS-användarmanual**](https://per-ake-olsson.github.io/Support/Key2Voice/iOS/Swe/downloads/Key2Voice_amual_Swe) för ytterligare information.
+Läs separat [**Key2Voice iOS-användarmanual**](https://per-ake-olsson.github.io/Support/Key2Voice/iOS/Swe/downloads/Key2Voice_manual_Swe) för ytterligare information.
 
 ### Synkfingeravtryck – kontrollera avsändaren
 
