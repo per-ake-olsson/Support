@@ -206,7 +206,7 @@ Om problemet kvarstår: notera appversion, iOS-/iPadOS-version, vad du gjorde oc
 - Synkfiler är krypterade, men ska ändå hanteras varsamt. Kontrollera avsändarens fingeravtryck vid import och skydda fillösenordet.
 - Apple Watch används tillsammans med iPhone; aktuell text och sessionsstatus överförs till klockan. Watch hanterar inte egen Azure-konfiguration.
 - Visa hänsyn till andra personer när du transkriberar samtal. Automatiskt igenkänd eller översatt text kan innehålla fel och bör inte vara enda underlag för medicinska, juridiska eller säkerhetskritiska beslut.
-- Läs [**integritetspolicyn för Key2Voice iOS**](https://per-ake-olsson.github.io/Support/Key2Voice/iOS/Swe/downloads/Key2Voice_integritetspolicy_Swe.md) och Microsofts aktuella Azure-villkor.
+- Läs [**integritetspolicyn för Key2Voice iOS**](https://per-ake-olsson.github.io/Support/Key2Voice/iOS/Swe/downloads/Key2Voice_integritetspolicy_Swe) och Microsofts aktuella Azure-villkor.
 
 ## Uppdatering och support
 
