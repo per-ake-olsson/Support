@@ -1,7 +1,7 @@
 # Key2Voice Windows – användarmanual
 
 **Eureka Consulting AB**  
-**Svenskt original – arbetsversion 0.9 (4 november 2026)**
+**Svenskt original – version 1.0 (4 november 2026)**
 
 > **Viktigt innan du börjar:** Key2Voice använder Microsofts molntjänst **Azure Speech** för taligenkänning och översättning. Du behöver en fungerande egen Azure Speech-resurs, rätt region och en giltig nyckel samt internetanslutning för att använda dessa funktioner. Azure är en separat tjänst som kan medföra kostnader. **Köp inte Key2Voice Premium innan du har konfigurerat din egen Azure Speech-resurs och verifierat att taligenkänningen fungerar i Key2Voice Basic.**
 >
