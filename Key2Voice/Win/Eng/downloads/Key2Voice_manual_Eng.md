@@ -106,7 +106,7 @@ Do this **before purchasing Premium**.
 2. Open **Speech to Text** in Key2Voice.
 3. Select **microphone** as the audio source and **Swedish** as the incoming spoken language (language selection is under Settings).
 4. Start transcription using the window's start command.
-5. Read a clear sentence aloud, for example: *“This is a test of speech recognition in Key2Voice.”*
+5. Read a clear sentence aloud, for example: *“Det här är ett test av taligenkänningen i Key2Voice.”* (Swedish: “This is a test of speech recognition in Key2Voice.”)
 6. Check that text appears in the transcription window.
 7. End transcription using the stop command.
 
