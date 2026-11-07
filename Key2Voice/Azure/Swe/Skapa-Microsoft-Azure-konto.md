@@ -280,8 +280,3 @@ Följande länkar användes vid faktagranskningen den **27 oktober 2026**. Micro
 - Microsoft: skapa budgetar: https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets
 - Microsoft: budget- och kostnadsvarningar: https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending
 
----
-
-## Dokumentstatus och kvalitetssäkring
-
-**Status: Första kompletta utkastet för granskning – inte slutligt praktiskt verifierad manual.** Stegen bygger på Microsofts dokumenterade registrerings-, prenumerations-, Speech- och kostnadshantering. De exakta svenska knapptexterna och navigeringsvägarna kan skilja sig beroende på portalens språk, kontotyp och aktuellt gränssnitt. Före publicering bör en testperson utan tidigare Azure-konto gå igenom registrering och skapande av Speech-resurs, dokumentera faktiska skärmtexter och säkerställa att samtliga steg går att följa. Dokumentet innehåller inga riktiga nycklar, personuppgifter eller skärmbilder.
