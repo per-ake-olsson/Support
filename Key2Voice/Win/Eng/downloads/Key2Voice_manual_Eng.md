@@ -5,7 +5,7 @@
 
 > **Important before you begin:** Key2Voice uses Microsoft's **Azure Speech** cloud service for speech recognition and translation. To use these features, you need your own working Azure Speech resource, the correct region, a valid key, and an internet connection. Azure is a separate service that may incur charges. **Do not purchase Key2Voice Premium until you have configured your own Azure Speech resource and verified that speech recognition works in Key2Voice Basic.**
 >
-> Need to create a Microsoft account, Azure subscription, or Speech resource? Follow the separate Swedish-language [**Azure Speech guide**](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Swe/Skapa-Microsoft-Azure-konto). This manual explains how to use an existing Azure account in Key2Voice.
+> Need to create a Microsoft account, Azure subscription, or Speech resource? Follow the separate English-language [**Azure Speech guide**](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Eng/Skapa-Microsoft-Azure-konto). This manual explains how to use an existing Azure account in Key2Voice.
 
 ## Purpose
 
@@ -37,7 +37,7 @@ You need a Windows computer on which Key2Voice can be installed, a working inter
 
 ### If You Do Not Already Have Azure Speech
 
-First read the [**Azure Speech guide**](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Swe/Skapa-Microsoft-Azure-konto). It explains how to create a Microsoft account if needed, sign up for Azure, arrange a subscription, create a Speech resource, and find its key and region. Then return here.
+First read the [**Azure Speech guide**](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Eng/Skapa-Microsoft-Azure-konto). It explains how to create a Microsoft account if needed, sign up for Azure, arrange a subscription, create a Speech resource, and find its key and region. Then return here.
 
 ## Installation
 
@@ -337,7 +337,7 @@ For questions, bug reports, and feedback: **[contact@eureka.nu](mailto:contact@e
 
 ### Documents and Links
 
-- [Azure Speech guide – create and configure an Azure account (Swedish)](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Swe/Skapa-Microsoft-Azure-konto)
+- [Azure Speech guide – create and configure an Azure account (English)](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Eng/Skapa-Microsoft-Azure-konto)
 - [Microsoft Azure portal](https://portal.azure.com/)
 - [Microsoft Azure AI Speech – documentation](https://learn.microsoft.com/azure/ai-services/speech-service/)
 - [Microsoft Azure – pricing](https://azure.microsoft.com/pricing/)
