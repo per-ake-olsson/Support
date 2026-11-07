@@ -18,8 +18,8 @@ Describes settings, speech to text, transcripts, synchronization, and backups.
 
 **Create a Microsoft Azure Account and a Speech Resource**  
 A separate guide to creating an Azure account, subscription, and Speech resource.  
-[Read the Azure guide](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Swe/Skapa-Microsoft-Azure-konto)  
-[Download the Azure guide as PDF](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Swe/Skapa-Microsoft-Azure-konto.pdf)
+[Read the Azure guide](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Eng/Skapa-Microsoft-Azure-konto)  
+[Download the Azure guide as PDF](https://per-ake-olsson.github.io/Support/Key2Voice/Azure/Eng/Skapa-Microsoft-Azure-konto.pdf)
 
 **Key2Voice Privacy Policy**  
 [Read the privacy policy](https://per-ake-olsson.github.io/Support/Key2Voice/Win/Eng/downloads/Key2Voice_integritetspolicy_Eng)  
