@@ -73,7 +73,7 @@ Kontrollera att du valt rätt fil, rätt fillösenord och en synkfil med den kon
 
 ## Tal till text – daglig användning
 
-Huvudvyn **Tal till text** visar en statusrad, aktuell text och knappar för att styra transkriberingen.
+Huvudvyn **Läs** visar en statusrad, aktuell text och knappar för att styra transkriberingen.
 
 1. Kontrollera att internetanslutningen fungerar och att appen har mikrofonbehörighet.
 2. Välj önskat **inkommande talspråk** och **utgående textspråk** under **Inställningar**.
@@ -82,7 +82,7 @@ Huvudvyn **Tal till text** visar en statusrad, aktuell text och knappar för att
 5. Tryck **Stopp** när du vill avsluta.
 6. Välj **Spara** om du vill behålla texten, eller **Rensa** för att tömma arbetsytan.
 
-Knapparna **Start**, **Stopp**, **Rensa**, **Spara**, **Spara som**, **Hämta**, **Ta bort** och **Undertexter** finns i Tal till text-vyn. Layouten anpassas efter skärmens orientering.
+Knapparna **Starta**, **Stoppa**, **Rensa text**, **Spara**, **Spara som**, **Hämta**, **Radera** och **Stor text** finns i Läs-vyn. Layouten anpassas efter skärmens orientering.
 
 **Viktigt:** Taligenkänning kräver Azure Speech och fungerar inte som en ren offlinefunktion. Resultatet påverkas av mikrofon, bakgrundsljud, taltydlighet, språkval och nätverksanslutning.
 
@@ -90,19 +90,19 @@ Knapparna **Start**, **Stopp**, **Rensa**, **Spara**, **Spara som**, **Hämta**,
 
 Under **Inställningar** finns tre separata språkval:
 
-- **Appspråk:** språk för appens menyer och texter; svenska eller engelska.
-- **Inkommande talspråk:** det språk som talas i mikrofonen.
-- **Utgående textspråk:** språket som den transkriberade eller översatta texten ska visas på.
+- **Appens språk:** språk för appens menyer och texter; svenska eller engelska.
+- **Språk att lyssna på:** det språk som talas i mikrofonen.
+- **Språk att skriva till:** språket som den transkriberade eller översatta texten ska visas på.
 
 De uttryckliga talspråken omfattar **svenska, engelska, franska och tyska**. Om du vill ha svensk text från svenskt tal väljer du svenska för både inkommande och utgående språk. För exempelvis engelskt tal som ska visas på svenska väljer du engelska som inkommande och svenska som utgående språk.
 
 **Välj ett uttryckligt inkommande språk.** Förutsätt inte att automatisk språkidentifiering fungerar i den här versionen. Översättningar kan innehålla fel och bör kontrolleras innan de används i viktiga sammanhang.
 
-## Undertexter
+## Stor text
 
-Tryck **Undertexter** i Tal till text för att öppna en separat vy som visar transkriberad text med större tecken. Vyn följer den aktuella transkriberingen och rullar så att ny text hålls synlig.
+Tryck **Stor text** i Läs-vyn för att öppna en separat vy som visar transkriberad text med större tecken. Vyn följer den aktuella transkriberingen och rullar så att ny text hålls synlig.
 
-I undertextvyn finns reglage för att **minska** eller **öka textstorleken** samt för att **stänga** vyn. Undertexter är en visningsfunktion; använd **Spara** i Tal till text om du vill behålla en transkription i valvet.
+I vyn finns reglage för att **minska** eller **öka textstorleken** samt för att **stänga** vyn. Undertexter är en visningsfunktion; använd **Spara** i Läs-vyn om du vill behålla en transkription i valvet.
 
 ## Spara och hantera transkriptioner
 
@@ -120,7 +120,7 @@ Spara-funktionerna är tillgängliga när en transkription har färdig text och 
 ### Hämta och fortsätta
 
 1. Stoppa taligenkänningen och spara sådant du vill behålla.
-2. Välj **Rensa** så att arbetsytan är tom. Rensa tar bort text från arbetsytan, **inte** ett tidigare sparat dokument ur valvet. Osparad text kan gå förlorad.
+2. Välj **Rensa text** så att arbetsytan är tom. Rensa text tar bort text från arbetsytan, **inte** ett tidigare sparat dokument ur valvet. Osparad text kan gå förlorad.
 3. Tryck **Hämta**. Ett **nytt fönster med en lista över sparade transkriptioner** öppnas. Där visas bland annat dokumentnamn och senaste ändringstidpunkt.
 4. Tryck direkt på **ett dokument i listan** för att öppna det. Listfönstret stängs och dokumentets text visas i arbetsytan.
 5. Du kan starta taligenkänningen igen för att fortsätta och sedan spara resultatet.
@@ -130,11 +130,11 @@ I listfönstrets normalläge öppnar ett tryck på ett dokument det dokumentet. 
 ### Markera, radera eller exportera flera transkriptioner
 
 1. Öppna listan via **Hämta** och tryck **Markera**.
-2. Välj **en eller flera transkriptioner** i listan. Du kan också välja **Markera alla** eller **Avmarkera**.
-3. Välj **Exportera markerade** för att exportera urvalet, eller **Ta bort markerade** för att radera de valda dokumenten. Radering kräver bekräftelse.
+2. Välj **en eller flera transkriptioner** i listan. Du kan också välja **Markera alla** eller **Avmarkera alla**.
+3. Välj **Exportera markerade** för att exportera urvalet, eller **Radera markerade** för att radera de valda dokumenten. Radering kräver bekräftelse.
 4. Tryck **Avbryt** om du vill lämna markeringsläget utan att utföra någon åtgärd.
 
-**Ta bort** i huvudvyn gäller i stället det **aktiva sparade dokumentet** och kräver också bekräftelse. **Rensa** tömmer enbart arbetsytan; det raderar inte sparade dokument ur valvet.
+**Radera** i huvudvyn gäller i stället det **aktiva sparade dokumentet** och kräver också bekräftelse. **Rensa text** tömmer enbart arbetsytan; det raderar inte sparade dokument ur valvet.
 
 ### Exportera utvalda transkriptioner
 
@@ -148,15 +148,17 @@ Om du har en kompatibel Apple Watch kan du använda Key2Voice på klockan tillsa
 
 1. Installera och öppna Key2Voice på iPhone och se till att synkimport och taligenkänning fungerar där.
 2. Installera eller öppna den tillhörande Watch-appen enligt tillgänglig Apple Watch-distribution.
-3. Starta **Tal till text** från iPhone eller använd **Start** på klockan när anslutningen till iPhone fungerar.
+3. Starta **tal till text** från iPhone eller använd **Start** på klockan när anslutningen till iPhone fungerar och appen finns i förgrunden.
 4. Läs den senaste transkriberade texten på klockan. Klockan visar även sessionens status.
 5. Tryck **Stopp** på klockan eller iPhone för att avsluta.
+6. Klockan fortsätter fungera så länge Key2Voice är igång på iPhone, även om appen kör i bakgrunden eller iPhone går in i viloläge. Du kan t ex ha iPhone i fickan och ändå läsa uppfattat tal på din Apple Watch.
+7. Med Key2Voice aktiv på din Apple Watch kan du ändra texten storlek via kronhjulet.
 
-**iPhone ansvarar för mikrofon, Azure-anslutning och lagring.** Apple Watch visar aktuell text och skickar start-/stoppkommandon; den lagrar inte en egen fullständig transkriptionshistorik och behöver ingen separat Azure-nyckel. Om klockan inte visar ny text, kontrollera först att iPhone-appen fungerar och att enheterna kan kommunicera.
+**iPhone ansvarar för mikrofon, Azure-anslutning och lagring.** Apple Watch visar aktuell text och skickar start-/stoppkommandon; den lagrar inte en egen fullständig transkriptionshistorik och behöver ingen separat Azure-nyckel. Om klockan inte visar ny text, klicka först på skärmen för att "väcka" klockan, kontrollera därefter att iPhone-appen fungerar och att enheterna kan kommunicera.
 
 ## Inställningar, synkexport och Om Key2Voice
 
-Öppna **Inställningar** via kugghjulet i huvudvyn. Där finns val för **appspråk**, **inkommande talspråk** och **utgående textspråk**, samt funktionerna **Synkimport**, **Visa synkfingeravtryck**, **Synkexport** och **Om Key2Voice**.
+Öppna **Inställningar** via kugghjulet i huvudvyn. Där finns val för **appens språk**, **språk att lyssna på** och **språk att skriva till**, samt funktionerna **Importera synkdata**, **Visa synkfingeravtryck**, **Exportera synkdata** och **Om Key2Voice**.
 
 ### Visa synkfingeravtryck
 
@@ -164,20 +166,21 @@ Om du har en kompatibel Apple Watch kan du använda Key2Voice på klockan tillsa
 
 När du **importerar en synkfil från Windows** visas i stället **Windows-installationens avsändarfingeravtryck** i importens godkännandedialog. Jämför **det fingeravtrycket** med det som Windows visar under **Visa synkfingeravtryck**, helst via en separat betrodd kanal. **Det ska inte jämföras med iPhone-appens eget fingeravtryck; dessa två är normalt olika.** Godkänn bara en ny eller ändrad avsändare när du har verifierat rätt avsändarfingeravtryck.
 
-### Synkexport från iOS
+### Exportera synkdata från iOS
 
 Key2Voice för iPhone och iPad kan även skapa och dela en krypterad synkfil från den lokala installationen:
 
-1. Öppna **Inställningar → Synkexport**.
+1. Öppna **Inställningar → Exportera synkdata**.
 2. Ange ett starkt fillösenord och bekräfta det.
-3. Starta exporten och välj hur filen ska delas eller sparas via iOS.
-4. Förvara filen och fillösenordet säkert.
+3. Om du har fått tillgång till en testlicens för Premium så kan du inkludera den i exporten genom att markera **Inkludera utvecklarlicenser** annars låter du den vara omarkerad
+4. Starta exporten och välj hur filen ska delas eller sparas via iOS.
+5. Förvara filen och fillösenordet säkert.
 
-**Observera:** iOS-exporten är inte samma sak som Windows **portabla säkerhetskopia** (`.k2b`). iOS-appen erbjuder inte Windows-funktionen för fullständig portabel återställning. iOS-synkexporten ska inte heller användas som metod för att föra vidare Azure Speech-hemligheter; de ingår inte i den exporten.
+**Observera:** iOS-exporten är inte samma sak som Windows **portabla säkerhetskopia** (`.k2b`). iOS-appen erbjuder inte Windows-funktionen för fullständig portabel återställning. iOS-exportera synkdata ska inte heller användas som metod för att föra vidare Azure Speech-hemligheter; de ingår inte i den exporten.
 
 ### Om Key2Voice
 
-Under **Inställningar → Om Key2Voice** hittar du information om appen, bland annat version och buildnummer samt länk till support.
+Under **Inställningar → Om Key2Voice** hittar du information om appen, bland annat version och byggnummer samt länk till appens supportsidan med dokumentation och kontaktinformation.
 
 ## Felsökning
 
@@ -185,13 +188,13 @@ Under **Inställningar → Om Key2Voice** hittar du information om appen, bland 
 |---|---|
 | Ingen text visas | Att **Start** har aktiverats, mikrofonbehörighet finns, internet fungerar och tal hörs av mikrofonen. |
 | Taligenkänning kan inte starta | Att en giltig Azure Speech-konfiguration importerats, rätt region och nyckel används samt att Azure-resursen är aktiv. |
-| Texten visas på fel språk | **Inkommande talspråk** och **utgående textspråk** under Inställningar. |
+| Texten visas på fel språk | **Språk att lyssna på** och **språk att skriva till** under Inställningar. |
 | Automatisk språkidentifiering fungerar inte | Välj ett uttryckligt inkommande talspråk. |
 | Synkimport misslyckas | Rätt `.k2s`-fil och fillösenord, godkänt synkfingeravtryck samt eventuella importkonflikter. |
 | Hämta är inaktivt | Stoppa sessionen och **Rensa** arbetsytan efter att ha sparat eventuell text. |
 | Spara är inaktivt | Stoppa taligenkänningen och kontrollera att färdig transkriberad text finns. |
-| Apple Watch visar ingen ny text | Kontrollera att iPhone-appen fungerar och att Watch har kontakt med iPhone. |
-| Undertexter visar ingen ny text | Kontrollera att transkriberingen pågår och att ny text kommer in i Tal till text. |
+| Apple Watch visar ingen ny text | Klicka på Apple Watch skärm. Kontrollera att iPhone-appen fungerar och att Watch har kontakt med iPhone. |
+| Stor text visar ingen ny text | Kontrollera att transkriberingen pågår och att ny text kommer in i Läs-vyn. |
 | Synkexport misslyckas | Att fillösenorden matchar och att exporten kan slutföras via iOS delningsfunktion. |
 
 Om problemet kvarstår: notera appversion, iOS-/iPadOS-version, vad du gjorde och vilket felmeddelande som visades. Skicka **aldrig** Azure-nycklar, valvhemligheter, synkfilslösenord eller känsliga transkriptioner till support.
