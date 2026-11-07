@@ -40,7 +40,7 @@ Du behöver en kompatibel iPhone eller iPad med Key2Voice installerat, mikrofonb
 2. Konfigurera din **egen** Azure Speech-nyckel och region. Testa i **Basic** att taligenkänningen fungerar.
 3. När du vill överföra konfigurationen till iOS, se till att **Premium** är aktivt i Windows.
 4. Välj **Synkexport** i Windows och skapa en krypterad `.k2s`-fil med ett separat, starkt **fillösenord**.
-5. Om du vill överföra Azure Speech-uppgifterna, välj uttryckligen **Inkludera Azure Speech-uppgifter** och bekräfta valet. De följer inte med automatiskt.
+5. Du behöver överföra Azure Speech-uppgifterna, välj uttryckligen **Inkludera Azure Speech-uppgifter** och bekräfta valet. De följer inte med automatiskt.
 6. Överför synkfilen till iPhone eller iPad, exempelvis till appen **Filer**. Förvara fillösenordet separat.
 7. Öppna **Visa synkfingeravtryck** i Windows och notera avsändarens fingeravtryck. Jämför det med uppgiften som visas vid import på iOS, helst via en separat betrodd kanal.
 
