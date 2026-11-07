@@ -140,7 +140,7 @@ Taligenkänningens kvalitet påverkas av bakgrundsljud, mikrofon, taltydlighet, 
 
 ## Språk och översättning
 
-Key2Voice har separata val för **inkommande talspråk** och **utgående textspråk**. De implementerade språkvalen omfattar **svenska, engelska, franska och tyska**.
+Key2Voice har separata val för **språk att lyssna på** och **språk att skriva till**. De implementerade språkvalen omfattar **svenska, engelska, franska och tyska**.
 
 - Vill du ha svensk text från svenskt tal, välj **svenska** för båda.
 - Vill du få svensk text från exempelvis engelskt tal, välj **engelska** som inkommande språk och **svenska** som utgående textspråk.
@@ -150,13 +150,13 @@ Key2Voice har separata val för **inkommande talspråk** och **utgående textspr
 
 ## Spara och hantera transkriptioner
 
-I **Tal till text** kan du skapa, namnge, spara, återuppta, redigera, kopiera, radera och överföra sparade transkriptioner. De sparas i det lokala krypterade valvet, inte som fristående textfiler. Fönstret innehåller bland annat knapparna **Start**, **Stopp**, **Rensa**, **Spara**, **Spara som**, **Hämta**, **Ta bort** och **Undertexter**.
+I **Tal till text** kan du skapa, namnge, spara, återuppta, redigera, kopiera, radera och överföra sparade transkriptioner. De sparas i det lokala krypterade valvet, inte som fristående textfiler. Fönstret innehåller bland annat knapparna **Starta**, **Stoppa**, **Rensa text**, **Spara**, **Spara som**, **Hämta**, **Radera** och **Visa undertext**.
 
 ### Skapa och spara en transkription
 
-1. Välj ljudkälla och starta transkriberingen med **Start**.
+1. Välj ljudkälla och starta transkriberingen med **Starta**.
 2. Följ texten medan talet känns igen. Under pågående transkribering är textfältet skrivskyddat.
-3. Välj **Stopp** när du är klar. Därefter kan du korrigera texten direkt i textfältet.
+3. Välj **Stoppa** när du är klar. Därefter kan du korrigera texten direkt i textfältet.
 4. Välj **Spara**. För en ny transkription får du ange ett namn. Dokumentet lagras då i valvet.
 5. Om du vill behålla originalet och skapa en **separat kopia**, välj **Spara som**, ange ett nytt namn och spara. Den nya kopian blir det aktiva dokumentet.
 
@@ -165,7 +165,7 @@ I **Tal till text** kan du skapa, namnge, spara, återuppta, redigera, kopiera, 
 ### Hämta, redigera och fortsätta
 
 1. Stoppa en eventuell pågående transkribering.
-2. **Hämta** är tillgängligt först när textfältet är tomt. Spara därför först eventuella ändringar som du vill behålla och välj sedan **Rensa**. **Rensa tar bort texten från arbetsytan utan att radera ett redan sparat dokument ur valvet.** Osparad text kan däremot gå förlorad.
+2. **Hämta** är tillgängligt först när textfältet är tomt. Spara därför först eventuella ändringar som du vill behålla och välj sedan **Rensa text**. **Rensa tar bort texten från arbetsytan utan att radera ett redan sparat dokument ur valvet.** Osparad text kan däremot gå förlorad.
 3. Välj **Hämta**. Dialogen visar sparade dokument med namn och senaste ändringstid.
 4. Markera **ett** dokument och välj **Öppna**. Dokumentets text visas i arbetsytan.
 5. Redigera vid behov och välj **Spara** för att uppdatera dokumentet, eller **Spara som** för att skapa en separat kopia.
@@ -175,21 +175,21 @@ Om **Hämta** är inaktivt, kontrollera att ingen transkribering eller lagrings�
 
 ### Ta bort sparade dokument
 
-- **Ta bort** i huvudfönstret för Tal till text gäller det **aktiva sparade dokumentet**. Programmet begär bekräftelse.
-- I dialogen **Hämta** kan du markera **ett eller flera** dokument och välja **Ta bort**. En bekräftelse visas innan borttagningen.
-- Borttagning ur valvet är inte samma sak som **Rensa** på arbetsytan. Kontrollera urvalet noggrant och se till att du har en aktuell säkerhetskopia om dokumenten är viktiga.
+- **Radera** i huvudfönstret för Tal till text gäller det **aktiva sparade dokumentet**. Programmet begär bekräftelse.
+- I dialogen **Hämta** kan du markera **ett eller flera** dokument och välja **Radera**. En bekräftelse visas innan borttagningen.
+- Borttagning ur valvet är inte samma sak som **Rensa text** på arbetsytan. Kontrollera urvalet noggrant och se till att du har en aktuell säkerhetskopia om dokumenten är viktiga.
 
 ### Visa text som undertexter
 
-Välj **Undertexter** för att öppna ett separat fönster med **stor, tydlig text som uppdateras i realtid** medan tal transkriberas. Texten **rullar automatiskt** så att den senaste texten hålls synlig. Fönstret kan användas som ett lättläst stöd vid samtal eller uppspelning av tal. Det visar texten men sparar inte dokumentet; använd **Spara** eller **Spara som** i **Tal till text** för att bevara transkriptionen.
+Välj **Visa undertext** för att öppna ett separat fönster med **stor, tydlig text som uppdateras i realtid** medan tal transkriberas. Texten **rullar automatiskt** så att den senaste texten hålls synlig. Fönstret kan användas som ett lättläst stöd vid samtal eller uppspelning av tal. Det visar texten men sparar inte dokumentet; använd **Spara** eller **Spara som** i **Tal till text** för att bevara transkriptionen.
 
 ### Exportera valda transkriptioner till en annan installation
 
-I dialogen **Hämta** kan du markera ett eller flera sparade dokument och välja **Exportera valda**. Funktionen skapar en krypterad synkfil (**.k2s**) med **endast de valda transkriptionerna**, avsedd för import i en annan Key2Voice-installation.
+I dialogen **Hämta** kan du markera ett eller flera sparade dokument och välja **Exportera markerade**. Funktionen skapar en krypterad synkfil (**.k2s**) med **endast de valda transkriptionerna**, avsedd för import i en annan Key2Voice-installation.
 
 1. Kontrollera att Windows-installationen har en giltig **Premium**-rättighet och att valvet är öppet.
 2. Öppna **Hämta** från en tom arbetsyta och markera önskade dokument. Du behöver inte öppna ett av dem.
-3. Välj **Exportera valda**, ange filplats och ett separat **fillösenord** samt bekräfta lösenordet.
+3. Välj **Exportera markerade**, ange filplats och ett separat **fillösenord** samt bekräfta lösenordet.
 4. Överför synkfilen säkert och använd mottagarens **Synkimport** för att läsa in den.
 
 **Viktigt:** Selektiv transkriptionsexport innehåller **inte** Azure Speech-nyckeln eller andra konfigurationsuppgifter. Den är inte en fullständig säkerhetskopia. Vill du överföra Azure-konfiguration till iPhone använder du i stället den vanliga **Synkexport** i huvudfönstret och gör ett uttryckligt val att inkludera Azure-uppgifterna.
@@ -240,19 +240,19 @@ I Basic visas Synkexport som en "grå" Premiumfunktion men kan inte användas f�
 
 1. Installera Key2Voice för iPhone enligt aktuell distributionsanvisning.
 2. Gör synkfilen tillgänglig på iPhone, exempelvis i appen **Filer**.
-3. Öppna Key2Voice och välj dess funktion för **Synkimport**.
+3. Öppna Key2Voice och välj dess funktion för **Importera synkdata**.
 4. Välj `.k2s`-filen och ange det fillösenord du valde vid exporten.
 5. Kontrollera att konfigurationen har importerats och prova appens funktioner.
 
 I normal användning körs Azure-bearbetningen från iPhone; Windows behöver inte vara igång efter en lyckad initial synkronisering. **Apple Watch är en kompanjon till iPhone och ska inte beskrivas som en fristående Azure-klient.** Tillgängliga Watch-funktioner och iPhone-anslutning kan bero på installerad version och enheternas konfiguration.
 
-För detaljerade skärmbilder och Watch-användning kommer en separat **Key2Voice iOS-användarmanual** att finnas under `Key2Voice/iOS/`.
+Läs separat **Key2Voice iOS-användarmanual** för ytterligare information.
 
 ### Synkfingeravtryck – kontrollera avsändaren
 
 En synkfil kan innehålla viktiga inställningar och skyddad information. Key2Voice använder därför ett **synkfingeravtryck**, en identifierare som är knuten till avsändarens kryptografiska identitet. Fingeravtrycket hjälper mottagaren att kontrollera **vem synkfilen kommer från** innan importen godkänns. Det är **inte** ett fingeravtryck från ditt finger och används inte som biometrisk inloggning.
 
-1. Öppna **Visa synkfingeravtryck** i Key2Voice på Windows-datorn som skapar synkfilen.
+1. Öppna **Visa synkfingeravtryck** under **Inställningar** i Key2Voice på Windows-datorn som skapar synkfilen.
 2. Förmedla fingeravtrycket till mottagaren genom en **separat, betrodd kanal** – exempelvis genom att jämföra det direkt med mottagaren, inte enbart genom att läsa samma uppgift ur synkfilen.
 3. Vid den första synkimporten på iPhone: jämför det fingeravtryck som visas där med avsändarens fingeravtryck.
 4. **Godkänn endast om de överensstämmer och du känner igen avsändaren.** Om uppgifterna skiljer sig åt eller avsändaren är okänd, avbryt importen och undersök orsaken.
@@ -293,7 +293,7 @@ Under **Inställningar → Valvkryptering** finns följande funktioner:
 
 - **Kräv lösenfras vid start:** När alternativet är aktiverat behöver du ange valvpassfrasen vid start eller när valvet ska öppnas, i stället för att använda en tidigare sparad passfras. Det ger ett extra skydd om någon annan får tillgång till datorn. **Behåll alltid en säker kopia av passfrasen.**
 - **Byt lösenfras:** Byter passfrasen för det befintliga valvet. Programmet begär den nuvarande passfrasen och den nya passfrasen med bekräftelse. Valvets krypterade innehåll uppdateras så att den nya passfrasen används. Säkerställ att du har en aktuell portabel säkerhetskopia och avbryt inte åtgärden medan den pågår.
-- **Förnya KDF:** Förnyar valvets parametrar för den lösenordsbaserade nyckelhärledningen utan att du behöver byta själva passfrasen. Programmet begär valvpassfrasen och arbetar därefter med valvets krypteringsskydd. Det kan ta en stund; vänta på programmets bekräftelse. **KDF-värdena i huvudfönstret** visar parametrarna efter åtgärden.
+- **Förnya KDF:** Förnyar valvets parametrar för den lösenordsbaserade nyckelhärledningen utan att du behöver byta själva passfrasen. Programmet begär valvpassfrasen och arbetar därefter med valvets krypteringsskydd. Det kan ta en stund; vänta på programmets bekräftelse. **KDF-värdena i huvudfönstret** visar parametrarna efter åtgärden. Ju högre värden desto starkare kryptering, som också gör programmet långsammare. Det finns idag ingen funktion för att "backa" KDF igen.
 - **Visa synkfingeravtryck:** Visar en identifierare som kan användas för att kontrollera avsändaren vid synkronisering mellan installationer. Jämför fingeravtryck via en betrodd kanal innan du godkänner en ny avsändare.
 - **Återställ betrodda synkavsändare:** Rensar listan över avsändare som tidigare godkänts för synkimport. Därefter behöver avsändare godkännas på nytt. Detta är en säkerhetsåtgärd, **inte** en metod för att kringgå ett importfel.
 
@@ -315,7 +315,7 @@ Under **Mer… → Om Key2Voice** hittar du information om programmet och aktuel
 | iPhone kan inte importera synkfil | Att rätt `.k2s`-fil och dess fillösenord används, samt att avsändarens fingeravtryck och eventuella importbekräftelser hanteras korrekt. |
 | Premium syns inte efter köp | Kontrollera Store-konto, tillgänglig rättighetskontroll och eventuell funktion **Kontrollera Premium igen**. |
 | Portabel import misslyckas | Rätt `.k2b`-fil, säkerhetskopians lösenord, eventuell gammal valvpassfras och programmets felmeddelande. |
-| Hämta är inaktiverat | Stoppa transkriberingen, spara osparade ändringar och välj **Rensa** så att arbetsytan är tom. |
+| Hämta är inaktiverat | Stoppa transkriberingen, spara osparade ändringar och välj **Rensa text** så att arbetsytan är tom. |
 | Synkimport avvisar ett tidigare paket eller ett befintligt objekt | Kontrollera felmeddelandet. Återimport av samma paket och objektkonflikter kan blockeras av säkerhetsskäl; ändra inte förtroende eller radera valvdata som genväg. |
 
 Vid kvarstående problem: notera programversion, Windows-version, vad du gjorde och exakt felmeddelande. **Skicka aldrig Azure-nyckel, valvpassfras, synk-/exportlösenord eller känsliga transkriptioner till support.**
