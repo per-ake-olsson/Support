@@ -10,11 +10,13 @@ on:
       - 'Key2Voice/Win/Swe/downloads/**/*.md'
       - 'Key2Voice/iOS/Swe/downloads/**/*.md'
       - 'Key2Voice/Azure/Swe/**/*.md'
+      - 'Key2Voice/Test/Swe/**/*.md'
       # Watch English documentation markdown files
       - 'Key2Pass/Win/Eng/downloads/**/*.md'
       - 'Key2Voice/Win/Eng/downloads/**/*.md'
       - 'Key2Voice/iOS/Eng/downloads/**/*.md'
       - 'Key2Voice/Azure/Eng/**/*.md'
+      - 'Key2Voice/Test/Eng/**/*.md'
   workflow_dispatch:
 
 jobs:
@@ -48,6 +50,8 @@ jobs:
             Key2Voice/iOS/Eng/downloads
             Key2Voice/Azure/Swe
             Key2Voice/Azure/Eng
+            Key2Voice/Test/Swe
+            Key2Voice/Test/Eng
           )
 
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
@@ -107,5 +111,7 @@ jobs:
             Key2Voice/iOS/Eng/downloads
             Key2Voice/Azure/Swe
             Key2Voice/Azure/Eng
+            Key2Voice/Test/Swe
+            Key2Voice/Test/Eng
           message: 'chore: auto-generate PDF for updated manuals'
           default_author: github_actions
