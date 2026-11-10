@@ -24,17 +24,13 @@ Ditt testpaket innehåller:
 
 Testpaketet levereras som en krypterad synkfil med filändelsen `.k2s`.
 
-**Uppgifter för ditt test**
+**Om testpaketet**
 
-| Uppgift | Information |
-|---|---|
-| Testpaket | [Paketnamn eller test-ID] |
-| Testperiod | [Startdatum – slutdatum] |
-| Testversion | [Versionsnummer] |
-| Azure Speech | [Utvecklarens testkonto / Eget konto] |
-| Kontakt för support | [E-postadress eller supportlänk] |
+Testpaketet innehåller en eller flera tidsbegränsade utvecklarlicenser och en förkonfigurerad Azure Speech-anslutning. Samma generiska testpaket kan användas av flera testpersoner; det är inte nödvändigtvis personligt utfärdat.
 
-Testpaketet är avsett för den person som fått det och får inte spridas vidare.
+Licensernas giltighetstid bestäms när paketet skapas. **Testperioden börjar inte om när du laddar ned eller importerar filen.** Hur lång tid som återstår beror därför på när du börjar testa. Kontrollera den visade giltighetstiden under **Om Key2Voice**.
+
+Du kan importera paketet direkt på iPhone eller iPad utan Windows-dator. Hur testpaketet distribueras, exempelvis via webbplats eller på förfrågan, meddelas separat. Dela inte filens lösenord eller Azure-autentiseringsuppgifter med andra.
 
 # 2. Förberedelser
 
@@ -43,7 +39,7 @@ För att använda testpaketet behöver du:
 - En iPhone eller iPad med Key2Voice installerat **eller** en kompatibel Windows-dator med Key2Voice installerat, beroende på vilken plattform du ska testa.
 - **Ingen Windows-dator krävs för ett färdigkonfigurerat testpaket som importeras direkt i iOS.**
 - Internetanslutning för funktioner som använder Azure Speech.
-- Det testpaket och de instruktioner du fått från utvecklaren.
+- Testpaketet och eventuella särskilda anvisningar för den aktuella distributionen.
 
 Om du redan använder Key2Voice rekommenderar vi att du säkerhetskopierar dina uppgifter innan du importerar ett testpaket.
 
@@ -55,9 +51,9 @@ Välj instruktionen för den enhet du ska testa. **Du behöver inte använda Win
 
 1. Installera Key2Voice på din iPhone eller iPad och starta appen.
 2. Öppna eller skapa ett valv enligt anvisningarna i appen.
-3. Gör den mottagna krypterade `.k2s`-filen tillgänglig på enheten, exempelvis via appen Filer.
+3. Gör den nedladdade eller mottagna krypterade `.k2s`-filen tillgänglig på enheten, exempelvis via appen Filer.
 4. Öppna Key2Voice funktion för synkimport och välj testpaketet.
-5. Ange det lösenord du fått för filen och följ instruktionerna. Om appen frågar hur befintliga uppgifter ska hanteras, följ anvisningarna som medföljer paketet.
+5. Ange lösenordet som tillhandahållits för filen och följ instruktionerna. Om appen frågar hur befintliga uppgifter ska hanteras, följ anvisningarna som medföljer paketet.
 6. Kontrollera under **Om Key2Voice** att Azure Speech är konfigurerat och att testlicensens giltighet visas. Prova sedan den funktion som ingår i testet.
 
 **Detta är ett fullständigt testflöde för iOS.** Du behöver inte köpa Windows-versionen, konfigurera ett eget Azure-konto eller själv skapa en synkexport för att komma igång med ett färdigkonfigurerat testpaket.
@@ -65,7 +61,7 @@ Välj instruktionen för den enhet du ska testa. **Du behöver inte använda Win
 ### Alternativ B – Testa på Windows
 
 1. Starta Key2Voice och öppna ett befintligt valv eller skapa ett nytt.
-2. Öppna synkimport och välj den mottagna `.k2s`-filen.
+2. Öppna synkimport och välj testpaketets `.k2s`-fil.
 3. Ange filens lösenord och följ instruktionerna. Vid frågor om befintliga uppgifter, följ paketets särskilda anvisningar.
 4. Kontrollera att Premium-funktionerna är tillgängliga under testperioden och att Azure Speech är konfigurerat.
 
@@ -210,9 +206,9 @@ Rapportera gärna:
 - Vilken Windows- eller iOS-version du använde.
 - Vilken version av Key2Voice som testades.
 
-**Support:** [Länk till Key2Voice Support]
+**Support:** Öppna **Om Key2Voice** i appen och använd länken till supportinformationen för din plattform.
 
-**Kontakt:** [Kontaktuppgifter]
+**Kontakt:** contact@eureka.nu
 
 # 11. Godkännande av testvillkor
 
@@ -224,7 +220,7 @@ Du är särskilt införstådd med att Azure-autentiseringsuppgifter kan tas bort
 
 **Key2Voice – Testversion**
 
-Dokumentversion: 1.1 – Förslag  
+Dokumentversion: 1.2 – Förslag  
 Datum: 10 november 2026
 
 © Eureka Consulting AB
