@@ -8,7 +8,7 @@ Tack för att du vill hjälpa oss att testa Key2Voice!
 
 Key2Voice är en applikation som utvecklas för att förbättra tillgängligheten till talad information. Applikationen erbjuder bland annat taligenkänning och omvandling av tal till text.
 
-Under testperioden får du möjlighet att prova Key2Voice med en tillfällig Premium-licens. Beroende på vilket testpaket du fått kan du även använda ett Azure Speech-testkonto som tillhandahålls av utvecklaren.
+Under testperioden får du möjlighet att prova Key2Voice med en tillfällig Premium-licens. **Du kan testa direkt på iPhone eller iPad utan att äga eller använda en Windows-dator.** Beroende på vilket testpaket du fått kan du även använda ett Azure Speech-testkonto som tillhandahålls av utvecklaren.
 
 Läs igenom instruktionerna och villkoren innan du börjar.
 
@@ -18,7 +18,7 @@ Läs igenom instruktionerna och villkoren innan du börjar.
 
 Ditt testpaket innehåller:
 
-- En tidsbegränsad utvecklarlicens som ger tillgång till Key2Voice Premium.
+- En eller flera tidsbegränsade utvecklarlicenser som ger tillgång till testfunktionerna under paketets giltighetstid.
 - Konfiguration för Azure Speech.
 - Information om testperiodens giltighet.
 
@@ -40,8 +40,8 @@ Testpaketet är avsett för den person som fått det och får inte spridas vidar
 
 För att använda testpaketet behöver du:
 
-- En kompatibel Windows-dator med Key2Voice installerat.
-- En iPhone med Key2Voice installerat, om du ska testa iOS-versionen.
+- En iPhone eller iPad med Key2Voice installerat **eller** en kompatibel Windows-dator med Key2Voice installerat, beroende på vilken plattform du ska testa.
+- **Ingen Windows-dator krävs för ett färdigkonfigurerat testpaket som importeras direkt i iOS.**
 - Internetanslutning för funktioner som använder Azure Speech.
 - Det testpaket och de instruktioner du fått från utvecklaren.
 
@@ -49,33 +49,33 @@ Om du redan använder Key2Voice rekommenderar vi att du säkerhetskopierar dina 
 
 # 3. Installera och aktivera testpaketet
 
-### Steg 1 – Starta Key2Voice i Windows
+Välj instruktionen för den enhet du ska testa. **Du behöver inte använda Windows först för att testa Key2Voice på iPhone eller iPad.** Testpaketet kan importeras direkt på iOS-enheten.
 
-Starta Key2Voice och öppna ditt befintliga valv, eller skapa ett nytt valv om du inte tidigare använt programmet.
+### Alternativ A – Testa direkt på iPhone eller iPad (utan Windows)
 
-### Steg 2 – Importera testpaketet
+1. Installera Key2Voice på din iPhone eller iPad och starta appen.
+2. Öppna eller skapa ett valv enligt anvisningarna i appen.
+3. Gör den mottagna krypterade `.k2s`-filen tillgänglig på enheten, exempelvis via appen Filer.
+4. Öppna Key2Voice funktion för synkimport och välj testpaketet.
+5. Ange det lösenord du fått för filen och följ instruktionerna. Om appen frågar hur befintliga uppgifter ska hanteras, följ anvisningarna som medföljer paketet.
+6. Kontrollera under **Om Key2Voice** att Azure Speech är konfigurerat och att testlicensens giltighet visas. Prova sedan den funktion som ingår i testet.
 
-Öppna funktionen för synkimport.
+**Detta är ett fullständigt testflöde för iOS.** Du behöver inte köpa Windows-versionen, konfigurera ett eget Azure-konto eller själv skapa en synkexport för att komma igång med ett färdigkonfigurerat testpaket.
 
-Välj den `.k2s`-fil du fått och ange det lösenord som hör till filen.
+### Alternativ B – Testa på Windows
 
-Följ instruktionerna på skärmen.
+1. Starta Key2Voice och öppna ett befintligt valv eller skapa ett nytt.
+2. Öppna synkimport och välj den mottagna `.k2s`-filen.
+3. Ange filens lösenord och följ instruktionerna. Vid frågor om befintliga uppgifter, följ paketets särskilda anvisningar.
+4. Kontrollera att Premium-funktionerna är tillgängliga under testperioden och att Azure Speech är konfigurerat.
 
-Om programmet frågar hur befintliga uppgifter ska hanteras ska du följa de särskilda anvisningar som medföljer ditt testpaket.
+### Alternativ C – Testa på både Windows och iPhone/iPad
 
-### Steg 3 – Kontrollera aktiveringen
+Du kan importera det färdigkonfigurerade testpaketet direkt på iOS enligt alternativ A, även om du också testar Windows. Alternativt kan du konfigurera Windows först och sedan skapa en synkexport till iOS.
 
-Kontrollera att Key2Voice visar att Premium-funktionerna är tillgängliga och att Azure Speech är konfigurerat.
+En ny synkexport från Windows ska göras enligt de licens- och exportregler som gäller för den aktuella konfigurationen. Den behövs **inte** för direktimport av det mottagna testpaketet.
 
-### Steg 4 – Överför till iPhone
-
-Om du ska testa iOS-versionen använder du Key2Voice synkfunktion för att överföra den aktuella konfigurationen till din iPhone.
-
-Importera synkfilen i Key2Voice på iPhone.
-
-Kontrollera därefter att Azure Speech är konfigurerat under **Om Key2Voice**.
-
-**Observera:** En testlicens ger endast tillfällig tillgång till de funktioner och Azure-uppgifter som ingår i testet.
+**Observera:** Testlicensen och eventuella medföljande Azure-testuppgifter gäller endast under den tidsbegränsade testperioden. Kontrollera eventuella särskilda versions- och importanvisningar som medföljer paketet.
 
 # 4. Under testperioden
 
@@ -139,11 +139,11 @@ Detta gäller även om du har köpt Microsoft Store Premium.
 
 Dina övriga valvuppgifter behålls.
 
-### Key2Voice för iPhone
+### Key2Voice för iPhone och iPad
 
 När testperioden upphör tas utvecklarens Azure-testuppgifter bort från Key2Voice.
 
-Om du har överfört ett eget Azure-konto till iPhone med hjälp av testlicensen kan även dessa uppgifter tas bort när testperioden upphör.
+Om du har överfört ett eget Azure-konto till iPhone eller iPad med hjälp av testlicensen tas även dessa uppgifter bort när testperioden upphör, om inte en kvalificerande Store-baserad överföring har gjorts.
 
 Detta gäller även om Azure-kontot tillhör dig.
 
@@ -159,14 +159,14 @@ Sparade transkriptioner och övriga valvuppgifter påverkas inte.
 
 # 7. Fortsätt använda Key2Voice efter testperioden
 
-Om du vill fortsätta använda Key2Voice Premium efter testperioden kan du köpa Premium via Microsoft Store i Windows-versionen.
+Om du vill fortsätta använda Key2Voice Premium efter testperioden kan du köpa Premium via Microsoft Store i Windows-versionen. **Det gäller även dig som testat enbart på iPhone eller iPad:** enligt nuvarande licensmodell kräver en permanent överföring av ditt eget Azure-konto en Windows-baserad Premium-konfiguration och en ny synkexport. Direktimport av ett testpaket ger inte en permanent iOS-licens.
 
 Om du använder ett eget Azure Speech-konto kan du därefter:
 
 1. Kontrollera att Premium är aktiverat i Windows.
 2. Konfigurera ditt eget Azure Speech-konto i Windows.
 3. Skapa en ny, vanlig synkexport med Azure-uppgifterna.
-4. Importera synkfilen i Key2Voice på iPhone.
+4. Importera synkfilen i Key2Voice på iPhone eller iPad.
 
 Den nya konfigurationen kan då användas utan testpaketets tidsbegränsning.
 
@@ -224,7 +224,7 @@ Du är särskilt införstådd med att Azure-autentiseringsuppgifter kan tas bort
 
 **Key2Voice – Testversion**
 
-Dokumentversion: 1.0 – Förslag  
+Dokumentversion: 1.1 – Förslag  
 Datum: 10 november 2026
 
 © Eureka Consulting AB
