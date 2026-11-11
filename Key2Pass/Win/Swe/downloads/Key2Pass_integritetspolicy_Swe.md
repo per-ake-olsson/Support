@@ -1,4 +1,4 @@
-# Integritetspolicy Key2Pass för Windows
+# Integritetspolicy för Key2Pass Windows
 
 **1. Övergripande systembeskrivning**  
 Key2Pass består av en Windows‑applikation där du skapar alias och genererar en krypterad databas, samt en iOS‑app som kan importera denna databas för att generera identiska lösenord, associerat till ett alias. Du exporterar databasen från Windows‑versionen till en fil som du själv överför till din iOS‑enhet och importerar i appen. Överföringen sker manuellt – Key2Pass samlar inte in några personuppgifter och skickar ingen information till externa servrar.
