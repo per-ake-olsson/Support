@@ -17,6 +17,10 @@ Kontakta oss via epost:
 
 [Key2Pass Win](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/)
 
+[Key2Voice iOS](https://per-ake-olsson.github.io/Support/Key2Voice/iOS/Swe/)
+
+[Key2Voice Win](https://per-ake-olsson.github.io/Support/Key2Voice/Win/Swe/)
+
 
 ---
 
