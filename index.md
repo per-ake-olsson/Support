@@ -13,12 +13,9 @@ Kontakta oss via epost:
 ---
 
 #### Support avseende specifik applikation
-[Key2Pass iOS](https://per-ake-olsson.github.io/Support/Key2Pass/iOS/Swe/)
+[Key2Pass iOS](https://per-ake-olsson.github.io/Support/Key2Pass/iOS/Swe/)    &nbsp;&nbsp;    [Key2Pass Win](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/)
 
-[Key2Pass Win](https://per-ake-olsson.github.io/Support/Key2Pass/Win/Swe/)
-
-[Key2Voice iOS](https://per-ake-olsson.github.io/Support/Key2Voice/iOS/Swe/)
-
+[Key2Voice iOS](https://per-ake-olsson.github.io/Support/Key2Voice/iOS/Swe/)  &nbsp;&nbsp;
 [Key2Voice Win](https://per-ake-olsson.github.io/Support/Key2Voice/Win/Swe/)
 
 
